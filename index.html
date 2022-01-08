@@ -1,31 +1,104 @@
 <!DOCTYPE html>
 <html lang = "sr-RS">
 <head>
-<title>Clash Worker(github)</title>
+<title>Phyton request</title>
 <meta name="author" content="Ja">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-
-   
+  header {
+    text-align: center;
+    text-decoration: 1px underline solid;
+  }
+ .kontejner {
+   display: flex;
+ }
+ ul {
+   list-style-type: circle;
+   line-height: 25px;
+ }
+ #levo:hover, #desno:hover {
+   background-color: aqua;
+   font-weight: bold;
+   cursor: pointer;
+ }
+ input:hover[data-button] {
+color: red;
+cursor: pointer;
+ }
+ 
  </style>
- </head>
- <header>
-    
-	
- </header>
+</head>
 <body>
-   
+  <header>
+    <h1>Backpack </h1>
+  </header>
+<main>
+  <div class = "kontejner">
+    <img src="../slike/backpack1.jpg" width="180" height="280" alt="Backpack 1">
+  </div>
 
-    
- </style>
- </head>
- <header>
+</main>
+<script>
+  // Create object backpack
+const backpack = {
+  boja: "Plava",
+  volume: "2L",
+  dužinaDžepa: {
+    leviDžep: 14,
+    desniDžep: 23
+  }
+ };
+// Create and append content
+ const list = document.createElement("ul");
+ list.innerHTML = `
+  <li><b>Boja:</b> ${backpack.boja}</li>
+  <li><b>Veličina:</b> ${backpack.volume}</li>
+  <li><b>Dužina levog džepa:</b><span data-side="leviDžep"> ${backpack.dužinaDžepa.leviDžep} cm</span></li>
+  <form id="form1">
+   <input type="number" min="1" max="100" id="levo" placeholder="number">
+   <input type="submit" value="Update" data-button="left">
+ </form>
+ <form id="form2">
+  <li><b>Dužina desnog džepa:</b><span data-side="desniDžep"> ${backpack.dužinaDžepa.desniDžep} cm</span></li>
+   <input type="number" min="1" max="100" id="desno" placeholder="number">
+   <input type="submit" value="Update" data-button="right">
+ </form>
+ `;
+ let parent = document.querySelector(".kontejner");
+ parent.append(list)
+ 
 
- </header>
-<body>
+ // Callback functions used in EventListener (Dužina levog džepa)
 
+ const input = document.querySelector("#levo");
+ const span = document.querySelector("ul li span[data-side = leviDžep]");
+ const leftButton = document.querySelector("input[data-button = left]");
 
+ // Callback functions 
+ const update = function(event) {
+  event.preventDefault();
+  span.innerHTML = " ";
+  span.append(`${input.value} cm`)
+  input.value = "";
+ }
+ leftButton.addEventListener("click", update)
+
+ // Callback functions used in EventListener (Dužina desnog džepa)
+
+ const input2 = document.querySelector("#desno");
+ const span2 = document.querySelector("ul li span[data-side = desniDžep]");
+ const rightButton = document.querySelector("input[data-button = right]");
+
+ // Callback functions 
+ const update2 = function(event) {
+  event.preventDefault();
+  span2.innerHTML = " ";
+  span2.append(`${input2.value} cm`)
+  input2.value = "";
+ }
+ rightButton.addEventListener("click", update2)
+ </script>
 
 </body>
 </html>
