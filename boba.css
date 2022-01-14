@@ -46,7 +46,7 @@ background-repeat: no-repeat;
 }
 .glava1 {
     margin-top: 0;
-    background-color: transparent;
-    display: inline-block;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
