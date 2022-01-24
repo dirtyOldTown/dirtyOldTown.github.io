@@ -1,23 +1,23 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    margin: 0;
-    
+  margin: 0;
+  
 }
 .glavnaLista {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    list-style-type: none;
-    background-color: brown;
-    margin: 0;
-    padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style-type: none;
+  background-color: brown;
+  margin: 0;
+  padding: 10px;
 }
 .glavnaLista li a {
-    text-decoration: none;
-    padding: 10px 5px;
-    color: #E1D89F;
+  text-decoration: none;
+  padding: 10px 5px;
+  color: #E1D89F;
 }
 .vrhStrane h1 {
 text-align: left;
@@ -44,9 +44,4 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 }
-.glava1 {
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+

@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    
+  }
+  .glavnaLista {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style-type: none;
+    background-color: brown;
+    margin: 0;
+    padding: 10px;
+  }
+  .glavnaLista li a {
+    text-decoration: none;
+    padding: 10px 5px;
+    color: #E1D89F;
+  }
+  .vrhStrane h1 {
+  text-align: left;
+  background-color: #27474E;
+  margin: 0;
+  padding: 15px;
+  color: #8CBCB9;
+  }
+.slideshow {
+    background-color: rgb(183, 204, 218);
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    flex-flow: row nowrap;
+}
+aside {
+    padding: 10px;
+    background-color: rgb(224, 235, 128);
+    text-indent: 10px;
+    text-align: justify;
+}
+aside p:last-of-type {
+    background-color: rgb(224, 235, 128);;
+    columns: 2;
+    text-align: justify;
+    column-gap: 20px;
+    column-rule: 4px double grey;
+    text-indent: 10px;
+}
+.slide {
+    border: 2px solid rgb(126, 129, 94);
+    border-radius: 5px;
+}
+section p {
+  flex-basis: 100%;
+  margin-bottom: 0;
+}
+.btn {
+ padding: 5px;
+ background-color:#612122;
+ display: flex;
+ justify-content: space-around;
+}
+.btn button {
+  padding: 5px 74px;
+  border-radius: 5px;
+  background-color: #a22e24;
+  color:#f8c864;
+  margin-top: 4px;
+  font-style: oblique;
+  width: 27%;
+  cursor: pointer;
+}
+.slideshow img {
+  margin-bottom: 5px;
+  height: 110px;
+} 
+.fade {
+  animation-name: insert;
+  animation-duration: 2s;
+}
+@keyframes insert {
+  from {opacity: 0.4;}
+  to {opacity: 1;}
+}
+
+@media  screen and (max-width: 900px) {
+   .slideshow img {
+     width: 28%;
+     margin-bottom: 5px;
+     height: 120px;
+  } 
+   .slideshow {
+       flex-flow: row wrap;
+  } 
+   .btn button {
+     padding: 5px 40px;
+    
+  }
+
+}
+@media  screen and (max-width: 600px) {
+  .btn button {
+    padding: 5px 2px;
+  } 
+  .slideshow img {
+    height: 85px;
+ } 
+ .slideshow img:hover {
+  position: absolute;
+  width: 100%;
+  height: 207px;
+  margin-top: -12px;
+  background-color: #E1D89F;
+} 
+}
