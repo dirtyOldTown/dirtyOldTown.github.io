@@ -44,12 +44,12 @@ aside h3 {
   margin-top: -5px;
   padding: 6px;
   border: 4px double #E9D8A6;
-  color:#FFE8D6;
+  color:whitesmoke;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
 aside p {
-    background-color: #F6F1D1;
+    background-color: whitesmoke;
     columns: 2;
     text-align: start;
     column-gap: 20px;
