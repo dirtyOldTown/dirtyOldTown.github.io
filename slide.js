@@ -11,7 +11,7 @@ var btn3 = document.querySelector(".btn button:nth-of-type(3)");
 var btn4 = document.querySelector(".btn button:nth-of-type(4)");
 var insert = document.querySelector(".slideshow");
 
-var text = document.querySelector("aside h2");
+var text = document.querySelector("aside h3");
 var mesto = ["Boba u Švajcarskoj", "Boba u Austriji",
 "Boba u Srbiji", "Boba u Crnoj Gori"];
 
