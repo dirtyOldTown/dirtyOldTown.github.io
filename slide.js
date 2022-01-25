@@ -79,10 +79,9 @@ btn3.addEventListener("click", function(e) {
     insert.classList.add("fade");
   });
 btn4.addEventListener("click", function(e) {
-    e.preventDefault();
-    Promena4();
-    insert.classList.remove("fade");
-    void insert.offsetWidth;
-    insert.classList.add("fade");
-  });
-
+  e.preventDefault();
+  Promena4();
+  insert.classList.remove("fade");
+  void insert.offsetWidth;
+  insert.classList.add("fade");
+});

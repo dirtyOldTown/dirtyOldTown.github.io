@@ -33,18 +33,31 @@ body {
 }
 aside {
     padding: 10px;
-    background-color: rgb(224, 235, 128);
+    background-color: #CFD7C7;
     text-indent: 10px;
-    text-align: justify;
+    text-align: center;
+    
 }
-aside p:last-of-type {
-    background-color: rgb(224, 235, 128);;
+aside h2 {
+  background-color: #70A9A1;
+  margin: -5px;
+  padding: 6px;
+  margin-bottom: 5px;
+  border-bottom: 4px double grey;
+  border-top: 4px double grey;
+  color:#F6F1D1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+aside p {
+    background-color: #F6F1D1;
     columns: 2;
-    text-align: justify;
+    text-align: start;
     column-gap: 20px;
     column-rule: 4px double grey;
-    text-indent: 10px;
-}
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 7px;
+    border:1px ridge grey
+  }
 .slide {
     border: 2px solid rgb(126, 129, 94);
     border-radius: 5px;
@@ -71,22 +84,26 @@ section p {
 }
 .slideshow img {
   margin-bottom: 5px;
-  height: 110px;
+  height: 150px;
 } 
 .fade {
   animation-name: insert;
   animation-duration: 2s;
+}
+footer {
+  background-color: #27474E;
+  padding:15px;
 }
 @keyframes insert {
   from {opacity: 0.4;}
   to {opacity: 1;}
 }
 
-@media  screen and (max-width: 900px) {
+@media  screen and (max-width: 960px) {
    .slideshow img {
      width: 28%;
      margin-bottom: 5px;
-     height: 120px;
+     height: 140px;
   } 
    .slideshow {
        flex-flow: row wrap;
@@ -111,4 +128,10 @@ section p {
   margin-top: -12px;
   background-color: #E1D89F;
 } 
+aside p {
+  background-color: #F6F1D1;
+  columns: 1;
+  text-align: justify;
+  padding: 7px;
+  }
 }
