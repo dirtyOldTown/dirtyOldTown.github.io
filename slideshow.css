@@ -33,30 +33,31 @@ body {
 }
 aside {
     padding: 10px;
-    background-color: #CFD7C7;
+    background-color: #0E5359;
     text-indent: 10px;
     text-align: center;
     
 }
-aside h2 {
-  background-color: #70A9A1;
-  margin: -5px;
+aside h3 {
+  background-color: #0A9396;
+  margin: 2px 0;
+  margin-top: -5px;
   padding: 6px;
-  margin-bottom: 5px;
-  border-bottom: 4px double grey;
-  border-top: 4px double grey;
-  color:#F6F1D1;
+  border: 4px double #E9D8A6;
+  color:#FFE8D6;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 aside p {
-    background-color: #F6F1D1;
+    background-color: #E9D8A6;
     columns: 2;
     text-align: start;
     column-gap: 20px;
     column-rule: 4px double grey;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 7px;
-    border:1px ridge grey
+    border:1px ridge grey;
+    border-radius: 3px;
+    margin-top: 0%;
   }
 .slide {
     border: 2px solid rgb(126, 129, 94);
@@ -91,7 +92,7 @@ section p {
   animation-duration: 2s;
 }
 footer {
-  background-color: #27474E;
+  background-color: white;
   padding:15px;
 }
 @keyframes insert {
