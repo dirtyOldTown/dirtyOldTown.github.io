@@ -1,10 +1,12 @@
+* {
+  box-sizing: border-box;
+}
 body {
     margin: 0;
-    
   }
   .glavnaLista {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: flex-start;
     list-style-type: none;
     background-color: brown;
@@ -13,69 +15,67 @@ body {
   }
   .glavnaLista li a {
     text-decoration: none;
-    padding: 10px 5px;
+    padding: 10px;
     color: #E1D89F;
   }
   .vrhStrane h1 {
-  text-align: left;
-  background-color: #27474E;
-  margin: 0;
-  padding: 15px;
-  color: #8CBCB9;
+    text-align: left;
+    background-color: #27474E;
+    margin: 0;
+    padding: 15px;
+    color: #8CBCB9;
   }
 .slideshow {
-    background-color: rgb(183, 204, 218);
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    flex-flow: row nowrap;
+  background-color: rgb(183, 204, 218);
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  flex-flow: row nowrap;
 }
 aside {
-    padding: 10px;
-    background-color: #27474E;
-    text-indent: 10px;
-    text-align: center;
-    
-}
-aside h3 {
-  background-color: #0A9396;
-  margin: 2px 0;
-  margin-top: -5px;
-  padding: 6px;
-  border: 4px double whitesmoke;
-  color:whitesmoke;
-  font-family:'Courier New', Courier, monospace;
+  padding: 5px;
+  background-color: #612122;
+  text-indent: 10px;
   text-align: center;
 }
+aside h3 {
+  background-color: #F4A261;
+  margin: 2px 0;
+  margin-top: -2px;
+  padding: 6px;
+  border: 4px double whitesmoke;
+  color:#612122;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: start;
+  font-weight: bold;
+}
 aside p {
-    background-color: whitesmoke;
-    columns: 2;
-    text-align: start;
-    column-gap: 20px;
-    column-rule: 4px double grey;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 7px;
-    border:1px ridge wheat;
-    border-radius: 3px;
-    margin-top: 2px;
-  }
+  background-color: #E9C46A;
+  columns: 3;
+  column-gap: normal;
+  column-rule: 4px double grey;
+  text-align: start;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 7px;
+  margin-top: -2px;
+  border:1px ridge wheat;
+  border-radius: 3px;
+  text-align: justify;
+}
 .slide {
-    border: 2px solid rgb(126, 129, 94);
-    border-radius: 5px;
+  border: 2px solid rgb(126, 129, 94);
+  border-radius: 5px;
 }
-section p {
-  flex-basis: 100%;
-  margin-bottom: 0;
-}
+
 .btn {
- padding: 5px;
- background-color:#612122;
- display: flex;
- justify-content: space-around;
+  padding: 5px;
+  background-color:#612122;
+  display: flex;
+  justify-content: space-around;
 }
 .btn button {
-  padding: 5px 74px;
+  padding: 5px;
   border-radius: 5px;
   background-color: #a22e24;
   color:#f8c864;
@@ -96,13 +96,47 @@ footer {
   background-color: white;
   padding:15px;
 }
+.desk-view img {
+  margin-top: 7px;
+  border-radius: 4px;
+  border: 2px dotted grey;
+  margin-top: 0;
+}
+.desk-view {
+  overflow: auto;
+}
+#move {
+  width:33%;
+  clear: both;
+  float: right;
+  background-color: brown;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+#move span {
+  color: whitesmoke;
+  cursor: pointer;
+}
+#move span:last-child {
+  margin-left: 287%;
+}
+.desk {
+  display: none;
+}
+
 @keyframes insert {
   from {opacity: 0.4;}
   to {opacity: 1;}
 }
 
 @media  screen and (max-width: 960px) {
-   .slideshow img {
+  aside h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .glavnaLista li a {
+    font-size: medium;
+  }
+  .slideshow img {
      width: 28%;
      margin-bottom: 5px;
      height: 140px;
@@ -111,25 +145,85 @@ footer {
        flex-flow: row wrap;
   } 
    .btn button {
-     padding: 5px 40px;
+     padding: 5px;
+     font-size: medium;
+     letter-spacing: 0.8px;
+     font-style: italic;
+  }
+  .desk-view img {
+    float: right;
+  }
+  aside p {
+    columns: 2;
+  }
+  #move {
+    width: 50%;
+  }
+  #move span:last-child {
+    margin-left: 184%;
+  }
+}
+@media screen and (min-width: 961px) {
+  .glavnaLista li a {
+    font-size: large;
+  }
+  .btn button {
+    padding: 5px;
+    font-size: larger;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: #CAD2C5;
+  }
+  .desk-view img {
+   float: right;
+  }
+  .desk-view p {
+    background-color: whitesmoke;
+  }
+   aside h3 {
+     background-color: #0077B6;
+     color: #ADE8F4;
+     font-style: normal;
+  }
+  aside {
+    background-color: #354F52;
+  }
+  #move {
+    background-color: #52796F;
   }
 }
 @media  screen and (max-width: 600px) {
   .btn button {
     padding: 5px 2px;
+    letter-spacing: 0.8px;
+    font-size: 0.9em;
   } 
+  .desk-view img {
+    margin-top: 4px;
+  }
+  aside p {
+    columns: unset;
+  }
   .slideshow img {
-    height: 85px;
- } 
+   height: 85px;
+  } 
  .slideshow img:hover {
   position: absolute;
   width: 100%;
   height: 207px;
   margin-top: -12px;
   background-color: #E1D89F;
-} 
+  } 
 aside p {
   columns: 1;
   text-align: justify;
   }
+  #move {
+    width: 100%;
+  }
+#move span:last-child {
+  margin-left: 88%;
+  }
 }
+

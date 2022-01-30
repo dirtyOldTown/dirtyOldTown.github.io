@@ -16,8 +16,10 @@ body {
 }
 .glavnaLista li a {
   text-decoration: none;
-  padding: 10px 5px;
+  padding: 10px;
   color: #E1D89F;
+  font-size: large;
+  padding-right: 10px;
 }
 .vrhStrane h1 {
 text-align: left;
@@ -45,3 +47,21 @@ background-repeat: no-repeat;
 }
 }
 
+@media screen and (min-width: 961px) {
+  .glavnaLista li a {
+    font-size: large;
+    padding-right: 10px;
+  }
+}
+@media  screen and (max-width: 600px) {
+  .glavnaLista li a {
+    font-size: large;
+    padding-right: 10px;
+  }
+  } 
+  @media  screen and (max-width: 960px) {
+    .glavnaLista li a {
+      font-size: medium;
+      padding-right: 10px;
+    }
+  }
