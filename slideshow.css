@@ -44,7 +44,7 @@ aside h3 {
   margin: 2px 0;
   margin-top: -2px;
   padding: 6px;
-  border: 4px double whitesmoke;
+  border: 4px double ghostwhite;
   color:#612122;
   font-family: Helvetica, Arial, sans-serif;
   text-align: start;
@@ -123,7 +123,15 @@ footer {
 .desk {
   display: none;
 }
-
+aside h3 {
+  background-color: #0077B6;
+  color: #ADE8F4;
+  font-style: normal;
+}
+.desk-view p {
+  background-color: whitesmoke;
+}
+ 
 @keyframes insert {
   from {opacity: 0.4;}
   to {opacity: 1;}
@@ -132,6 +140,7 @@ footer {
 @media  screen and (max-width: 960px) {
   aside h3 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
   }
   .glavnaLista li a {
     font-size: medium;
@@ -178,14 +187,7 @@ footer {
   .desk-view img {
    float: right;
   }
-  .desk-view p {
-    background-color: whitesmoke;
-  }
-   aside h3 {
-     background-color: #0077B6;
-     color: #ADE8F4;
-     font-style: normal;
-  }
+  
   aside {
     background-color: #354F52;
   }
@@ -194,6 +196,9 @@ footer {
   }
 }
 @media  screen and (max-width: 600px) {
+  .glavnaLista li a {
+    font-size: normal;
+  }
   .btn button {
     padding: 5px 2px;
     letter-spacing: 0.8px;
@@ -204,6 +209,8 @@ footer {
   }
   aside p {
     columns: unset;
+    columns: 1;
+    text-align: justify;
   }
   .slideshow img {
    height: 85px;
@@ -215,10 +222,7 @@ footer {
   margin-top: -12px;
   background-color: #E1D89F;
   } 
-aside p {
-  columns: 1;
-  text-align: justify;
-  }
+
   #move {
     width: 100%;
   }
