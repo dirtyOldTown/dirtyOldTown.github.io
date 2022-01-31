@@ -65,6 +65,6 @@ background-repeat: no-repeat;
       padding-right: 4px;
     }
     .glavnaLista {
-    justify-content: space-between;
+    justify-content: space-around;
     }
   }
