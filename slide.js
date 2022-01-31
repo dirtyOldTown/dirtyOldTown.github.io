@@ -28,8 +28,48 @@ var Sektor3 = ["slike/Gmail/boba14.jpg","slike/Gmail/boba15.jpg","slike/Gmail/bo
   "slike/Gmail/boba17.jpg","slike/Gmail/boba18.jpg","slike/Gmail/boba19.jpg"];
 var Sektor4 = ["slike/Gmail/boba20.jpg","slike/Gmail/boba21.jpg","slike/Gmail/boba22.jpg",
     "slike/Gmail/boba23.jpg","slike/Gmail/boba24.jpg","slike/Gmail/boba25.jpg"];
+var Sektori = [Sektor1, Sektor2, Sektor3, Sektor4];
 
-// Set *funkcija koje menjaju atribut 'src', elementa "img"
-// Set *funkcija menja naslove 
-var sektori = [Sektor1, Sektor2, Sektor2, Sektor3, Sektor4];
-  
+// *Funkcija za animaciju
+function Fade(e) {
+  e.preventDefault();
+  insert.classList.remove("fade");
+  void insert.offsetWidth;
+  insert.classList.add("fade");
+}
+document.querySelector(".btn").addEventListener("mousedown", function(e) {Fade(e);});
+
+// Set funkcija za slajdove
+function Promena(sektor, mesto) {
+  for (var x = 0; x < Sektor1.length; x++) {
+    img[x].setAttribute("src",sektor[x]);
+  }
+ text.innerHTML = mesto;
+
+}
+
+btn1.addEventListener("mousedown", function(){Promena(Sektor1, mesto[0]);Prva();});
+btn2.addEventListener("mousedown", function(){Promena(Sektor2, mesto[1]);});
+btn3.addEventListener("mousedown", function(){Promena(Sektor3, mesto[2]);});
+btn4.addEventListener("mousedown", function(){Promena(Sektor4, mesto[3]);});
+
+// Other
+var imageNumber = 0;
+var imageLength = Sektor1.length -1;
+var slikaUTekstu = document.querySelector(".text img");
+var Prethodna =document.querySelector("#move span:first-of-type");
+var Sledeća =document.querySelector("#move span:last-of-type");
+function plusImages(x, sektor) {
+  imageNumber += x;
+  if (imageNumber < 0) {
+    imageNumber = imageLength;
+  }
+  if (imageNumber > imageLength) {
+    imageNumber = 0;
+  }
+slikaUTekstu.setAttribute("src", sektor[imageNumber]);
+}
+function Prva() {
+  Prethodna.addEventListener("click", function() {plusImages(-1, Sektor1);});
+  Sledeća.addEventListener("click", function() {plusImages(1, Sektor1);});
+}

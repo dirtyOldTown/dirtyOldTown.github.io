@@ -131,7 +131,10 @@ aside h3 {
 .desk-view p {
   background-color: whitesmoke;
 }
- 
+.fade {
+  animation-name: insert;
+  animation-duration: 2s;
+}
 @keyframes insert {
   from {opacity: 0.4;}
   to {opacity: 1;}
