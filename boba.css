@@ -61,7 +61,7 @@ background-repeat: no-repeat;
   }
   @media  screen and (max-width: 600px) {
     .glavnaLista li a {
-      font-size: 1em;
+      font-size: 0.95em;
       padding-right: 4px;
     }
   }
