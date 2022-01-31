@@ -198,7 +198,7 @@ aside h3 {
 @media  screen and (max-width: 600px) {
   
   .glavnaLista li a {
-    font-size: 0.8em;
+    font-size: 1em;
     padding-right: 4px;
   }
   .btn button {
