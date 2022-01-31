@@ -61,10 +61,11 @@ background-repeat: no-repeat;
   }
   @media  screen and (max-width: 600px) {
     .glavnaLista li a {
-      font-size: normal;
+      font-size: 0.8em;
       padding-right: 4px;
     }
     .glavnaLista {
     justify-content: space-around;
+    margin-left: 2px;
     }
   }
