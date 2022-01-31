@@ -196,9 +196,7 @@ aside h3 {
   }
 }
 @media  screen and (max-width: 600px) {
-  .glavnaLista {
-    justify-content: space-around;
-  }
+  
   .glavnaLista li a {
     font-size: 0.8em;
     padding-right: 4px;
