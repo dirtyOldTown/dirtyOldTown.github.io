@@ -139,6 +139,12 @@ aside h3 {
   from {opacity: 0.4;}
   to {opacity: 1;}
 }
+.desk-view img:first-of-type {
+  display: block;
+}
+.desk-view img {
+  display: none;
+}
 
 @media  screen and (max-width: 960px) {
   aside h3 {
