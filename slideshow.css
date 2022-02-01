@@ -35,7 +35,7 @@ body {
 }
 aside {
   padding: 5px;
-  background-color: #612122;
+  background-color: #354F52;
   text-indent: 10px;
   text-align: center;
 }
@@ -109,7 +109,7 @@ footer {
   width:33%;
   clear: both;
   float: right;
-  background-color: brown;
+  background-color: #52796F;;
   margin-bottom: 2px;
   margin-top: 0;
 }
@@ -189,13 +189,6 @@ aside h3 {
   }
   .desk-view img {
    float: right;
-  }
-  
-  aside {
-    background-color: #354F52;
-  }
-  #move {
-    background-color: #52796F;
   }
 }
 @media  screen and (max-width: 600px) {
