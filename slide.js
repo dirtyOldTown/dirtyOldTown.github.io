@@ -41,15 +41,15 @@ document.querySelector(".btn").addEventListener("click", function(e) {Fade(e);})
 
 // Set funkcija za slajdove
 
+
 function Promena(sektor, mesto, slika) {
  for (var x = 0; x < Sektor1.length; x++) {
-    img[x].setAttribute("src",sektor[x]);
-  }
+    img[x].setAttribute("src", sektor[x]);
+  }  
     text.innerHTML = mesto;
     slikaUTekstu.setAttribute("src", slika);
 }
-
- btn1.addEventListener("click", function(e){Promena(Sektor1, mesto[0], Sektor1[0]);});
+ btn1.addEventListener("click", function(){Promena(Sektor1, mesto[0], Sektor1[0]);});
  btn2.addEventListener("click", function(){Promena(Sektor2, mesto[1], Sektor2[0]);});
  btn3.addEventListener("click", function(){Promena(Sektor3, mesto[2], Sektor3[0]);});
  btn4.addEventListener("click", function(){Promena(Sektor4, mesto[3], Sektor4[0]);});
@@ -77,8 +77,5 @@ function slideshow(sektor) {
   Prethodna.addEventListener("click", function() {plusImages(-1, sektor);});
   Sledeća.addEventListener("click", function() {plusImages(1, sektor);});
 }
-
-slideshow(Sektor1);  
  
-
-
+  

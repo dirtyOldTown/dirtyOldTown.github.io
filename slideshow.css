@@ -105,21 +105,6 @@ footer {
 .desk-view {
   overflow: auto;
 }
-#move {
-  width:33%;
-  clear: both;
-  float: right;
-  background-color: #52796F;;
-  margin-bottom: 2px;
-  margin-top: 0;
-}
-#move span {
-  color: whitesmoke;
-  cursor: pointer;
-}
-#move span:last-child {
-  margin-left: 287%;
-}
 .desk {
   display: none;
 }
@@ -138,12 +123,6 @@ aside h3 {
 @keyframes insert {
   from {opacity: 0.4;}
   to {opacity: 1;}
-}
-.desk-view img:first-of-type {
-  display: block;
-}
-.desk-view img {
-  display: none;
 }
 
 @media  screen and (max-width: 960px) {
@@ -173,12 +152,6 @@ aside h3 {
   }
   aside p {
     columns: 2;
-  }
-  #move {
-    width: 50%;
-  }
-  #move span:last-child {
-    margin-left: 184%;
   }
 }
 @media screen and (min-width: 961px) {
@@ -227,11 +200,5 @@ aside h3 {
   background-color: #E1D89F;
   } 
 
-  #move {
-    width: 100%;
-  }
-#move span:last-child {
-  margin-left: 88%;
-  }
 }
 
