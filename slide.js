@@ -13,10 +13,11 @@ var btn3 = document.querySelector(".btn button:nth-of-type(3)");
 var btn4 = document.querySelector(".btn button:nth-of-type(4)");
 var insert = document.querySelector(".slideshow");
 
-// Dodeljivanje varijable za element "h3" i [niza] za naslove teksta
+// Dodeljivanje varijable za element "h3" i [niza] za naslove teksta i za element "img"(donja slika)
 var text = document.querySelector("aside h3");
 var mesto = ["Boba u Švajcarskoj", "Boba u Austriji",
 "Boba u Srbiji", "Boba u Crnoj Gori"];
+var slikaUTekstu = document.querySelector(".text img");
 
 // [Nizovi] za sličice
 var img = [img1, img2, img3, img4, img5, img6];
@@ -29,7 +30,6 @@ var Sektor3 = ["slike/Gmail/boba14.jpg","slike/Gmail/boba15.jpg","slike/Gmail/bo
 var Sektor4 = ["slike/Gmail/boba20.jpg","slike/Gmail/boba21.jpg","slike/Gmail/boba22.jpg",
     "slike/Gmail/boba23.jpg","slike/Gmail/boba24.jpg","slike/Gmail/boba25.jpg"];
 var Sektori = [Sektor1, Sektor2, Sektor3, Sektor4];
-
 // *Funkcija za animaciju
 function Fade(e) {
   e.preventDefault();
@@ -39,9 +39,7 @@ function Fade(e) {
 }
 document.querySelector(".btn").addEventListener("click", function(e) {Fade(e);});
 
-// Set funkcija za slajdove
-
-
+// addEventListener-i za menjanje sličica
 function Promena(sektor, mesto, slika) {
  for (var x = 0; x < Sektor1.length; x++) {
     img[x].setAttribute("src", sektor[x]);
@@ -55,27 +53,4 @@ function Promena(sektor, mesto, slika) {
  btn4.addEventListener("click", function(){Promena(Sektor4, mesto[3], Sektor4[0]);});
 
 
-// Other
-var imageNumber = 0;
-var imageLength = Sektor1.length -1;
-var slikaUTekstu = document.querySelector(".text img");
-var Prethodna =document.querySelector("#move span:first-of-type");
-var Sledeća =document.querySelector("#move span:last-of-type");
 
-function plusImages(x, sektor) {
-  imageNumber += x;
-  if (imageNumber < 0) {
-    imageNumber = imageLength;
-  }
-  if (imageNumber > imageLength) {
-    imageNumber = 0;
-  }
-  slikaUTekstu.setAttribute("src", sektor[imageNumber]);
-
-}
-function slideshow(sektor) {
-  Prethodna.addEventListener("click", function() {plusImages(-1, sektor);});
-  Sledeća.addEventListener("click", function() {plusImages(1, sektor);});
-}
- 
-  
