@@ -6,7 +6,7 @@
   <meta name="author" content="Ja">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="slideshow.css">
-  <script src="slide.js" defer></script>
+  <script src="slide.js" async></script>
 </head>
 <body>
   <header class="vrhStrane">
@@ -29,7 +29,7 @@
     <img class="slide" src="slike/Gmail/boba7.jpg" width="15%" alt="Boba1">
   </section>
   <div class="btn">
-    <button onclick="Hate(e, Sektor1)" type="button">Švajcarska</button>
+    <button id="bat1" type="button">Švajcarska</button>
     <button type="button">Austrija</button>
     <button type="button">Srbija</button>
     <button type="button">Crna Gora</button>
@@ -47,8 +47,8 @@
       O Beogradu su pisali i strani književnici, muzičari, filmski reditelji kao i novinari najpoznatijih svetskih časopisa kao što su „New York Times“, „The Star“ i drugi.
       <img src="slike/Gmail/boba2.jpg" height="250px" width="99%" alt="Boba1">
       </p>
+      <p><span id="prev">Previous</span><span id="next">Next</span></p>
     </div>
   </aside>
-
 </body>
 </html>

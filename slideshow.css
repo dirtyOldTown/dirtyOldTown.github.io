@@ -101,10 +101,15 @@ footer {
   border-radius: 4px;
   border: 2px dotted grey;
   margin-top: 0;
+
 }
 .desk-view {
   overflow: auto;
+  
 }
+.slideshow img:hover {
+  cursor: pointer;
+} 
 .desk {
   display: none;
 }
@@ -119,6 +124,9 @@ aside h3 {
 .fade {
   animation-name: insert;
   animation-duration: 2s;
+}
+#prev,#next {
+  cursor: pointer;
 }
 @keyframes insert {
   from {opacity: 0.4;}

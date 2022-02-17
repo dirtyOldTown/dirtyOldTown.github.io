@@ -43,14 +43,39 @@ document.querySelector(".btn").addEventListener("click", function(e) {Fade(e);})
 function Promena(sektor, mesto, slika) {
  for (var x = 0; x < Sektor1.length; x++) {
     img[x].setAttribute("src", sektor[x]);
-  }  
+  }
     text.innerHTML = mesto;
     slikaUTekstu.setAttribute("src", slika);
+    
 }
  btn1.addEventListener("click", function(){Promena(Sektor1, mesto[0], Sektor1[0]);});
  btn2.addEventListener("click", function(){Promena(Sektor2, mesto[1], Sektor2[0]);});
  btn3.addEventListener("click", function(){Promena(Sektor3, mesto[2], Sektor3[0]);});
  btn4.addEventListener("click", function(){Promena(Sektor4, mesto[3], Sektor4[0]);});
 
-
+// Promena donje slike
+img1.onclick = function() {
+  let result = img1.getAttribute("src");
+  slikaUTekstu.setAttribute("src", result)
+}
+img2.onclick = function() {
+  let result = img2.getAttribute("src");
+  slikaUTekstu.setAttribute("src", result)
+}
+img3.onclick = function() {
+  let result = img3.getAttribute("src");
+  slikaUTekstu.setAttribute("src", result)
+}
+img4.onclick = function() {
+  let result = img4.getAttribute("src");
+  slikaUTekstu.setAttribute("src", result)
+}
+img5.onclick = function() {
+  let result = img5.getAttribute("src");
+  slikaUTekstu.setAttribute("src", result)
+}
+img6.onclick = function() {
+  let result = img6.getAttribute("src");
+  slikaUTekstu.setAttribute("src", result)
+}
 
