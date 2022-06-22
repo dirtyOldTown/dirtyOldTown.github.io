@@ -23,4 +23,5 @@
        this.pesme.forEach((value) => console.log(value));
     }
 }
+console.log(45)
 
