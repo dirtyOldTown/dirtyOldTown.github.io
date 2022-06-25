@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Mima';
+    src: url('Sacramento.ttf');
+}
+h1 {
+    font-family: 'Mima';
+}
