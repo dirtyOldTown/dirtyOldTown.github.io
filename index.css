@@ -140,10 +140,10 @@ header {
 }
 #gugl-mapa span:last-of-type {
   position: absolute;
-  top: 27px;
-  font-size: 1.2em;
+  top: 25px;
+  font-size: 1.3em;
   font-weight: bolder;
-  left: 86%;
+  left: 87%;
   color: brown;
 }
 #gugl-mapa img {
