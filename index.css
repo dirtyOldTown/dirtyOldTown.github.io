@@ -141,8 +141,9 @@ header {
 #gugl-mapa span:last-of-type {
   position: absolute;
   top: 27px;
-  font-size: 1.4em;
-  left: 84%;
+  font-size: 1.2em;
+  font-weight: bolder;
+  left: 86%;
   color: brown;
 }
 #gugl-mapa img {
