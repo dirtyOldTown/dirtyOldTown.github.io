@@ -1,0 +1,31 @@
+ /* NAVIGACIJA */
+ .navigacija {
+    display: grid;
+    grid-template-columns: 50% auto auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+  }
+  .navigacija p a {
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background-color:transparent;
+  }
+  #otključaj-lako {
+    font-family: 'Maja';
+    font-size: 2vw;
+    color:#A1C621;
+  }
+  #ključ-servis {
+    font-family: 'Logo';
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+    margin-left: -2%;
+  }
+  #naslovna a {
+    color:#A1C621;
+  }
+  

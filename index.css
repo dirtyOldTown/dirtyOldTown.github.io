@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+body {
+ background-color: #495057;
+ margin-bottom: 0;
+}
+/* POČETNA SEKCIJA */
+header {
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 30% 21% auto;
+  align-items: center;
+  justify-content:space-around;
+}
+.logo-glavno {
+  margin-top: 4%;
+  color: #495057;
+}
+.logo-glavno p {
+  font-family: 'Reklama';
+  margin-top: 4%;
+  font-size: 2.2vw;
+}
+.telefon {
+  font-family: 'Impact';
+  font-size: 2.2vw;
+  line-height: 7px;
+
+}
+.ključ-1 {
+  margin-bottom: -0.2%;
+}
+.ključ-1 img {
+  border-width: 9px 9px 0px 9px;
+  border-style: solid;
+  border-color: #A1C621;
+  opacity: 0.7;
+}
+.logo-glavno img, .ključ-1 img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -0.7vh;
+}
+.umnoži-ključ {
+  font-family: 'Impact';
+  color:#A1C621;
+  font-size: 2.2vw;
+  line-height: 0px;
+  text-align: end;
+}
+.umnoži-ključ2 {
+  margin-top: 12%;
+  text-align: end;
+  line-height: 3px;
+  font-family: 'Maja';
+  font-size: 1.7vw;
+  color: #495057;
+}
+.mislite-o-tome {
+  font-family: 'Impact';
+  font-size: 2.7vw;
+  color:#A1C621;
+}
+/* DRUGA SEKCIJA */
+.usluge {
+  font-family: 'Reklama';
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #A1C621;
+  padding: 1px;
+  font-size: 2.2vw;
+  color: white;
+}
+/* TREĆA SEKCIJA */
+.ključ-3 {
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50vw;
+  background-image: url('slike/kljuc3.jpg');
+  background-size: 105% 100%;
+  filter:contrast(50%)
+}
+.ključ-3 > .prvi-deo {
+  font-size: 2.3vw;
+  position: absolute;
+  font-family: 'Reklama';
+  margin-top: 12%;
+  margin-left: 3%;
+  line-height: 1vw;
+}
+.ključ-3 > .drugi-deo pre {
+  position: absolute;
+  font-size: 3.2vw;
+  font-family: 'MaliText';
+  margin-top: 38%;
+  margin-left: 0%;
+  line-height: 3vw;
+}
+/* GUGL MAPA */
+#gugl-mapa {
+  position: relative;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: stretch;
+  border: 2px solid #343a40;
+  justify-content: space-around;
+}
+#gugl-mapa h2 {
+  grid-column: 1 / span 2;
+  font-family: 'Reklama';
+  font-size: 3vw;
+  background-color: whitesmoke;
+  color:#495057;
+  padding: 35px 10px;
+  margin-top: -1px;
+  margin-bottom: 0;
+  border-bottom: 2px solid #495057;
+  border-top: 1px solid #343a40;
+}
+#gugl-mapa h2 span:first-of-type {
+  color:#343a40;
+  margin-left: 15%
+}
+#gugl-mapa h2 span:nth-of-type(2) {
+  color:#343a40;
+  margin-left: 12%;
+}
+#gugl-mapa span:last-of-type {
+  position: absolute;
+  top: 27px;
+  font-size: 1.4em;
+  left: 84%;
+  color: brown;
+}
+#gugl-mapa img {
+  width: 100%;
+  height: auto;
+  border-right: 2px solid #495057;
+}
+#gugl-mapa iframe {
+  width: 100%;
+  height: 40vw;
+}
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #A1C621;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width:95%;
+  padding: 5px;
+  font-size: 2.4vw;
+  font-family:'Maja';
+  border: 2px solid #343a40;
+}
+footer p {
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+footer p:last-of-type {
+  color:#343a40;
+  font-family: 'Reklama';
+}
+footer p span {
+  font-family:'Impact';
+  font-weight: bold;
+  font-size: 2.1vw;
+  color:#343a40;
+}
+#adresa {
+  font-size: 2.1vw;
+}
+
