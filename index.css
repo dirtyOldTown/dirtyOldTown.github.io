@@ -29,7 +29,10 @@ header {
   font-family: 'Impact';
   font-size: 2.2vw;
   line-height: 7px;
-
+}
+.telefon a {
+  color: #495057;
+  text-decoration: none;
 }
 .ključ-1 {
   margin-bottom: -0.2%;
