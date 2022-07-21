@@ -141,6 +141,9 @@
   .usluge ul {
     font-size: 1.25em;
   }
+  .usluge ul li {
+    margin-left: -2%;
+  }
 }
 /* max-width: 400px*/
 @media screen and (max-width: 400px) {
@@ -197,5 +200,8 @@
   }
   .usluge ul {
     font-size: 1.1em;
+  }
+  .usluge ul li {
+    margin-left: -4%;
   }
 }
