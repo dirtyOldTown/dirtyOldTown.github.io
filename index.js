@@ -19,7 +19,7 @@ function promena(x) {
 promena(mediaHandler);
 mediaHandler.addEventListener("change", promena);
 
-// Text-decoration = ''za elemente navigacije
+// Text-decoration za elemente navigacije
 const naslovna = document.querySelector("#naslovna a");
 const cenovnik = document.querySelector("#cenovnik a");
 const mapa = document.querySelector("#mapa a");

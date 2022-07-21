@@ -17,7 +17,7 @@ const cenovnik = document.querySelector("#cenovnik a");
 cenovnik.setAttribute("style", "color: #A1C621");
 naslovna.setAttribute("style", "color: white");
 
-// Text-decoration = ''za elemente navigacije
+// Text-decoration za elemente navigacije
 const mapa = document.querySelector("#mapa a");
 const navigacija = [naslovna, cenovnik, mapa];
 
