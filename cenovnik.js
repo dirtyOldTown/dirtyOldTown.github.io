@@ -1,5 +1,5 @@
 // Promena logoa
-const media = window.matchMedia('(max-width: 600px)');
+const media = window.matchMedia('screen and (max-width: 600px)');
 const logo = document.querySelector(".logo-glavno img");
 function noviLogo(x) {
   if (x.matches) {
