@@ -5,7 +5,7 @@ function noviLogo(x) {
   if (x.matches) {
     logo.setAttribute("src", "slike/kljuc1.jpg")
   } else {
-    logo.setAttribute("src", "slike/kljuc svetlo.png")
+    logo.setAttribute("src", "slike/kljuc-svetlo.jpg")
   }
 }
 noviLogo(media);
