@@ -9,4 +9,4 @@ function noviLogo(x) {
   }
 }
 noviLogo(media);
-media.addEventListener("change", noviLogo, {passive: true});
+media.addEventListener("change", noviLogo);
