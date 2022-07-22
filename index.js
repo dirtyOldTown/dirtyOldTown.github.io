@@ -35,3 +35,4 @@ for (let x = 0; x < navigacija.length; x++) {
     navigacija[x].style.textDecoration = "none";
   });
 }
+
