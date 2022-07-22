@@ -131,7 +131,7 @@
   }
   /* TABELA */
   .cenovnik {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 48% 50%;
   }
   .cenovnik table th {
     font-size: 1.6em;
@@ -199,7 +199,7 @@
     font-size: 1.9em;
   }
   .cenovnik table td {
-    font-size: 2.2em;
+    font-size: 2.1em;
   }
   .usluge h3 {
     font-size: 1.1em;
