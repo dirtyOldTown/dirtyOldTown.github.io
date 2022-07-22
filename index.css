@@ -35,7 +35,7 @@ header {
   font-size: 1.25em;
 }
 .telefon a {
-  color: #495057;
+  color:#343a40;
   text-decoration: none;
 }
 .ključ-1 {
@@ -180,7 +180,8 @@ footer p {
   margin-top: 2%;
 }
 footer p:last-of-type {
-  color:#343a40;
+  font-size: 2.1vw;
+  color:#495057;
   font-family: 'Reklama';
 }
 footer p span {
@@ -188,8 +189,5 @@ footer p span {
   font-weight: bold;
   font-size: 2.1vw;
   color:#343a40;
-}
-#adresa {
-  font-size: 2.1vw;
 }
 

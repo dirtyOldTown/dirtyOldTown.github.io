@@ -10,7 +10,7 @@ function promena(x) {
     `
   } else {
   adresa.innerHTML = `
-  <p style="margin-top: 0.5%; font-size: 2.54vw; margin-left: 0%; margin-bottom: 0; font-style: italic">
+  <p style="margin-top: 0.5%; font-size: 2.54vw; margin-left: 0%; margin-bottom: 0">
   Radnja se nalazi na okretnici autobusa 26
   </p>
   `
