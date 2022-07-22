@@ -300,6 +300,8 @@
    /* GUGL MAPA */
    #gugl-mapa {
     grid-template-columns: 100%;
+    border-left: 0px solid #4c5760;
+    border-right: 0px solid #4c5760;
    }
   #gugl-mapa h2 {
     font-size: 5.5vw;
@@ -324,6 +326,8 @@
   /* FOOTER */
   footer {
     font-size: 3vw;
+    border-left: 0px solid #4c5760;
+    border-right: 0px solid #4c5760;
   }
   #adresa {
     font-size: 2.3vw;
