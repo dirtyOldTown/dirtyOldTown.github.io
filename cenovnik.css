@@ -30,7 +30,7 @@
     height: auto;
   }
   .umnoži-ključ {
-    font-family: 'Impact';
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:#A1C621;
     font-size: 2.1vw;
     line-height: 0px;
@@ -40,12 +40,12 @@
     margin-top: 10%;
     text-align: end;
     line-height: 3px;
-    font-family: 'Maja';
+    font-family: 'Maja', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.5vw;
     color: #495057;
   }
   .mislite-o-tome {
-    font-family: 'Impact';
+    font-family: 'Maja', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2.6vw;
     color:#A1C621;
   }
@@ -59,7 +59,7 @@
     align-items: stretch;
     justify-content: space-around;
     grid-template-columns: 53% 47%;
-    font-family:'Reklama';
+    font-family:'Reklama', serif;
     color:#495057;
   }
   .cenovnik img {
@@ -74,7 +74,7 @@
   }
   .cenovnik table th {
     font-size: 2vw;
-    font-family: 'Logo';
+    font-family: 'Arial Narrow Bold', 'Logo', sans-serif;
     background-color: #A1C621;
     color: white;
     padding: 4px;
@@ -94,7 +94,7 @@
   }
   .usluge h3 {
     background-color: #9d0208;
-    font-family: 'Logo';
+    font-family: 'Arial Narrow Bold', 'Logo', sans-serif;
     font-size: 2.5vw;
     text-align: center;
     margin-top: 0;
@@ -103,7 +103,7 @@
   }
   .usluge ul {
     font-size: 2.1vw;
-    font-family: 'Reklama';
+    font-family: 'Reklama', serif;
     background-color: #f4f3ee;
     color: #495057;
     margin-top: 0%;
