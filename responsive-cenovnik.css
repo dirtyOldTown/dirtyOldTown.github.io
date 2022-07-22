@@ -3,7 +3,7 @@
 
   /* NAVIGACIJA */
   .navigacija p a {
-    font-size: 0.85em;
+    font-size: 0.95em;
   }
   #ključ-servis {
     grid-column: 1 / span 6;
@@ -23,6 +23,10 @@
   }
   #cenovnik {
     grid-column: 2 / span 2;
+    margin-left: -120%;
+  }
+  #mapa a {
+    font-size: 1.1em;
   }
   /* POČETNA SEKCIJA */
   header {
@@ -97,16 +101,17 @@
     font-size: 0.9em;
   }
   .navigacija p a {
-    font-size: 0.76em;
+    font-size: 0.85em;
   }
   #naslovna {
-    margin-left: 20px;
+    margin-left: 10px;
   }
   #cenovnik {
-  margin-left: -30px;
+  margin-left: -60px;
   }
   #mapa {
-    margin-left: -10px;
+    font-size: 0.95em;
+    margin-left: -20px;
   }
   /* POČETNA SEKCIJA */
   header {
@@ -154,16 +159,17 @@
     font-size: 3.5vw;
   }
   .navigacija p a {
-    font-size: 3.2vw;
+    font-size: 3.6vw;
   }
   #naslovna {
     margin-left: 10%;
   }
   #cenovnik {
-  margin-left: -50%;
+  margin-left: -58%;
   }
   #mapa {
     margin-left: -19%;
+    font-size: 3.9vw;
   }
   /* POČETNA STRANA */
   header {

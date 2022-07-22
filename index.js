@@ -22,7 +22,8 @@ mediaHandler.addEventListener("change", promena);
 // Text-decoration za elemente navigacije
 const naslovna = document.querySelector("#naslovna a");
 const cenovnik = document.querySelector("#cenovnik a");
-const navigacija = [naslovna, cenovnik];
+const mapa = document.querySelector("#mapa a")
+const navigacija = [naslovna, cenovnik, mapa];
 
 for (let x = 0; x < navigacija.length; x++) {
 navigacija[x].addEventListener("mouseover", () => {

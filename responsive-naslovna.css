@@ -4,6 +4,9 @@
   .navigacija p a {
     font-size: 0.84em;
   }
+  #mapa a {
+    font-size: 1.1em;
+  }
   #otključaj-lako {
     font-size: 1.2em;
   }
@@ -88,7 +91,12 @@
 @media screen and (max-width: 767px) {
   /* NAVIGACIJA */
   .navigacija p a {
-    font-size: 0.74em;
+    font-size: 0.8em;
+    margin-left: -10%;
+  }
+  #mapa a {
+    font-size: 1em;
+    margin-left: -5%;
   }
   #otključaj-lako {
     display: none;
@@ -210,13 +218,17 @@
     color: #bfd200;
   }
   .navigacija p a {
-    font-size: 0.8em;
+    font-size: 0.88em;
   }
   #naslovna {
     margin-left: 20%;
   }
   #cenovnik {
- margin-left: -20%;
+    margin-left: -54%;
+  }
+  #mapa a {
+    font-size: 1.15em;
+    margin-left: -14%;
   }
   /* POČETNA SEKCIJA*/
   header {
@@ -323,8 +335,12 @@
     margin-left: 24%;
   }
    .navigacija p a {
-    font-size: 3.5vw;
+    font-size: 3.6vw;
     margin-left:-20%
+  }
+  #mapa a {
+    font-size: 4.5vw;
+    margin-left: -20%;
   }
   #otključaj-lako {
     font-size: 4.6vw;

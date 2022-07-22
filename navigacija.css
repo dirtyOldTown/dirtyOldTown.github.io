@@ -8,15 +8,15 @@
   }
   .navigacija p a {
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 1.3vw;
     color: white;
     font-family: 'Montserrat';
     font-weight: bold;
     background-color:transparent;
   }
   #mapa a {
+    font-size: 1.6vw;
     color: #f9c74f;
-    text-decoration: underline;
   }
   #otključaj-lako {
     font-family: 'Maja';
