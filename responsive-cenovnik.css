@@ -131,7 +131,7 @@
   }
   /* TABELA */
   .cenovnik {
-    grid-template-columns: 48% 50%;
+    grid-template-columns: 48% 52%;
   }
   .cenovnik table th {
     font-size: 1.6em;
