@@ -336,7 +336,7 @@
 @media screen and (max-width: 400px) {
    /* NAVIGACIJA */
    #naslovna {
-    margin-left: 24%;
+    margin-left: 26%;
   }
    .navigacija p a {
     font-size: 3.6vw;
@@ -344,7 +344,7 @@
   }
   #mapa a {
     font-size: 4.5vw;
-    margin-left: -20%;
+    margin-left: -18%;
   }
   #otključaj-lako {
     font-size: 4.6vw;
