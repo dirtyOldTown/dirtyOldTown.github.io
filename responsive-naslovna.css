@@ -208,8 +208,8 @@
     text-align: center;
     background-color: #4c5760;
     padding: 10px;
-    width: 100%;
-    margin-left: 0%;
+    width: 92%;
+    margin-left: 5%;
     margin-top: 1%;
   }
   #otključaj-lako {
@@ -350,7 +350,9 @@
     font-size: 4.6vw;
   }
   #ključ-servis {
-    font-size: 4.2vw;
+    font-size: 4.1vw;
+    width: 95%;
+    margin-left: 3.5%;
   }
    /* TREĆA SEKCIJA */
    .ključ-3  {
