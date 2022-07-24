@@ -223,11 +223,11 @@
     margin-left: 20%;
   }
   #cenovnik {
-    margin-left: -54%;
+    margin-left: -52%;
   }
   #mapa a {
     font-size: 1.15em;
-    margin-left: -14%;
+    margin-left: -12%;
   }
   /* POČETNA SEKCIJA*/
   header {
@@ -235,7 +235,7 @@
     grid-template-rows: auto auto;
     align-items:flex-start;
     justify-content: center;
-    padding: 1% 0
+    padding: 1% 0;
   }
   .logo-glavno {
     text-align: center;
@@ -272,6 +272,7 @@
    /* DRUGA SEKCIJA*/
    .usluge {
     font-size: 1.2em;
+    padding-top: 4px;
   }
   .usluge p {
     font-size: 1em;
@@ -344,7 +345,7 @@
   }
   #mapa a {
     font-size: 4.5vw;
-    margin-left: -18%;
+    margin-left: -16%;
   }
   #otključaj-lako {
     font-size: 4.6vw;
