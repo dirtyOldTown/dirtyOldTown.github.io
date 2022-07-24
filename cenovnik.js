@@ -14,7 +14,7 @@ media.addEventListener("change", noviLogo);
 // Promena boje za navigaciju
 const naslovna = document.querySelector("#naslovna a");
 const cenovnik = document.querySelector("#cenovnik a");
-cenovnik.setAttribute("style", "color: #A1C621");
+cenovnik.setAttribute("style", "color: #bfd200;");
 naslovna.setAttribute("style", "color: white");
 
 // Text-decoration za elemente navigacije
