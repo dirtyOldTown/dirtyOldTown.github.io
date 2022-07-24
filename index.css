@@ -166,7 +166,7 @@ header {
 footer {
   display: flex;
   justify-content: space-around;
-  background-color: #A1C621;
+  background-color: brown;
   color: white;
   margin-left: auto;
   margin-right: auto;
@@ -175,20 +175,20 @@ footer {
   font-size: 2.4vw;
   font-family:'Maja', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: 2px solid #343a40;
-}
+};
 footer p {
   margin-bottom: 2%;
   margin-top: 2%;
 }
 footer p:last-of-type {
   font-size: 2.1vw;
-  color:#495057;
+  color:#f9c74f;
   font-family: 'Reklama', serif;
 }
 footer p span {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Logo';
   font-weight: bold;
-  font-size: 2.1vw;
-  color:#343a40;
+  font-size: 2.3vw;
+  color:#f9c74f;;
 }
 

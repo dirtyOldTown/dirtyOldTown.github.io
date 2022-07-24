@@ -83,8 +83,8 @@
     font-size: 2.7vw;
     margin-top: -1px;
   }
-  footer p span {
-    font-size: 2.4vw;
+  #adresa {
+    font-size: 2.3vw;
   }
 }
 /* max-width: 767px */
@@ -184,7 +184,7 @@
   }
   footer p {
     margin-left: 2%;
-    font-size: 1.4em;
+    font-size: 1.34em;
     margin-bottom: 4%;
     margin-top: 4%;
   }
@@ -195,7 +195,6 @@
     margin-bottom: -2%;
     padding-top: 1%;
   }
- 
   #ključić {
     display: none;
   }
@@ -324,12 +323,13 @@
   }
   /* FOOTER */
   footer {
-    font-size: 3vw;
+    font-size: 3.4vw;
     border-left: 0px solid #4c5760;
     border-right: 0px solid #4c5760;
   }
   #adresa {
-    font-size: 2.3vw;
+    font-size: 0.83em;
+    margin-top: 5%;
   }
 }
 /* max.width: 400px*/
@@ -390,14 +390,15 @@
   }
   /* FOOTER */
   footer {
-    font-size: 3.5vw;
+    font-size: 3.8vw;
   }
   footer p {
     margin-bottom: 5%;
     margin-top: 5%;
   }
   #adresa {
-    font-size: 2.8vw;
+    font-size: 3.2vw;
+    margin-top: 6%;
   }
 }
 
