@@ -172,7 +172,7 @@ footer {
   margin-right: auto;
   width:95%;
   padding: 5px;
-  font-size: 2.4vw;
+  font-size: 2.3vw;
   font-family:'Maja', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border: 2px solid #343a40;
 };
@@ -181,14 +181,14 @@ footer p {
   margin-top: 2%;
 }
 footer p:last-of-type {
-  font-size: 2.1vw;
+  font-size: 2vw;
   color:#fee12b;
   font-family: 'Reklama', serif;
 }
 footer p span {
   font-family: 'Logo';
   font-weight: bold;
-  font-size: 2.3vw;
+  font-size: 2.2vw;
   color:#fee12b;
 }
 
