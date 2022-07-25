@@ -3,7 +3,7 @@ const media = window.matchMedia('screen and (max-width: 600px)');
 const logo = document.querySelector(".logo-glavno img");
 function noviLogo(x) {
   if (x.matches) {
-    logo.setAttribute("src", "slike/kljuc1.jpg");
+    logo.setAttribute("src", "slike/ključ1-cenovnik.jpg");
     logo.setAttribute("width", "77");
     logo.setAttribute("height", "119");
 
