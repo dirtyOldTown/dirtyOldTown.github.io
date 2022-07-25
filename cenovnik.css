@@ -31,7 +31,7 @@
   }
   .umnoži-ključ {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:#00a86b;
+    color:#009150;
     font-size: 2.1vw;
     line-height: 0px;
     text-align: end;
@@ -47,7 +47,7 @@
   .mislite-o-tome {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 2.6vw;
-    color:#00a86b;
+    color:#009150;
   }
   /* TABELA */
   .cenovnik {
@@ -75,7 +75,7 @@
   .cenovnik table th {
     font-size: 2vw;
     font-family: 'Arial Narrow Bold', 'Logo', sans-serif;
-    background-color: #00a86b;
+    background-color: #009150;
     color: white;
     padding: 4px;
   }
