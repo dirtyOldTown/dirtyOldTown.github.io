@@ -75,7 +75,7 @@
   .cenovnik table th {
     font-size: 2.3vw;
     font-family: 'Arial Narrow Bold', 'Logo', sans-serif;
-    background-color: #536878;
+    background-color: #3B444B;
     color:white;
     padding: 5px 0 10px 0;
   }
@@ -94,7 +94,7 @@
     margin-right: auto;
   }
   .usluge h3 {
-    background-color: #9d0208;
+    background-color:  brown;
     font-family: 'Arial Narrow Bold', 'Logo', sans-serif;
     font-size: 2.5vw;
     text-align: center;

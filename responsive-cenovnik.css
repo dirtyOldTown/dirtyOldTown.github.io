@@ -10,10 +10,11 @@
     font-size: 1.4em;
     background-color: #536878;
     padding: 20px 15px;
-    width: 111.5%;
+    border-radius: 5px;
+    width: 111%;
     margin-left: -4.5%;
     margin-right: auto;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: center;
     border: 2px solid whitesmoke;
   }
@@ -69,6 +70,7 @@
   /* NAVIGACIJA */
   #ključ-servis {
     width: 105%;
+    padding: 15px;
     margin-left: -1.5%;
   }
 
@@ -105,7 +107,7 @@
   #ključ-servis {
     width: 102%;
     margin-left: 0%;
-    font-size: 3.7vw;
+    font-size: 3.6vw;
   }
   .navigacija p a {
     font-size: 0.85em;
@@ -164,9 +166,10 @@
   /* NAVIGACIJA */
   #ključ-servis {
     width: 93%;
-    padding: 20px 2px;
+    padding: 10px 2px;
     margin-left: 4%;
     font-size: 1.15em;
+    margin-bottom: 0;
   }
   #otključaj-lako {
     display: none;
@@ -209,7 +212,7 @@
     grid-template-columns: 53% 47%;
   }
   .cenovnik table th {
-    font-size: 2em;
+    font-size: 2.1em;
   }
   .cenovnik table td {
     font-size: 2.6em;
