@@ -47,8 +47,7 @@
     width: 90%;
   }
   .cenovnik table th {
-    font-size: 1.3em;
-    padding-bottom: 4px;
+    font-size: 1.35em;
   }
   .cenovnik table td {
     font-size: 1.6em;
@@ -87,7 +86,7 @@
     width: 90%;
   }
   .cenovnik table th {
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
   .cenovnik table td {
     font-size: 1.8em;
@@ -135,7 +134,7 @@
     grid-template-columns: 48% 52%;
   }
   .cenovnik table th {
-    font-size: 1.6em;
+    font-size: 1.75em;
     padding: 5px 5px 8px 5px;
   }
   .cenovnik table td {
@@ -199,7 +198,7 @@
     grid-template-columns: 53% 47%;
   }
   .cenovnik table th {
-    font-size: 1.9em;
+    font-size: 2em;
   }
   .cenovnik table td {
     font-size: 2.6em;
