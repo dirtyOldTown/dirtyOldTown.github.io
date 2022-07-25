@@ -4,9 +4,6 @@ const logo = document.querySelector(".logo-glavno img");
 function noviLogo(x) {
   if (x.matches) {
     logo.setAttribute("src", "slike/ključ1-cenovnik.jpg");
-    logo.setAttribute("width", "77");
-    logo.setAttribute("height", "119");
-
   } else {
     logo.setAttribute("src", "slike/kljuc-svetlo2.png")
   }
