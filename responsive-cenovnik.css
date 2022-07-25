@@ -7,13 +7,15 @@
   }
   #ključ-servis {
     grid-column: 1 / span 6;
-    font-size: 1em;
-    background-color: #4c5760;
-    padding: 15px;
-    width: 113%;
-    margin-left: -7%;
-    margin-bottom: -3px;
+    font-size: 1.4em;
+    background-color: #536878;
+    padding: 20px 15px;
+    width: 111.5%;
+    margin-left: -4.5%;
+    margin-right: auto;
+    margin-bottom: 10px;
     text-align: center;
+    border: 2px solid whitesmoke;
   }
   #otključaj-lako {
     font-size: 1.3em;
@@ -64,6 +66,11 @@
 }
 /* max-width: 767px*/
 @media screen and (max-width: 767px) {
+  /* NAVIGACIJA */
+  #ključ-servis {
+    width: 105%;
+    margin-left: -1.5%;
+  }
 
   /* POČETNA SEKCIJA */
   header {
@@ -96,9 +103,9 @@
 @media screen and (max-width: 600px) {
   /* NAVIGACIJA */
   #ključ-servis {
-    width: 104%;
-    margin-left: -3%;
-    font-size: 0.9em;
+    width: 102%;
+    margin-left: 0%;
+    font-size: 3.7vw;
   }
   .navigacija p a {
     font-size: 0.85em;
@@ -156,9 +163,13 @@
 @media screen and (max-width: 400px) {
   /* NAVIGACIJA */
   #ključ-servis {
-    width: 100%;
-    margin-left: -1%;
-    font-size: 3.5vw;
+    width: 93%;
+    padding: 20px 2px;
+    margin-left: 4%;
+    font-size: 1.15em;
+  }
+  #otključaj-lako {
+    display: none;
   }
   .navigacija p a {
     font-size: 3.6vw;
