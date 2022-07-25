@@ -47,10 +47,11 @@
     width: 90%;
   }
   .cenovnik table th {
-    font-size: 1.1em;
+    font-size: 1.3em;
+    padding-bottom: 4px;
   }
   .cenovnik table td {
-    font-size: 1.4em;
+    font-size: 1.6em;
   }
   .usluge {
     width: 90%;
@@ -86,10 +87,10 @@
     width: 90%;
   }
   .cenovnik table th {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   .cenovnik table td {
-    font-size: 1.6em;
+    font-size: 1.8em;
   }
 }
 /* max-wdth: 600px */
@@ -135,9 +136,11 @@
   }
   .cenovnik table th {
     font-size: 1.6em;
+    padding: 5px 5px 8px 5px;
   }
   .cenovnik table td {
-    font-size: 1.9em;
+    font-size: 2.1em;
+    padding: 5px 0;
   }
   .usluge h3 {
     font-size: 1.3em;
@@ -199,7 +202,7 @@
     font-size: 1.9em;
   }
   .cenovnik table td {
-    font-size: 2.1em;
+    font-size: 2.48em;
   }
   .usluge h3 {
     font-size: 1.1em;
