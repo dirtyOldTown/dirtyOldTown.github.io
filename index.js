@@ -4,7 +4,7 @@ const mediaHandler = window.matchMedia('(max-width: 767px)');
 function promena(x) {
   if (x.matches) {
     adresa.innerHTML = `
-    <p style="margin-top: 3%; font-size: 1.7em; margin-left: 0%;color: white; margin-bottom: 2%;font-family: Reklama">
+    <p style="margin-top: 3%; font-size: 1.67em; margin-left: 0%;color: white; margin-bottom: 2%;font-family: Reklama">
     <span style="font-size: 0.8em; font-weight: bold;">Adresa:&nbsp; 🔑 &nbsp;</span> Braće Jerković 201, Beograd 
     </p>
     `
