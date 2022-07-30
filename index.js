@@ -1,28 +1,8 @@
-// Promena teksta - footer
-const adresa = document.getElementById("adresa");
-const mediaHandler = window.matchMedia('(max-width: 767px)');
-function promena(x) {
-  if (x.matches) {
-    adresa.innerHTML = `
-    <p style="margin-top: 3%; font-size: 1.67em; margin-left: 0%;color: white; margin-bottom: 2%;font-family: Reklama">
-    <span style="font-size: 0.8em; font-weight: bold;">Adresa:&nbsp; 🔑 &nbsp;</span> Braće Jerković 201, Beograd 
-    </p>
-    `
-  } else {
-  adresa.innerHTML = `
-  <p style="margin-top: 0.5%; font-size: 1.34em; margin-left: 0%; margin-bottom: 0">
-  Radnja se nalazi na okretnici autobusa 26
-  </p>
-  `
-  }
-}
-promena(mediaHandler);
-mediaHandler.addEventListener("change", promena);
 
 // Text-decoration za elemente navigacije
 const naslovna = document.querySelector("#naslovna a");
 const cenovnik = document.querySelector("#cenovnik a");
-const mapa = document.querySelector("#mapa a")
+const mapa = document.querySelector("#kontakt a")
 const navigacija = [naslovna, cenovnik, mapa];
 
 for (let x = 0; x < navigacija.length; x++) {
@@ -35,4 +15,17 @@ for (let x = 0; x < navigacija.length; x++) {
     navigacija[x].style.textDecoration = "none";
   });
 }
+
+// Animacija navigacije
+const logo = document.querySelector(".logo-glavno");
+const spuštanjeNavigacije = document.querySelector(".navigacija");
+const header = document.querySelector("header");
+let animacija = logo.addEventListener("click", () => {
+  spuštanjeNavigacije.classList.toggle("spuštanje");
+});
+setTimeout(() => {
+  spuštanjeNavigacije.classList.toggle("spuštanje");
+}, 3000);
+
+
 

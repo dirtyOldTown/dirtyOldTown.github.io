@@ -1,9 +1,9 @@
 // Promena logoa
-const media = window.matchMedia('screen and (max-width: 600px)');
+const media = window.matchMedia('screen and (min-width: 601px) and (max-width: 767px)');
 const logo = document.querySelector(".logo-glavno img");
 function noviLogo(x) {
   if (x.matches) {
-    logo.setAttribute("src", "slike/ključ1-cenovnik.jpg");
+    logo.setAttribute("src", "slike/kljuc1.jpg");
   } else {
     logo.setAttribute("src", "slike/kljuc-svetlo2.png")
   }
@@ -18,7 +18,7 @@ cenovnik.setAttribute("style", "color: #A1CAF1");
 naslovna.setAttribute("style", "color: white");
 
 // Text-decoration za elemente navigacije
-const mapa = document.querySelector("#mapa a")
+const mapa = document.querySelector("#kontakt a")
 const navigacija = [naslovna, cenovnik, mapa];
 
 for (let x = 0; x < navigacija.length; x++) {

@@ -4,10 +4,9 @@
     display: grid;
     grid-template-columns: 50% auto auto auto;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
     color: white;
     margin-left: -2%;
-    margin-bottom: -0.4%;
   }
   .navigacija p a {
     text-decoration: none;
@@ -16,23 +15,22 @@
     font-family: 'Montserrat';
     font-weight: bold;
   }
-  #mapa a {
-    font-size: 1.6vw;
-    color: #f9c74f;
+  #ključ-servis {
+    color:  yellowgreen;
+    font-family: 'Reklama';
+    font-size: 2.7vw;
+    letter-spacing: 2px;
+    margin-left: 6%;
+    margin-top: 2.5%;
+    margin-bottom: 3.5%;
   }
   #otključaj-lako {
     font-family: 'Maja';
-    font-size: 2vw;
-    color:whitesmoke;
-  }
-  #ključ-servis {
-    font-family: 'Logo';
-    font-size: 1.5vw;
-    letter-spacing: 2px;
-    margin-left: 7%;
-    color: whitesmoke;
+    font-size: 3.2vw;
+    color: yellowgreen;
   }
   #naslovna a {
     color: #a8e4a0;
   }
+
   

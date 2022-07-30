@@ -1,39 +1,26 @@
 /* max-width: 992px*/
 @media screen and (max-width: 992px) {
-
   /* NAVIGACIJA */
   .navigacija p a {
     font-size: 0.95em;
   }
   #ključ-servis {
-    grid-column: 1 / span 6;
-    font-size: 1.4em;
-    background-color: #536878;
-    padding: 20px 15px;
-    width: 111%;
-    margin-left: -4.5%;
-    margin-right: auto;
-    margin-bottom: 5px;
-    text-align: center;
-    border: 2px solid whitesmoke;
+  display: none;
   }
   #otključaj-lako {
-    font-size: 1.3em;
+   display: none;
   }
   #naslovna {
     grid-column: 1 / span 1;
   }
   #cenovnik {
     grid-column: 2 / span 2;
-    margin-left: -120%;
-  }
-  #mapa a {
-    font-size: 1.1em;
   }
   /* POČETNA SEKCIJA */
   header {
     width: 90%;
     grid-template-columns: 28% 50%;
+    margin-top: 0.5%;
   }
   .umnoži-ključ {
   font-size: 2.5vw;
@@ -47,7 +34,22 @@
   /* TABELA */
   .cenovnik {
     width: 90%;
+    align-items: stretch;
+    grid-template-columns: 60% auto;
+    grid-template-rows: auto auto;
   }
+  .cenovnik img:first-of-type {
+    border-bottom: 2px solid whitesmoke;
+    grid-row: 1 / 2;
+  }
+  .cenovnik img:last-of-type {
+    display: block;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+  }
+  #slika-text{
+    display: none;
+  } 
   .cenovnik table th {
     font-size: 1.35em;
   }
@@ -58,39 +60,30 @@
     width: 90%;
   }
   .usluge h3 {
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
   .usluge ul {
-    font-size: 1.4em;
+    font-size: 1.5em;
   }
 }
 /* max-width: 767px*/
 @media screen and (max-width: 767px) {
-  /* NAVIGACIJA */
-  #ključ-servis {
-    width: 105%;
-    padding: 15px;
-    margin-left: -1.5%;
-  }
-
   /* POČETNA SEKCIJA */
   header {
-    grid-template-columns: 25% 63%;
-  }
-  .logo-glavno img {
-    height: 21vw;
+    grid-template-columns: 15% 63%;
   }
   .umnoži-ključ {
-    font-size: 3vw;
+    font-size: 3.3vw;
   }
   .umnoži-ključ2 {
-    font-size: 2.3vw;
+    font-size: 2.5vw;
   }
   .mislite-o-tome {
-    font-size: 3.9vw;
+    font-size: 4.2vw;
   }
    /* TABELA */
    .cenovnik {
+    grid-template-columns: 52% 48%;
     width: 90%;
   }
   .cenovnik table th {
@@ -103,11 +96,6 @@
 /* max-wdth: 600px */
 @media screen and (max-width: 600px) {
   /* NAVIGACIJA */
-  #ključ-servis {
-    width: 102%;
-    margin-left: 0%;
-    font-size: 3.6vw;
-  }
   .navigacija p a {
     font-size: 0.85em;
   }
@@ -117,60 +105,66 @@
   #cenovnik {
   margin-left: -60px;
   }
-  #mapa {
-    font-size: 0.95em;
+  #kontakt {
     margin-left: -20px;
   }
   /* POČETNA SEKCIJA */
   header {
-    grid-template-columns: 13% 71%;
+    width: 90%;
+    grid-template-columns: 62% auto;
+    grid-template-rows: auto auto;
   }
   .logo-glavno img {
-    height: 25vw;
+    margin-top: 2%;
+    margin-left: 2.2%;
+  }
+ .umnoži-ključ-glavno {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    margin-right: 4%;
   }
   .umnoži-ključ {
-    font-size: 3.7vw;
+    font-size: 4.8vw;
   }
   .umnoži-ključ2 {
-    font-size: 2.85vw;
+    font-size: 3.9vw;
     }
   .mislite-o-tome {
-    font-size: 4.7vw;
+    font-size: 6.2vw;
   }
   /* TABELA */
   .cenovnik {
-    grid-template-columns: 48% 52%;
+    grid-template-columns: 100%;
+    width: 90%;
   }
   .cenovnik table th {
-    font-size: 1.75em;
-    padding: 5px 5px 8px 5px;
+    font-size: 2.3em;
   }
   .cenovnik table td {
-    font-size: 2.1em;
-    padding: 5px 0;
+    font-size: 2.6em;
+  }
+  .cenovnik img:last-of-type {
+    grid-row: 3 / 4;
+    grid-column: 1 / 3;
+  }
+  .usluge {
+    width: 90%;
   }
   .usluge h3 {
-    font-size: 1.3em;
+    font-size: 1.6em;
   }
   .usluge ul {
-    font-size: 1.25em;
+    font-size: 1.4em;
   }
   .usluge ul li {
-    margin-left: -2%;
+    margin-left: 0%;
   }
 }
 /* max-width: 400px*/
 @media screen and (max-width: 400px) {
   /* NAVIGACIJA */
-  #ključ-servis {
-    width: 93%;
-    padding: 15px 2px;
-    margin-left: 4%;
-    font-size: 1.15em;
-    margin-bottom: -1%;
-  }
-  #otključaj-lako {
-    display: none;
+  .navigacija {
+    margin-top: -2%;
   }
   .navigacija p a {
     font-size: 3.6vw;
@@ -181,20 +175,19 @@
   #cenovnik {
   margin-left: -58%;
   }
-  #mapa {
+  #kontakt {
     margin-left: -19%;
-    font-size: 3.9vw;
   }
   /* POČETNA STRANA */
   header {
-    text-align: center;
-    grid-template-columns: 98%;
+    grid-template-columns: 62% auto;
   }
-  .logo-glavno {
-   display: none
+  .logo-glavno img {
+    margin-top: 2%;
+    margin-left: 3%;
   }
   .umnoži-ključ-glavno {
-   margin-right: 3%;
+   margin-right: 2%;
   }
   .umnoži-ključ {
     font-size: 5vw;
@@ -203,25 +196,23 @@
     font-size: 4vw;
   }
   .mislite-o-tome {
-    font-size: 6vw;
+    font-size: 6.5vw;
   }
   /* TABELA */
   .cenovnik {
-    grid-template-columns: 53% 47%;
+    grid-template-columns: 100%;
   }
   .cenovnik table th {
-    font-size: 2.1em;
+    font-size: 2.8em;
   }
   .cenovnik table td {
-    font-size: 2.6em;
+    font-size: 3.4em;
+    padding: 7px;
   }
   .usluge h3 {
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
   .usluge ul {
-    font-size: 1.2em;
-  }
-  .usluge ul li {
-    margin-left: -4%;
+    font-size: 1.25em;
   }
 }
