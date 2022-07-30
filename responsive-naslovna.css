@@ -197,7 +197,7 @@
     border-radius: 7px;
   }
   .spuštanje {
-    display: grid;
+    display: none;
   }
   .navigacija p a {
     font-size: 1.05em;
