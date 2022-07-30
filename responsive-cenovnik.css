@@ -39,7 +39,6 @@
     grid-template-rows: auto auto;
   }
   .cenovnik img:first-of-type {
-    border-bottom: 2px solid whitesmoke;
     grid-row: 1 / 2;
   }
   .cenovnik img:last-of-type {
