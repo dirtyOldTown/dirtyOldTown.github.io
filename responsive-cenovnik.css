@@ -116,7 +116,7 @@
   }
   .logo-glavno img {
     margin-top: 2%;
-    margin-left: 2.2%;
+    margin-left: 0.7%;
   }
  .umnoži-ključ-glavno {
     grid-column: 1 / 3;
@@ -148,7 +148,7 @@
     grid-column: 1 / 3;
   }
   .usluge {
-    width: 90%;
+    width: 95%;
   }
   .usluge h3 {
     font-size: 1.6em;
@@ -184,7 +184,7 @@
   }
   .logo-glavno img {
     margin-top: 2%;
-    margin-left: 3%;
+    margin-left: 1.7%;
   }
   .umnoži-ključ-glavno {
    margin-right: 2%;
