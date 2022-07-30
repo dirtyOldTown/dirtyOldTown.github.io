@@ -23,9 +23,6 @@ const header = document.querySelector("header");
 let animacija = logo.addEventListener("click", () => {
   spuštanjeNavigacije.classList.toggle("spuštanje");
 });
-setTimeout(() => {
-  spuštanjeNavigacije.classList.toggle("spuštanje");
-}, 3000);
 
 
 
