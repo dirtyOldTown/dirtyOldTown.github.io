@@ -128,16 +128,18 @@ header {
 }
 /* GUGL MAPA */
 #gugl-mapa {
-  position: relative;
   width: 95%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: 45.8% 54.2%;
-  align-items: stretch;
-  border: 2px solid #343a40;
+  grid-template-columns: 45% 55%;
+  align-items: flex-start;
+  border-bottom-width: 0;
+  background-color:#495057;
 }
 #gugl-mapa h2 {
+  position: relative;
   grid-column: 1 / span 2;
   font-family: 'Reklama', serif;
   font-size: 3vw;
@@ -165,14 +167,14 @@ header {
   left: 87%;
   color: brown;
 }
-#gugl-mapa img {
+.auto-ključ-okvir img {
   width: 100%;
   height: auto;
   border-right: 2px solid #495057;
 }
 #gugl-mapa iframe {
   width: 100%;
-  height: 40vw;
+  height: 39.3vw
 }
 /* FOOTER */
 footer {
