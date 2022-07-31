@@ -35,7 +35,7 @@
   .cenovnik {
     background-color: whitesmoke;
     width: 90%;
-    align-items:stretch;
+    align-items:flex-start;
     grid-template-columns: 60% auto;
     grid-template-rows: auto auto;
   }
@@ -43,7 +43,6 @@
     grid-row: 1 / 2;
   }
   .cenovnik img:last-of-type {
-    display: block;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
   }
