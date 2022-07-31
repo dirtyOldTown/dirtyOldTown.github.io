@@ -23,6 +23,15 @@
     width: 150%;
     height: auto;
     margin-left: -2%;
+    transform: rotateY(0deg);
+    animation-name: okretanje;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-duration: 3s;
+  }
+  @keyframes okretanje {
+    from {transform: rotateY(0deg)}
+    to {transform: rotateY(360deg)}
   }
   .logo-glavno img {
     width: 100%;
