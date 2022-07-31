@@ -200,7 +200,7 @@
     display: none;
   }
   .navigacija p a {
-    font-size: 1.05em;
+    font-size: 0.95em;
     color:white;
   }
   #cenovnik a {
@@ -236,8 +236,7 @@
   }
   #umnoži-ključ-glavno {
     background-color: #fcfff9;
-    margin-left: 0;
- }
+  }
   .umnoži-ključ {
     position: relative;
     font-size: 5.5vw;
@@ -327,7 +326,7 @@
 @media screen and (max-width: 400px) {
    /* NAVIGACIJA */
    .navigacija p a {
-    font-size: 4.1vw;
+    font-size: 3.7vw;
   }
   .telefon a {
     font-size: 7vw;
@@ -377,13 +376,12 @@
   /* FOOTER */
   footer {
     line-height: 25px;
-    margin-top: 2%;
+    margin-top: 7%;
     padding: 30px 10px;
   }
   footer h3 {
     margin-top: 1%;
   }
- 
   #adresa {
     line-height: 25px;
   }
