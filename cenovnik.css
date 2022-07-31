@@ -5,7 +5,6 @@
    background-color: #495057;
    margin-bottom: 0;
   }
- 
   /* POČETNA SEKCIJA */
   header {
     background-color: white;
@@ -110,7 +109,6 @@
     color:white;
     padding: 8px;
     border: 1px solid whitesmoke;
-
   }
   .cenovnik  table, th, td {
     border: 1px solid rgb(228, 226, 226);
