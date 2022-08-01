@@ -171,13 +171,13 @@ header {
   width: 100%;
   height: auto;
   border: 20px solid #54626F;
-  border-width: 5px 20px 20px 20px;
+  border-radius: 35px;
 }
 #gugl-mapa iframe {
   width: 100%;
   height: 38vw;
   border: 15px solid #54626F;
-  border-width: 5px 20px 20px 0px;
+  border-width: 0px 20px 0px 0px;
 }
 /* FOOTER */
 footer {
