@@ -137,6 +137,8 @@ header {
   background-color: #54626F;
   padding-bottom: 4%;
   border: 1px solid grey;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 #gugl-mapa h2 {
   position: relative;
