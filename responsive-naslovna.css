@@ -302,12 +302,12 @@
   #gugl-mapa iframe {
     height: 80vw;
     grid-row: 3 / 4;
-    border-width: 15px;
-    border-top-width: 20px;
+    border-width: 10px;
+    border-top-width: 15px;
   }
   #gugl-mapa img {
    grid-row: 2 / 3;
-   border-width: 0px 15px;
+   border-width: 0px 10px;
   }
   /* FOOTER */
   footer {
