@@ -228,7 +228,7 @@
    width: 100%;
   }
   .telefon {
-    background-color:#9acd32;
+    background-color:#C7EA46;
     font-size: 6vw;
     text-align: center;
     padding: 10px 0;
@@ -253,6 +253,7 @@
    /* DRUGA SEKCIJA*/
    .usluge {
     padding:5px 0px;
+    background-color: yellowgreen;
    }
   .usluge p {
     font-size: 1.07em;
