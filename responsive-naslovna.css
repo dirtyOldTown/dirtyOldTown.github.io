@@ -286,7 +286,7 @@
    }
   #gugl-mapa h2 {
     font-size: 5.5vw;
-    padding: 25px 15px;
+    padding: 20px 25px;
    }
   #gugl-mapa h2 span:first-of-type {
     margin-left: 12%;
@@ -296,7 +296,7 @@
   }
   #gugl-mapa span:last-of-type {
     left: 81%;
-    top: 14px;
+    top: 10px;
   }
   #gugl-mapa iframe {
     height: 80vw;
@@ -365,7 +365,7 @@
   }
   #gugl-mapa span:last-of-type {
     left: 86%;
-    top: 8px;
+    top: 12px;
   }
   #gugl-mapa img {
    display:none;
