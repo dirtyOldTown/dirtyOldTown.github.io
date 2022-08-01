@@ -55,7 +55,7 @@ header {
   left: 0%;
   animation-name: gibanje;
   animation-duration: 2s;
-  animation-delay: 1s;
+  animation-delay: 0.3s;
   animation-direction: reverse;
   animation-timing-function: ease-out;
 }
@@ -149,7 +149,6 @@ header {
   color:#495057;
   padding: 35px 10px;
   margin-top: -1px;
-  border-bottom: 2px solid #495057;
 }
 #gugl-mapa h2 span:first-of-type {
   color:#343a40;
