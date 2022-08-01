@@ -302,8 +302,9 @@
     height: 80vw;
     grid-row: 3 / 4;
   }
-  .auto-ključ-okvir {
+  #gugl-mapa img {
    grid-row: 2 / 3;
+   border-right-width: 15px;
   }
   /* FOOTER */
   footer {
