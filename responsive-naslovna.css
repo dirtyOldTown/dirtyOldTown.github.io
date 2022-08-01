@@ -301,7 +301,7 @@
   #gugl-mapa iframe {
     height: 80vw;
     grid-row: 3 / 4;
-    border-width: 5px 10px 10px 10px;
+    border-width: 10px;
   }
   #gugl-mapa img {
    grid-row: 2 / 3;
