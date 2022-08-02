@@ -294,13 +294,14 @@
     display: none;
   }
   #gugl-mapa span:last-of-type {
+    font-size: 1.3em;
     left: 81%;
-    top: 10px;
+    top: 12px;
   }
   #gugl-mapa iframe {
     height: 80vw;
     grid-row: 3 / 4;
-    border-width: 10px;
+    border-width: 20px 10px 10px 10px;
   }
   #gugl-mapa img {
    grid-row: 2 / 3;
@@ -364,8 +365,9 @@
     display: none;
   }
   #gugl-mapa span:last-of-type {
-    left: 86%;
-    top: 12px;
+    font-size: 1.1em;
+    left: 84%;
+    top: 16px;
   }
   #gugl-mapa iframe {
     height: 90vw;
