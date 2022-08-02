@@ -282,8 +282,6 @@
     position: relative;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-    border-width: 0;
-    padding-bottom: 3%;
    }
   #gugl-mapa h2 {
     font-size: 5.5vw;

@@ -105,6 +105,7 @@ header {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
   height: 50vw;
   background-image: url('slike/kljuc3.jpg');
   background-size: 105% 100%;
@@ -138,25 +139,26 @@ header {
   background-color: #54626F;
   padding-bottom: 4%;
   border: 1px solid grey;
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 #gugl-mapa h2 {
   position: relative;
   grid-column: 1 / span 2;
   font-family: 'Reklama', serif;
   font-size: 3vw;
-  background-color: whitesmoke;
-  color:#495057;
+  background-color: #54626F;
   padding: 35px 10px;
   margin-top: -1px;
+  border: 1px solid grey;
+  border-width: 2px 0 1px 0;
 }
 #gugl-mapa h2 span:first-of-type {
-  color:#343a40;
-  margin-left: 15%
+  color:white;
+  margin-left: 15%;
 }
 #gugl-mapa h2 span:nth-of-type(2) {
-  color:#343a40;
+  color:white;
   margin-left: 12%;
 }
 #gugl-mapa span:last-of-type {
@@ -165,7 +167,7 @@ header {
   font-size: 1.3em;
   font-weight: bolder;
   left: 87%;
-  color: brown;
+  color: greenyellow;
 }
 #gugl-mapa img {
   width: 100%;
