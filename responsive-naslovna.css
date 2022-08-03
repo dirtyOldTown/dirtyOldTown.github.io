@@ -183,13 +183,13 @@
   #ključ-servis {
     position: relative;
     left: 2%;
-    bottom: 5%;
+    bottom: 2.7%;
     margin-top: 12%;
     width: 100%;
     font-size: 5vw;
     grid-column: 1 / 6;
     grid-row: 1 / 2;
-    color:  #8FBC8F;/*#8FBC8F;  #C9DC87; #71BC78;#00CC99*/
+    color: #8FBC8F;
     text-shadow: none;
     outline: auto;
     outline-offset: 7px;
@@ -212,6 +212,8 @@
     color:white;
     font-weight: bold;
     margin-left: 25%;
+    position: relative;
+    top: 5px;
   }
   #cenovnik a {
     margin-left: 30px;
@@ -325,7 +327,8 @@
     left: -1%;
     margin-top: 10%;
     font-size: 5.5vw;
-    outline-offset: 4px;
+    outline-offset: 5px;
+    margin-bottom: 2%;
   }
   .usluge p {
     font-size: 1em;

@@ -59,6 +59,14 @@ header {
   animation-direction: reverse;
   animation-timing-function: ease-out;
 }
+.spuštanje {
+  animation-name: gibanje;
+  animation-duration: 2s;
+  animation-delay: 0.3s;
+  animation-direction: reverse;
+  animation-timing-function: ease-out;
+}
+
 @keyframes gibanje {
   0% {left:0%}
   33% {left: -20%}
@@ -207,7 +215,6 @@ footer h3 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 1.3em;
   color: #3bb773;
-
 }
 .podaci-radnja {
   display: inline-block;
