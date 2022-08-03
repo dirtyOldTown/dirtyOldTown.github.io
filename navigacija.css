@@ -1,6 +1,6 @@
  /* NAVIGACIJA */
  .navigacija {
-    width: 101.5%;
+    width: 100%;
     display: grid;
     grid-template-columns: 50% auto auto auto;
     justify-content: space-around;
@@ -31,7 +31,7 @@
     color:  #8FBC8F;
   }
   #naslovna a {
-   color: #8FBC8F;
+   color: #C7EA46;
   }
 
   
