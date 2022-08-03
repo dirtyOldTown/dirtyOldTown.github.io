@@ -23,9 +23,9 @@ header {
 }
 .telefon {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 2.8vw;
+  font-size: 2.6vw;
   margin-top: 4%;
-  text-align: left;
+  text-align: center;
 }
 .telefon span:first-of-type {
   color: brown;
@@ -130,15 +130,15 @@ header {
 /* GUGL MAPA */
 #gugl-mapa {
   width: 95%;
-  height: auto;
   margin-left: auto;
   margin-right: auto;
   display: grid;
   grid-template-columns: 45% 55%;
-  align-items: center;
+  align-items: flex-start;
   background-color: #54626F;
+  padding: 0 1%;
   padding-bottom: 4%;
-  border: 1px solid grey;
+  border: 0px solid grey;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -148,32 +148,28 @@ header {
   font-family: 'Reklama', serif;
   font-size: 3vw;
   background-color: #54626F;
-  padding: 35px 10px;
-  margin-top: -1px;
-  border: 1px solid grey;
-  border-width: 4px 0 1px 0;
+  padding: 30px 10px;
+  margin-bottom: 0;
+  margin-top: 0;
+  color: powderblue;
+  text-align: center;
 }
 #gugl-mapa h2 span:first-of-type {
-  color:white;
-  margin-left: 15%;
+  color:powderblue;
+  margin-left: -7%;
+
 }
 #gugl-mapa h2 span:nth-of-type(2) {
-  color:white;
-  margin-left: 12%;
-}
-#gugl-mapa span:last-of-type {
-  position: absolute;
-  top: 23px;
-  font-size: 1.3em;
-  font-weight: bolder;
-  left: 87%;
-  color: greenyellow;
+  color:powderblue;
+  margin-left: 15%;
 }
 #gugl-mapa img {
   width: 100%;
   height: auto;
   border: 20px solid #54626F;
-  border-radius: 35px;
+  border-width: 0 20px 0 20px;
+  border-bottom-left-radius: 10%;
+  border-top-right-radius: 14%;
 }
 #gugl-mapa iframe {
   width: 100%;
@@ -183,7 +179,7 @@ header {
 }
 /* FOOTER */
 footer {
-  font-family: 'Marion';
+  font-family: 'Marion', serif;
   background-color:#343a40;
   width: 55%;
   padding: 50px 7px;
@@ -196,7 +192,8 @@ footer {
   text-align: center;
   line-height: 0.7em;
   border: 1px solid grey;
-  border-radius: 8px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
 }
 #stari-ključ {
   width: 20%;
@@ -216,7 +213,7 @@ footer h3 {
   display: inline-block;
   margin-top: 1%;
 }
-#adresa span, #pošta span, #telefon2 span, #ps {
+#pošta span, #telefon2 span {
   color:whitesmoke;
   font-weight: 600;
 }
@@ -229,4 +226,3 @@ footer hr:last-of-type {
 #telefon2 a {
   text-decoration: none;
 }
-

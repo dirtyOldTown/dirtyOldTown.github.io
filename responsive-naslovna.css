@@ -58,17 +58,18 @@
   }
   /* GUGL MAPA */
   #gugl-mapa h2 {
-    font-size: 3.5vw;
+    font-size: 3.4vw;
   }
   #gugl-mapa h2 span:first-of-type {
-    margin-left: 10%;
+    margin-left: -6%;
+  
   }
   #gugl-mapa h2 span:nth-of-type(2) {
+    color:powderblue;
     margin-left: 10%;
   }
-  #gugl-mapa span:last-of-type {
-    top: 25px;
-    left: 89%;
+  #gugl-mapa img {
+    border-bottom-left-radius: 14%;
   }
   /* FOOTER */
   footer {
@@ -154,17 +155,16 @@
   }
   /* GUGL MAPA */
   #gugl-mapa h2 {
-    font-size: 3.8vw;
-    padding: 30px 15px;
+    font-size: 4vw;
+    padding: 25px 0px;
   }
   #gugl-mapa h2 span:first-of-type {
-    margin-left: 5%;
+   display: none;
   }
-  #gugl-mapa span:last-of-type {
-    left: 90%;
-    top: 20px;
-    font-size: 1.4em;
-  }
+  #gugl-mapa h2 span:last-of-type {
+    margin-left: 0;
+   }
+
   /* FOOTER */
 
   #stari-ključ {
@@ -180,59 +180,54 @@
 @media screen and (max-width: 600px) {
   /* NAVIGACIJA */
   #ključ-servis {
-   display: none;
+    width: 100%;
+    font-size: 5vw;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
+    color:  #8FBC8F;/*#8FBC8F;  #C9DC87; #71BC78;#00CC99*/
+    text-shadow: none;
   }
   #otključaj-lako {
-    display: none;
+    width: 100%;
+    color:  #8FBC8F; 
+    text-shadow: none;
   }
   .navigacija {
-    grid-template-columns: auto auto auto;
-    justify-content: space-evenly;
-    width: 94%;
-    margin-left: 3%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-color:#4c5760;
-    border: 1px solid grey;
-    border-radius: 7px;
-  }
-  .spuštanje {
-    display: none;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
+    justify-content: flex-start;
+    margin-bottom: -5%;
   }
   .navigacija p a {
-    font-size: 0.9em;
+    font-size: 0.87em;
     color:white;
+    padding: 7px 10px;
+    background-color: transparent;
+    color:white;
+    font-weight: bold;
+    margin-left: 25%;
+    border-radius: 2px;
+  }
+  #naslovna a {
+    background-color:   #00A86B;
+    color: white;
   }
   #cenovnik a {
-    margin-left: -3%;
+    margin-left: 30px;
   }
-   #kontakt a {
-    margin-left: 8%;
+  #kontakt a {
+    margin-left: 4px;
   }
+ 
   /* POČETNA SEKCIJA*/
   header {
     grid-template-columns: 100%;
     align-items:flex-start;
     justify-content: center;
     margin-top: 5%;
-    background-color: #495057;
-    cursor: pointer;
    }
   .logo-glavno {
-    text-align: center;
-    margin-top: 1%;
-    background-color: #495057;
-  }
-  .logo-glavno img {
-   margin-top: -1%;
-   width: 100%;
-  }
-  .telefon {
-    background-color:yellowgreen;
-    font-size: 6vw;
-    text-align: center;
-    padding: 10px 0;
-    margin-bottom: 3%;
+    display: none;
   }
   #umnoži-ključ-glavno {
     background-color: white;
@@ -253,7 +248,7 @@
    /* DRUGA SEKCIJA*/
    .usluge {
     padding:5px 0px;
-    background-color: yellowgreen;
+    background-color:yellowgreen;
    }
   .usluge p {
     font-size: 1.07em;
@@ -286,18 +281,9 @@
   #gugl-mapa h2 {
     font-size: 5.5vw;
     padding: 20px 25px;
+    border-top-width: 0;
+    text-align: center;
    }
-  #gugl-mapa h2 span:first-of-type {
-    margin-left: 12%;
-  }
-  #gugl-mapa h2 span:nth-of-type(2) {
-    display: none;
-  }
-  #gugl-mapa span:last-of-type {
-    font-size: 1.3em;
-    left: 81%;
-    top: 12px;
-  }
   #gugl-mapa iframe {
     height: 80vw;
     grid-row: 3 / 4;
@@ -307,7 +293,8 @@
    grid-row: 2 / 3;
    border-width: 0px 10px;
    margin-top: -3%;
-   border-radius: 0;
+   border-top-right-radius: 0;
+   border-bottom-left-radius: 10%;
   }
   /* FOOTER */
   footer {
@@ -329,11 +316,16 @@
 /* max.width: 400px*/
 @media screen and (max-width: 400px) {
    /* NAVIGACIJA */
+   .navigacija {
+    line-height: 20px;
+   }
    .navigacija p a {
-    font-size: 3.7vw;
+    font-size: 3.6vw;
+    margin-left: 18%;
   }
-  .telefon a {
-    font-size: 7vw;
+  #ključ-servis {
+    margin-top: 5%;
+    font-size: 5.3vw;
   }
   .usluge p {
     font-size: 1em;
@@ -360,14 +352,6 @@
   }
   #gugl-mapa h2 span:first-of-type {
     margin-left: 2%;
-  }
-  #gugl-mapa h2 span:nth-of-type(2) {
-    display: none;
-  }
-  #gugl-mapa span:last-of-type {
-    font-size: 1.1em;
-    left: 84%;
-    top: 16px;
   }
   #gugl-mapa iframe {
     height: 90vw;
