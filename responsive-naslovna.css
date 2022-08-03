@@ -303,6 +303,9 @@
    border-top-right-radius: 0;
    border-bottom-left-radius: 10%;
   }
+  #gugl-mapa h2 span:last-of-type {
+    color: white;
+  }
   /* FOOTER */
   footer {
     width: 97%;
@@ -357,9 +360,6 @@
   #gugl-mapa h2 {
     font-size: 6.5vw;
     padding: 20px 15px;
-  }
-  #gugl-mapa h2 span:first-of-type {
-    margin-left: 2%;
   }
   #gugl-mapa iframe {
     height: 90vw;
