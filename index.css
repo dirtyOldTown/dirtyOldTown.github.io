@@ -3,6 +3,7 @@
 }
 body {
  background-color:#343a40; /* #495057;*/
+ filter: contrast(95%);
  margin-bottom: 5%;
 }
 /* POČETNA SEKCIJA */
@@ -74,7 +75,7 @@ header {
 }
 .umnoži-ključ {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: #4D5D53;
+  color:  #01796F;
   font-size: 2.2vw;
   line-height: 0px;
   text-align: end;
@@ -187,7 +188,7 @@ header {
 /* FOOTER */
 footer {
   font-family: 'Marion', serif;
-  background-color: #2B2B2B;
+  background-color: #343a40;
   width: 55%;
   padding: 50px 7px;
   margin-top: 10%;
@@ -201,6 +202,7 @@ footer {
   border: 1px solid grey;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
+  filter: contrast(115%)
 }
 #stari-ključ {
   width: 20%;
