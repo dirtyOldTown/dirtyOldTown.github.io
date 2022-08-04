@@ -169,6 +169,8 @@ header {
 #gugl-mapa iframe {
   width: 100%;
   height: 38vw;
+  outline: auto;
+  outline-color:   #00755E;
 }
 /* FOOTER */
 footer {
