@@ -260,11 +260,11 @@
     text-align: center;
   }
   #gugl-mapa iframe {
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
     height: 80vw;
   }
   #gugl-mapa img {
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
   }
   /* FOOTER */
   footer {
