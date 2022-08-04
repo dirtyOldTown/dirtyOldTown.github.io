@@ -216,7 +216,5 @@ footer hr:last-of-type {
 }
 #pošta a, #telefon2 a {
   color: white;
-}
-#telefon2 a {
   text-decoration: none;
 }
