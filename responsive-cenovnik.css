@@ -1,20 +1,29 @@
 /* max-width: 992px*/
 @media screen and (max-width: 992px) {
   /* NAVIGACIJA */
+  .navigacija {
+    justify-content: space-around;
+  }
   .navigacija p a {
     font-size: 0.95em;
   }
   #ključ-servis {
-  display: none;
-  }
-  #otključaj-lako {
    display: none;
   }
   #naslovna {
-    grid-column: 1 / span 1;
+    grid-column: 1 / 2;
+    margin-top: 20px;
+    margin-left: 0;
   }
   #cenovnik {
-    grid-column: 2 / span 2;
+    grid-column: 2 / 3;
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  #kontakt {
+    grid-column: 3 /  4;
+    margin-top: 20px;
+    margin-left: 0;
   }
   /* POČETNA SEKCIJA */
   header {
@@ -98,15 +107,6 @@
   .navigacija p a {
     font-size: 0.9em;
   }
-  #naslovna {
-    margin-left: 10px;
-  }
-  #cenovnik {
-  margin-left: -60px;
-  }
-  #kontakt {
-    margin-left: -20px;
-  }
   /* POČETNA SEKCIJA */
   header {
     width: 95%;
@@ -162,20 +162,8 @@
 /* max-width: 400px*/
 @media screen and (max-width: 400px) {
   /* NAVIGACIJA */
-  .navigacija {
-    margin-top: -2%;
-  }
   .navigacija p a {
     font-size: 3.7vw;
-  }
-  #naslovna {
-    margin-left: 10%;
-  }
-  #cenovnik {
-  margin-left: -58%;
-  }
-  #kontakt {
-    margin-left: -19%;
   }
   /* POČETNA STRANA */
   header {

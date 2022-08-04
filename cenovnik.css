@@ -10,7 +10,7 @@
     background-color: white;
     margin-left: auto;
     margin-right: auto;
-    width: 79.9%;
+    width: 90%;
     height: auto;
     display: grid;
     grid-template-columns: 30% 50%;
@@ -61,7 +61,7 @@
     background-color: black;
     grid-template-columns: 48% 52%;
     grid-template-rows: auto auto;
-    width: 80%;
+    width: 90%;
     display: grid;
     margin-left: auto;
     margin-right: auto;
@@ -118,8 +118,9 @@
     background-color: whitesmoke;
     padding: 10px 0;
   }
+  /* USLUGE */
   .usluge {
-    width: 80%;
+    width: 90%;
     color: white;
     margin-left: auto;
     margin-right: auto;

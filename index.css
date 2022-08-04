@@ -3,15 +3,17 @@
 }
 body {
  background-color:#343a40; /* #495057;*/
- filter: contrast(95%);
+ filter: contrast(92%);
  margin-bottom: 5%;
+ margin-left: 0%;
+ margin-right: 0%;
 }
 /* POČETNA SEKCIJA */
 header {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 93%;
   height: auto;
   display: grid;
   grid-template-columns: 30% 21% auto;
@@ -77,7 +79,7 @@ header {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color:  #01796F;
   font-size: 2.2vw;
-  line-height: 0px;
+  line-height: 4px;
   text-align: end;
 }
 .umnoži-ključ2 {
@@ -97,7 +99,7 @@ header {
 /* DRUGA SEKCIJA */
 .usluge {
   font-family: 'Reklama', serif;
-  width: 95%;
+  width: 93%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -110,7 +112,7 @@ header {
 .ključ-3 {
   position: relative;
   color: rgba(255, 255, 255, 1);
-  width: 95%;
+  width: 93%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
@@ -137,16 +139,15 @@ header {
 }
 /* GUGL MAPA */
 #gugl-mapa {
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
   display: grid;
-  grid-template-columns: 45% 55%;
-  align-items: flex-start;
-  background-color: #54626F;
-  padding: 0 1%;
-  padding-bottom: 4%;
-  border: 0px solid grey;
+  grid-template-columns: 35% 55%;
+  align-items: flex-end;
+  justify-content: space-around;
+  color:#343a40;
+  background-color:  #F0FFF0;
+  margin-top: 8%;
+  padding-bottom: 5%;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -155,35 +156,19 @@ header {
   grid-column: 1 / span 2;
   font-family: 'Reklama', serif;
   font-size: 3vw;
-  background-color: #54626F;
   padding: 30px 10px;
   margin-bottom: 0;
   margin-top: 0;
-  color: powderblue;
   text-align: center;
-}
-#gugl-mapa h2 span:first-of-type {
-  color:white;
-  margin-left: -7%;
-
-}
-#gugl-mapa h2 span:nth-of-type(2) {
-  color:powderblue;
-  margin-left: 15%;
 }
 #gugl-mapa img {
   width: 100%;
   height: auto;
-  border: 20px solid #54626F;
-  border-width: 0 20px 0 20px;
-  border-bottom-left-radius: 10%;
-  border-top-right-radius: 14%;
+  border: 2px solid #343a40;
 }
 #gugl-mapa iframe {
   width: 100%;
   height: 38vw;
-  border: 15px solid #54626F;
-  border-width: 0px 20px 0px 0px;
 }
 /* FOOTER */
 footer {
@@ -202,7 +187,7 @@ footer {
   border: 1px solid grey;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
-  filter: contrast(115%)
+  filter: contrast(130%)
 }
 #stari-ključ {
   width: 20%;
