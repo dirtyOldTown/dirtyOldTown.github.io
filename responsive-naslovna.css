@@ -198,7 +198,7 @@
     grid-template-columns: 100%;
     align-items:flex-start;
     justify-content: center;
-   }
+  }
   .logo-glavno {
     display: none;
   }
@@ -255,9 +255,13 @@
     padding-bottom: 0%;
   }
   #gugl-mapa h2 {
+    background-color: #F0FFF0;
     grid-row: 1 / 2;
     font-size: 5.3vw;
     text-align: center;
+    border: 5px solid  #009E60;
+    outline: auto;
+    outline-color: grey;
   }
   #gugl-mapa iframe {
     grid-row: 3 / 4;
@@ -313,8 +317,8 @@
   }
   /* GUGL MAPA */
   #gugl-mapa h2 {
-    padding: 10px;
-    font-size: 1.4em;
+    padding: 25px 10px;
+    font-size: 1.5em;
     margin-bottom: 0;
   }
   #gugl-mapa iframe {
