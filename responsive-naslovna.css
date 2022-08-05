@@ -283,6 +283,7 @@
   }
   #gugl-mapa img {
     grid-row: 3 / 4;
+    border-bottom: 20px solid #343a40;
   }
   /* FOOTER */
   footer {
@@ -343,7 +344,6 @@
   /* FOOTER */
   footer {
     line-height: 25px;
-    margin-top: 7%;
     padding: 30px 10px;
   }
   footer h3 {
