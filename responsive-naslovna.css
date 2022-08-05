@@ -56,8 +56,11 @@
     margin-left: -1%;
   }
   /* GUGL MAPA */
-  #gugl-mapa h2 {
-    font-size: 3.4vw;
+  #gugl-mapa span:first-of-type {
+    font-size: 1.3em;
+  }
+  #gugl-mapa span:last-of-type {
+    font-size: 1.5em;
   }
   /* FOOTER */
   footer {
@@ -141,7 +144,6 @@
   }
   /* GUGL MAPA */
   #gugl-mapa h2 {
-    font-size: 4vw;
     padding: 25px 0px;
   }
   /* FOOTER */
@@ -255,13 +257,14 @@
     padding-bottom: 0%;
   }
   #gugl-mapa h2 {
-    background-color: #F0FFF0;
     grid-row: 1 / 2;
-    font-size: 5.3vw;
     text-align: center;
-    border: 5px solid  #009E60;
-    outline: auto;
-    outline-color: grey;
+  }
+  #gugl-mapa span:first-of-type {
+    font-size: 1.1em;
+  }
+  #gugl-mapa span:last-of-type {
+    font-size: 1.3em;
   }
   #gugl-mapa iframe {
     grid-row: 3 / 4;
@@ -317,9 +320,13 @@
   }
   /* GUGL MAPA */
   #gugl-mapa h2 {
-    padding: 25px 10px;
-    font-size: 1.5em;
-    margin-bottom: 0;
+    padding: 20px 5px;
+  }
+  #gugl-mapa span:first-of-type {
+    font-size: 6.3vw;
+  }
+  #gugl-mapa span:last-of-type {
+    font-size: 7vw;
   }
   #gugl-mapa iframe {
     height: 90vw;

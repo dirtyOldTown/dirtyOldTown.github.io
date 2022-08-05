@@ -144,20 +144,29 @@ header {
   grid-template-columns: 35% 55%;
   align-items: flex-end;
   justify-content: space-around;
-  color:#343a40;
-  background-color:  #F0FFF0;
-  margin-top: 8%;
-  padding-bottom: 5%;
+  background-color:   white;
+  padding-bottom: 7%;
+  margin-top: 70px;
 }
 #gugl-mapa h2 {
-  position: relative;
+  color:#495057;
   grid-column: 1 / span 2;
   font-family: 'Reklama', serif;
-  font-size: 3vw;
-  padding: 30px 10px;
-  margin-bottom: 0;
-  margin-top: 0;
+  padding: 30px 10px 30px 10px;
   text-align: center;
+  border-bottom: 1px solid #DCDCDC;
+  border-top: 1px solid #DCDCDC;
+  margin-bottom: 5%;
+  margin-top: 4%;
+  background-color:  white;
+}
+#gugl-mapa span:first-of-type {
+  font-size: 3.3vw;
+  font-family: 'Logo'
+}
+#gugl-mapa span:last-of-type {
+  font-size: 3.5vw;
+  color:  #ED9121;
 }
 #gugl-mapa img {
   width: 100%;
@@ -166,8 +175,7 @@ header {
 #gugl-mapa iframe {
   width: 100%;
   height: 38vw;
-  outline: auto;
-  outline-color:   #00755E;
+
 }
 /* FOOTER */
 footer {
