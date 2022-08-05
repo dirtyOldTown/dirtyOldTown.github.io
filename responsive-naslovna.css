@@ -264,7 +264,8 @@
     padding: 15px 5px;
   }
   #gugl-mapa span:first-of-type {
-    font-size: 1.1em;
+    font-size: 1.3em;
+    font-family: 'Maja';
   }
   #gugl-mapa span:last-of-type {
     font-size: 1.4em;
@@ -323,10 +324,10 @@
   }
   /* GUGL MAPA */
   #gugl-mapa span:first-of-type {
-    font-size: 6.3vw;
+    font-size: 7.5vw;
   }
   #gugl-mapa span:last-of-type {
-    font-size: 7vw;
+    font-size: 8vw;
   }
   #gugl-mapa iframe {
     height: 90vw;
