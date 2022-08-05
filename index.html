@@ -38,9 +38,9 @@
     font-display: swap;
   }
   </style>
-  <link rel="stylesheet" href="navigacija.css" />
+  <!-- <link rel="stylesheet" href="navigacija.css" />
   <link rel="stylesheet" href="index.css" />
-  <link rel="stylesheet" href="responsive-naslovna.css" />
+  <link rel="stylesheet" href="responsive-naslovna.css" /> -->
   <script src="index.js" defer></script>
 </head>
 
@@ -112,5 +112,16 @@
     </a>
   </div>
 </footer>
+<script>
+  function asyncCSS(href) {
+    var css = document.createElement("link");
+    css.rel = "stylesheet";
+    css.href = href;
+    document.head.appendChild(css)
+  }
+  asyncCSS("navigacija.css");
+  asyncCSS("index.css");
+  asyncCSS("responsive-naslovna.css");
+</script>
 </body>
 </html>
