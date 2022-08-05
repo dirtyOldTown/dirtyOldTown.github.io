@@ -259,14 +259,15 @@
   #gugl-mapa h2 {
     grid-row: 1 / 2;
     text-align: center;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 15px 5px;
   }
   #gugl-mapa span:first-of-type {
     font-size: 1.1em;
   }
   #gugl-mapa span:last-of-type {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   #gugl-mapa iframe {
     grid-row: 3 / 4;
@@ -321,9 +322,6 @@
     margin-top: 74%;
   }
   /* GUGL MAPA */
-  #gugl-mapa h2 {
-    padding: 20px 5px;
-  }
   #gugl-mapa span:first-of-type {
     font-size: 6.3vw;
   }
