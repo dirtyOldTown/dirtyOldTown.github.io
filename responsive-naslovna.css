@@ -65,16 +65,15 @@
   /* FOOTER */
   footer {
     font-size: 1.2em;
-    width: 95%;
    }
    footer h3 {
-    font-size: 1.2;
+    font-size: 1.4em;
     margin-top: 1.5%;
-    margin-bottom: 2.7%;
+    margin-bottom: 6.5%;
    }
   #stari-ključ {
-   width: 18%;
-    margin-bottom: 2%;
+   width: 22%;
+   margin-bottom: 4%;
   }
 }
 /* max-width: 767px */
@@ -147,13 +146,19 @@
     padding: 25px 0px;
   }
   /* FOOTER */
+  footer {
+    width: 90%;
+  }
+  footer h3 {
+    margin-bottom: 4.5%;
+  }
   #stari-ključ {
     width: 20%;
     margin-bottom: 3%;
   }
   .podaci-radnja {
     display: inline-block;
-    margin-left: -1%;
+ 
   }
 }
 /* max-width: 600px */
@@ -252,7 +257,7 @@
   }
   /* GUGL MAPA */
    #gugl-mapa {
-    width: 95%;
+    width: 96%;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -286,20 +291,15 @@
   }
   /* FOOTER */
   footer {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-top: 100px;
   }
   footer h3 {
-    font-size: 1.2em;
-    margin-top: 2.5%;
+    margin-top: 3%;
+    margin-bottom: 7%;
   }
   #stari-ključ {
     width: 22%;
-    margin-top: 0;
-  }
-  .podaci-radnja {
-    margin-top: 3.5%;
-    margin-bottom: -5%;
   }
 }
 /* max.width: 400px*/
@@ -343,7 +343,7 @@
   /* FOOTER */
   footer {
     line-height: 25px;
-    padding: 30px 10px;
+    padding: 40px 10px 20px 10px;
   }
   footer h3 {
     margin-top: 1%;
@@ -354,6 +354,9 @@
   #stari-ključ {
     width: 27%;
     margin-bottom: 5%;
+  }
+  .podaci-radnja {
+    line-height: 10px;
   }
 }
 
