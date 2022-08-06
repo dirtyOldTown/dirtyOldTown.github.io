@@ -283,12 +283,11 @@
   }
   #gugl-mapa img {
     grid-row: 3 / 4;
-    border-bottom: 20px solid #343a40;
   }
   /* FOOTER */
   footer {
     font-size: 1.1em;
-    margin-top: 70px;
+    margin-top: 100px;
   }
   footer h3 {
     font-size: 1.2em;
