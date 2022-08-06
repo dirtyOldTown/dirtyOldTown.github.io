@@ -53,21 +53,14 @@ header {
   height: auto;
   margin-bottom: -0.7vw;
 }
-.ključ-1 img:hover {
+.ključ-1 img {
   position: relative;
   left: 0%;
   animation-name: gibanje;
   animation-duration: 2s;
-  animation-delay: 0.3s;
+  animation-delay: 3s;
+  animation-iteration-count: 2;
   animation-direction: reverse;
-  animation-timing-function: ease-out;
-}
-.spuštanje {
-  animation-name: gibanje;
-  animation-duration: 2s;
-  animation-delay: 0.3s;
-  animation-direction: reverse;
-  animation-timing-function: ease-out;
 }
 @keyframes gibanje {
   0% {left:0%}
