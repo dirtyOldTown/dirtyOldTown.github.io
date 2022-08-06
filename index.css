@@ -57,15 +57,15 @@ header {
   position: relative;
   left: 0%;
   animation-name: gibanje;
-  animation-duration: 10s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
   animation-direction: reverse;
 }
 @keyframes gibanje {
   0% {left:0%}
-  7% {left: -20%}
-  14% {left: 20%}                    
-  21% {left: 0%}
+  5% {left: -20%}
+  10% {left: 20%}                    
+  15% {left: 0%}
 }
 .umnoži-ključ {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
