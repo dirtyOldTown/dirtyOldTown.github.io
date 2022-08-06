@@ -87,6 +87,9 @@
 /* max-wdth: 600px */
 @media screen and (max-width: 600px) {
   /* NAVIGACIJA */
+  .navigacija {
+    margin-left: -10%;
+  }
   #ključ-servis {
     display: none;
   }
@@ -94,16 +97,15 @@
     font-size: 1.1em;
   }
   #naslovna {
-    grid-column: 2 / 3;
-    margin-top: 20%
+    margin-top: 19%;
   }
-  #cenovnik {
-    grid-column: 3 / 4;
-    margin-top: 27%
+  #cenovnik  {
+    grid-column: 1 / 2;
+    margin-top: 25%;
   }
   #kontakt {
-    grid-column: 4 / 5;
-    margin-top: 22.5%;
+    grid-column: 3 / 4;
+    margin-top: 22%;
   }
   /* POČETNA SEKCIJA */
   header {

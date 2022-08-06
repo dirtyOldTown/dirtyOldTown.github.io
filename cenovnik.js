@@ -19,15 +19,15 @@ naslovna.setAttribute("style", "color: white");
 
 // Text-decoration za elemente navigacije
 const mapa = document.querySelector("#kontakt a")
-const navigacija = [naslovna, cenovnik, mapa];
+const navigacija = [naslovna, mapa];
 
 for (let x = 0; x < navigacija.length; x++) {
 navigacija[x].addEventListener("mouseover", () => {
-  navigacija[x].style.textDecoration = "underline";
+  navigacija[x].style.color = "#00BFFF";
 });
 }
 for (let x = 0; x < navigacija.length; x++) {
   navigacija[x].addEventListener("mouseout", () => {
-    navigacija[x].style.textDecoration = "none";
+    navigacija[x].style.color = "white";
   });
 }
