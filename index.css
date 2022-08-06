@@ -214,6 +214,9 @@ footer h3 {
   color:whitesmoke;
   font-weight: 600;
 }
+#telefon2 span:first-of-type {
+  font-size: 1.3em;
+}
 footer hr:last-of-type {
   margin-top: 2%;
 }
