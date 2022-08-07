@@ -94,17 +94,17 @@
     display: none;
   }
   #navigacija p a {
+    text-align: center;
     font-size: 1.1em;
   }
   #naslovna {
     margin-top: 19%;
   }
   #cenovnik  {
-    grid-column: 1 / 2;
     margin-top: 25%;
+    margin-left: -50%;
   }
   #kontakt {
-    grid-column: 3 / 4;
     margin-top: 22%;
   }
   /* POČETNA SEKCIJA */
