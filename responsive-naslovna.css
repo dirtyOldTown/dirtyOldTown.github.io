@@ -62,6 +62,14 @@
   #gugl-mapa span:last-of-type {
     font-size: 1.5em;
   }
+  /*INFORMATIVNI TEXT*/
+  .text {
+    width: 85%;
+    font-size: 1.2em;
+  }
+  .ključ-simbol {
+    font-size: 3em;
+  }
   /* FOOTER */
   footer {
     font-size: 1.2em;
@@ -144,6 +152,10 @@
   /* GUGL MAPA */
   #gugl-mapa h2 {
     padding: 25px 0px;
+  }
+  /*INFORMATIVNI TEXT*/
+  .ključ-simbol {
+    margin-bottom: -4%;
   }
   /* FOOTER */
   footer {
@@ -263,7 +275,8 @@
     margin-right: auto;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-    padding-bottom: 2%;
+    margin-bottom: 5%;
+    padding-bottom: 0%;
   }
   #gugl-mapa h2 {
     grid-row: 1 / 2;
@@ -288,6 +301,16 @@
   }
   #gugl-mapa img {
     grid-row: 3 / 4;
+  }
+   /*INFORMATIVNI TEXT*/
+   .informativni-text {
+    border-top: 0;
+   }
+   .text {
+    width: 87%;
+  }
+  .ključ-simbol {
+    margin-bottom: -5%;
   }
   /* FOOTER */
   footer {
@@ -343,6 +366,10 @@
   #gugl-mapa iframe {
     height: 90vw;
   }
+     /*INFORMATIVNI TEXT*/
+    .ključ-simbol {
+      margin-bottom: -7%;
+    }
   /* FOOTER */
   footer {
     font-size: 1em;

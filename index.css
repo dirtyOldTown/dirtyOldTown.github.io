@@ -170,24 +170,32 @@ header {
 }
 /*INFORMATIVNI TEXT*/
 .informativni-text {
-  color: white;
-  background-color: transparent;
-  border-radius: 5px;
-  margin-top: 2%;
+  color: black;
+  background-color: white;
+  filter: contrast(90%);
+  border-top: 4px solid #DCDCDC;
 }
 .text {
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  padding: 0 10px 10px 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  padding: 10px 0px;
   font-size: 1.2em;
-  margin-top: -2%;
+  text-align: start;
+}
+.text h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+.text p {
+  text-align: justify;
 }
 .ključ-simbol {
   font-size: 4vw;
-  margin-bottom: 0;
+  margin-top: 1%;
   text-align: center;
+  margin-bottom: -2%;
 }
 /* FOOTER */
 footer {
@@ -205,7 +213,7 @@ footer {
   line-height: 0.7em;
   border: 1px solid transparent;
   border-radius: 8px;
-  filter: contrast(130%)
+  filter: contrast(120%)
 }
 #stari-ključ {
   width: 20%;
