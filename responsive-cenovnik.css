@@ -98,6 +98,7 @@
     font-size: 1.1em;
   }
   #naslovna {
+    grid-row: 2 / 3;
     margin-top: 18%;
   }
   #cenovnik  {
