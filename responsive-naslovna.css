@@ -314,7 +314,7 @@
    }
    .text {
     width: 87%;
-    font-size: 1.15em;
+    font-size: 1.05em;
   }
   .text h3 {
     margin-top: 0;
@@ -389,13 +389,14 @@
     }
   /* FOOTER */
   footer {
-    font-size: 1em;
+
     line-height: 25px;
     padding: 40px 10px 20px 10px;
   }
   footer h3 {
     margin-top: 0%;
     margin-bottom: 6%;
+    font-size: 1.3em;
   }
   #stari-ključ {
     width: 27%;
@@ -403,8 +404,6 @@
   }
   .podaci-radnja {
     line-height: 15px;
-    font-size: 1.1em;
-   
   }
 }
 
