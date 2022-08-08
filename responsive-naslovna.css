@@ -307,6 +307,7 @@
    /*INFORMATIVNI TEXT*/
    .informativni-text {
     width: 93%;
+    background-color:  #F0FFF0;
     margin-left: auto;
     margin-right: auto;
     border-top: 0;
@@ -319,7 +320,7 @@
   .text h3 {
     margin-top: 0;
     padding-bottom: 5px;
-    border-bottom: 1px solid #DCDCDC;
+    border-bottom: 1px solid grey;
   }
   .text span:last-of-type {
     display: none;
