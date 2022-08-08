@@ -196,6 +196,12 @@ header {
   margin-top: -0.7%;
   text-align: left;
 }
+.text p:first-of-type::first-letter {
+  font-size: 1.4em;
+}
+.text p:first-of-type {
+  text-indent: 2em;
+}
 .ključ-simbol {
   font-size: 4vw;
   margin-top: 0%;
@@ -236,7 +242,7 @@ footer h3 {
 }
 .podaci-radnja {
   display: inline-block;
-  margin-top: 0.6%;
+  margin-top: 3%;
 }
 #pošta span, #telefon2 span {
   color:whitesmoke;
