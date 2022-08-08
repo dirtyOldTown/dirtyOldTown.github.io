@@ -333,7 +333,7 @@
   }
   /* FOOTER */
   footer {
-    margin-top: 200px;
+    margin-top: 100px;
   }
   footer h3 {
     margin-top: 2.5%;
@@ -390,14 +390,13 @@
     }
   /* FOOTER */
   footer {
-
+    font-size: 1.1em;
     line-height: 25px;
     padding: 40px 10px 20px 10px;
   }
   footer h3 {
-    margin-top: 0%;
+    margin-top: -1%;
     margin-bottom: 6%;
-    font-size: 1.3em;
   }
   #stari-ključ {
     width: 27%;
