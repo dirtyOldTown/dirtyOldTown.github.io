@@ -189,6 +189,9 @@ header {
   text-align: center;
   font-size: 1.3em;
 }
+.text span:first-of-type {
+  display: none;
+}
 .text p {
   margin-top: -0.7%;
   text-align: left;
@@ -203,7 +206,7 @@ header {
 footer {
   font-family: 'Marion', serif;
   background-color: #343a40;
-  width: 50%;
+  width: 40%;
   padding: 50px 7px 40px 7px;
   margin-top: 15%;
   margin-right: auto;

@@ -73,6 +73,7 @@
   }
   /* FOOTER */
   footer {
+    width: 50%;
     font-size: 1.2em;
    }
    footer h3 {
@@ -160,7 +161,7 @@
   }
   /* FOOTER */
   footer {
-    width: 90%;
+    width: 85%;
   }
   footer h3 {
     margin-bottom: 4.5%;
@@ -276,7 +277,7 @@
     margin-right: auto;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-    margin-bottom: 10%;
+    margin-bottom: 15%;
     padding-bottom: 0%;
   }
   #gugl-mapa h2 {
@@ -305,26 +306,32 @@
   }
    /*INFORMATIVNI TEXT*/
    .informativni-text {
-    width: 95%;
+    width: 93%;
     margin-left: auto;
     margin-right: auto;
     border-top: 0;
+    border-radius: 4px;
    }
    .text {
     width: 87%;
-    font-size: 1em;
+    font-size: 1.15em;
   }
   .text h3 {
     margin-top: 0;
     padding-bottom: 5px;
     border-bottom: 1px solid #DCDCDC;
   }
+  .text span:last-of-type {
+    display: none;
+  }
+  .text span:first-of-type {
+    display: inline-block;
+  }
   .ključ-simbol {
   visibility: hidden;
   }
   /* FOOTER */
   footer {
-    font-size: 1.1em;
     margin-top: 100px;
   }
   footer h3 {
@@ -382,7 +389,7 @@
     }
   /* FOOTER */
   footer {
-    font-size: 1em;
+    font-size: 1.15em;
     line-height: 25px;
     padding: 40px 10px 20px 10px;
   }
@@ -396,7 +403,7 @@
   }
   .podaci-radnja {
     line-height: 15px;
-    font-size: 1.1em;
+   
   }
 }
 
