@@ -181,6 +181,7 @@
   .navigacija {
     line-height: 20px;
     justify-content: flex-start;
+    margin-bottom: -6%;
   }
   #ključ-servis {
     grid-column: 1 / 7;
@@ -195,8 +196,10 @@
     text-shadow: none;
   }
   .navigacija p a {
-    font-size: 0.87em;
     font-weight: bold;
+    opacity: 0;
+    font-size: 0.85em;
+    pointer-events: none;
   }
   #naslovna {
     grid-column: 2 / 3;
@@ -212,6 +215,42 @@
     grid-column: 6 / 7;
     margin-left: -5%;
     margin-top: 0px;
+  }
+  /*Animacija navigacije */
+  .navigacija-animacija {
+    animation-name: dizanje;
+    animation-duration: 3s;
+    animation-delay: 300ms;
+    animation-fill-mode: forwards;
+  }
+  @keyframes dizanje {
+    37% {margin-bottom: -6%}
+    100% {margin-bottom: -1%}
+  }
+  .navigacija-animacija p a {
+    pointer-events: visible;
+    opacity: 0;
+    animation-name: neprozirnost;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes neprozirnost {
+    30% {opacity: 0}
+    100% {opacity: 1}
+  }
+  .ključ-servis-animacija {
+    transform: rotateX(0deg);
+    animation-name: rotacija;
+    animation-delay: 300ms;
+    animation-duration: 3s;
+  }
+  @keyframes rotacija {
+    0% {transform: rotateX(0deg)}
+    7% {transform: rotateX(120deg)}
+    14% {transform: rotateX(70deg)}
+    21% {transform: rotateX(30deg)}
+    30% {transform: rotateX(0deg)}
+    100% {transform: rotateX(360deg)}
   }
   /* POČETNA SEKCIJA*/
   header {
@@ -349,6 +388,13 @@
 /* max.width: 400px*/
 @media screen and (max-width: 400px) {
    /* NAVIGACIJA */
+   .navigacija {
+    margin-bottom: -8%;
+   }
+   @keyframes dizanje {
+    37% {margin-bottom: -8%}
+    100% {margin-bottom: -1%}
+  }
    .navigacija p a {
     font-size: 3.6vw;
   }

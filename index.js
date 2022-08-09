@@ -28,7 +28,13 @@ for (let x = 0; x < footer.length; x++) {
      footer[x].style.textDecoration = "none";
    });
  }
-
+// Animacija logoa - ključ servis
+const ključServis = document.getElementById("ključ-servis");
+const dizanjeNavigacije = document.querySelector(".navigacija");
+ključServis.addEventListener("click", () => {
+  ključServis.classList.toggle("ključ-servis-animacija");
+  dizanjeNavigacije.classList.toggle("navigacija-animacija");
+ });
  
 
 

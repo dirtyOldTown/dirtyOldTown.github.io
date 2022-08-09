@@ -58,7 +58,7 @@ header {
   left: 0%;
   animation-name: gibanje;
   animation-duration: 12s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 2;
   animation-direction: reverse;
 }
 @keyframes gibanje {
