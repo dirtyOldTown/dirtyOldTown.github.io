@@ -178,7 +178,7 @@
 /* max-width: 600px */
 @media screen and (max-width: 600px) {
   /* NAVIGACIJA */
-  .navigacija {
+  /*.navigacija {
     line-height: 20px;
     justify-content: flex-start;
     margin-bottom: -6%;
@@ -216,7 +216,7 @@
     grid-column: 6 / 7;
     margin-left: -5%;
     margin-top: 0px;
-  }
+  }*/
   /*Animacija navigacije */
   .navigacija-animacija {
     animation-name: dizanje;
@@ -389,7 +389,7 @@
 /* max.width: 400px*/
 @media screen and (max-width: 400px) {
    /* NAVIGACIJA */
-   .navigacija p a {
+   /*.navigacija p a {
     font-size: 3.6vw;
   }
   #ključ-servis {
@@ -399,7 +399,7 @@
   }
   .usluge p {
     font-size: 1em;
-  }
+  }*/
    /* TREĆA SEKCIJA */
    .ključ-3  {
     background-size: 184% 100%;
