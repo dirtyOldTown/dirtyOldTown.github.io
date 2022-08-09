@@ -191,6 +191,7 @@
     outline: auto;
     margin-top: 12%;
     margin-bottom: 10%;
+    cursor: pointer;
   }
   #otključaj-lako {
     text-shadow: none;
