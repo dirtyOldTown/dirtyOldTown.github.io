@@ -388,19 +388,13 @@
 /* max.width: 400px*/
 @media screen and (max-width: 400px) {
    /* NAVIGACIJA */
-   .navigacija {
-    margin-bottom: -8%;
-   }
-   @keyframes dizanje {
-    37% {margin-bottom: -8%}
-    100% {margin-bottom: -1%}
-  }
    .navigacija p a {
     font-size: 3.6vw;
   }
   #ključ-servis {
     margin-left: 8%;
     font-size: 5.5vw;
+    margin-bottom: 8%;
   }
   .usluge p {
     font-size: 1em;
