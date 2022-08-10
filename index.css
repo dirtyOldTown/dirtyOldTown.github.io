@@ -520,6 +520,9 @@ footer hr:last-of-type {
     justify-content: center;
   }
   .logo-glavno {
+   margin-top: 0;
+  }
+  .telefon {
     display: none;
   }
   #umnoži-ključ-glavno {
