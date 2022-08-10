@@ -589,6 +589,7 @@ footer hr:last-of-type {
   #gugl-mapa span:first-of-type {
     font-size: 1.3em;
     font-family: 'Maja';
+    word-spacing: 2px;
   }
   #gugl-mapa span:last-of-type {
     font-size: 1.4em;
