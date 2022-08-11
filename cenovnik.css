@@ -6,7 +6,7 @@
    margin-bottom: 0;
   }
   /* POČETNA SEKCIJA */
-  header {
+  .blok-cenovnik {
     background-color: white;
     margin-left: auto;
     margin-right: auto;

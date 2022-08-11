@@ -14,37 +14,45 @@
   <script src="cenovnik.js" defer></script>
   <style>
     /* NAVIGACIJA */
+    .početak-strane {
+      margin-left: 5%;
+    }
     #ključ-servis {
-      grid-column: 2 / 3;
-      margin-left: 4%;
       color: #A1CAF1;
     }
     #otključaj-lako {
       color: #A1CAF1;
     }
-    #cenovnik {
-      grid-column: 4 / 5;
-    }
+    #naslovna {
+    grid-column: 3 / 4;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+  }
+  #cenovnik {
+    grid-column: 1 / 2;
+    border: 0;
+  }
+  #kontakt {
+    grid-column: 5 / 6;
+  }
     #cenovnik a {
-      margin-top: -15px;
       text-decoration: none;
       text-shadow: 2px 2px 2px black;
     }
-    #naslovna {
-      grid-column: 5 / 6;
-    }
+    
   </style>
 </head>
 
 <body>
-
+<header class="početak-strane">
+  <h1 id="ključ-servis">KLJUČ SERVIS <span id="otključaj-lako">&#x27B2; Otključaj Lako</span></h1>
+</header>
 <nav class="navigacija">
-  <p id="ključ-servis">KLJUČ SERVIS <span id="otključaj-lako">&#x27B2; Otključaj Lako</span></p>
-  <p id="naslovna"><a href="index.html">NASLOVNA</a></p>
   <p id="cenovnik"><a href="#">USLUGE</a></p>
+  <p id="naslovna"><a href="index.html">NASLOVNA</a></p>
   <p id="kontakt"><a href="index.html#podaci">KONTAKT</a></p>
 </nav>
-<header>
+<header class="blok-cenovnik">
   <div class="logo-glavno">
     <img alt="Logo radnje" src="slike/kljuc-svetlo2.png" width="450" height="204" />
   </div>

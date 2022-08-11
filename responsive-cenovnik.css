@@ -1,11 +1,17 @@
 /* max-width: 992px*/
 @media screen and (max-width: 992px) {
   /* NAVIGACIJA */
+  .navigacija {
+    margin-bottom: -1%;
+  }
   .navigacija p a {
     font-size: 0.95em;
   }
+  #ključ-servis {
+    margin-bottom: 7%;
+  }
   /* POČETNA SEKCIJA */
-  header {
+  .blok-cenovnik {
     width: 90%;
     grid-template-columns: 28% 50%;
     margin-top: 0.5%;
@@ -60,7 +66,7 @@
   visibility: hidden;
   }
   /* POČETNA SEKCIJA */
-  header {
+  .blok-cenovnik {
     grid-template-columns: 15% 63%;
   }
   .umnoži-ključ {
@@ -88,28 +94,19 @@
 @media screen and (max-width: 600px) {
   /* NAVIGACIJA */
   .navigacija {
-    margin-left: -10%;
+    margin-top: 10px;
+    margin-left: 2%;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  #naslovna, #cenovnik, #kontakt {
+    padding: 5px 10px 0 10px;
   }
   #ključ-servis {
     display: none;
   }
-  #navigacija p a {
-    text-align: center;
-    font-size: 1.1em;
-  }
-  #naslovna {
-    grid-row: 2 / 3;
-    margin-top: 18%;
-  }
-  #cenovnik  {
-    margin-top: 24%;
-    margin-left: -50%;
-  }
-  #kontakt {
-    margin-top: 21%;
-  }
   /* POČETNA SEKCIJA */
-  header {
+  .blok-cenovnik {
     width: 95%;
     grid-template-columns: 62% auto;
     grid-template-rows: auto auto;
@@ -164,7 +161,7 @@
 @media screen and (max-width: 400px) {
   /* NAVIGACIJA */
   .navigacija p a {
-    font-size: 3.7vw;
+    font-size: 3.9vw;
   }
   /* POČETNA STRANA */
   header {
