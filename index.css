@@ -559,6 +559,7 @@ footer hr:last-of-type {
     font-size: 1.3em;
     font-family: 'Maja';
     word-spacing: 2px;
+    font-weight: 600;
   }
   #gugl-mapa span:last-of-type {
     font-size: 1.4em;
@@ -623,6 +624,15 @@ footer hr:last-of-type {
   }
   .usluge p {
     font-size: 1em;
+  }
+  .umnoži-ključ {
+    font-size: 5.8vw;
+  }
+  .umnoži-ključ2 {
+    font-size: 4.7vw;
+  }
+  .mislite-o-tome {
+    font-size: 8vw;
   }
    /* TREĆA SEKCIJA */
    .ključ-3  {
