@@ -26,12 +26,11 @@
     display: grid;
     grid-template-columns: auto auto auto;
     justify-content: flex-end;
-    color: white;
     margin-left: -2%;
   }
   .navigacija p a {
     font-size: 1.4vw;
-    color: white;
+    color: #D0F0C0;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     text-decoration: none;

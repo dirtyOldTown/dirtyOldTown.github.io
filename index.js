@@ -15,12 +15,12 @@ navigacija[x].addEventListener("mouseover", () => {
 }
 for (let x = 0; x < navigacija.length; x++) {
   navigacija[x].addEventListener("mouseout", () => {
-    navigacija[x].style.color = "white";
-  });
+    navigacija[x].style.color = "#D0F0C0";
+  });    
 }
 for (let x = 0; x < navigacija.length; x++) {
   navigacija[x].addEventListener("mouseup", () => {
-    navigacija[x].style.color = "white";
+    navigacija[x].style.color = "#D0F0C0";
   });
 }
 // Animacija logoa - ključ servis

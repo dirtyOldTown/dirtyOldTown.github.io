@@ -461,7 +461,6 @@ footer hr:last-of-type {
     opacity: 1;
   }
   .navigacija p a {
-    color:white;
     text-decoration: none;
     pointer-events: none;
   }
