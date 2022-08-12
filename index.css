@@ -1,32 +1,6 @@
 * {
   box-sizing: border-box;
 }
-  /*Fontovi*/
-  @font-face {
-    font-family: 'Logo';
-    src: url('font/Arial\ Black.ttf');
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'Reklama';
-    src: url('font/DIN\ Condensed\ Bold.ttf');
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'Impact';
-    src: url('font/Impact.ttf');
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'MaliText';
-    src: url('font/Lobster-Regular.ttf');
-    font-display: swap;
-  }
-  @font-face {
-    font-family: 'Maja';
-    src: url('font/Pattaya-Regular.ttf');
-    font-display: swap;
-  }
 body {
  background-color:#343a40; /* #495057;*/
  filter: contrast(92%);
@@ -681,6 +655,9 @@ footer hr:last-of-type {
   }
   .ključ-simbol {
   visibility: hidden;
+  }
+  #text-link {
+    text-align: center;
   }
   /* FOOTER */
   footer {
