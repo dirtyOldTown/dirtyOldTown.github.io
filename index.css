@@ -447,6 +447,7 @@ footer hr:last-of-type {
     margin-top: -6px;
     border-bottom: 4px double grey;
     cursor:pointer;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   .navigacija {
     width: 100%;
@@ -463,6 +464,9 @@ footer hr:last-of-type {
   .navigacija p a {
     text-decoration: none;
     pointer-events: none;
+  }
+  #naslovna  a {
+    color:#d3d3d3;
   }
   /* navigacija-animacija*/
   .navigacija-animacija {
