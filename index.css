@@ -464,7 +464,9 @@ footer hr:last-of-type {
   }
   .navigacija p a {
     pointer-events: none;
-   
+  }
+  #naslovna a {
+    color: #D0F0C0;
   }
   /* navigacija-animacija*/
   .navigacija-animacija {
