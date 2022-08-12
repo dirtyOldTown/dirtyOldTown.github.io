@@ -468,18 +468,16 @@ footer hr:last-of-type {
   /* navigacija-animacija*/
   .navigacija-animacija {
     height: 0;
-    opacity: 0;
     animation-name: dizanje;
-    animation-duration: 3s;
-    animation-delay: 300ms;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
   }
   .navigacija-animacija p a {
     pointer-events: visible;
   }
   @keyframes dizanje {
-    from {height: 0; opacity: 0}
-    to {height: 70px; opacity: 1;}
+    from {height: 0}
+    to {height: 70px}
   }
   /* POČETNA SEKCIJA*/
   .blok {
