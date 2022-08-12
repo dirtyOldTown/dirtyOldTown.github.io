@@ -41,8 +41,8 @@
   #cenovnik {
     grid-column: 2 / 3;
     padding: 5px 25px;
-    border-left: 1px solid #D0F0C0;
-    border-right: 1px solid #D0F0C0;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
   }
   #kontakt {
     grid-column: 3 / 4;
