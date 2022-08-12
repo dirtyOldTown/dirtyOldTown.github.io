@@ -111,7 +111,7 @@ font-size: 2.2vw;
   height: 50vw;
   background-image: url('slike/kljuc3W.webp');
   background-size: 105% 100%;
-  filter:contrast(65%)
+  filter:contrast(62%)
 }
 .ključ-3 > .prvi-deo {
   font-size: 2.3vw;
@@ -463,6 +463,7 @@ footer hr:last-of-type {
   }
   .navigacija p a {
     pointer-events: none;
+   
   }
   /* navigacija-animacija*/
   .navigacija-animacija {
@@ -521,17 +522,17 @@ footer hr:last-of-type {
   .ključ-3  {
     width: 100%;
     background-size: 180% 100%;
-    height: 84vw;
+    height: 90vw;
   }
   .ključ-3 > .prvi-deo {
     margin-top: 18%;
     line-height: 1.2vw;
-    font-size: 4.5vw;
+    font-size: 4.8vw;
   }
   .ključ-3 > .drugi-deo pre {
-    font-size: 5.3vw;
-    line-height: 5.2vw;
-    margin-top: 68%;
+    font-size: 5.8vw;
+    line-height: 5.5vw;
+    margin-top: 67%;
     margin-left: -2%;
   }
   .prvi-deo p:last-of-type {
@@ -637,17 +638,17 @@ footer hr:last-of-type {
    /* TREĆA SEKCIJA */
    .ključ-3  {
     background-size: 184% 100%;
-    height: 90vw;
+    height: 94vw;
   }
   .ključ-3 > .prvi-deo {
     margin-top: 19%;
     line-height: 1.2vw;
-    font-size: 5.1vw;
+    font-size: 5.3vw;
   }
   .ključ-3 > .drugi-deo pre {
-    font-size: 5.4vw;
+    font-size: 6vw;
     line-height: 5.6vw;
-    margin-top: 74%;
+    margin-top: 71%;
   }
   /* GUGL MAPA */
   #gugl-mapa span:first-of-type {
