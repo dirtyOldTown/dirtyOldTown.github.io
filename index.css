@@ -1,6 +1,32 @@
 * {
   box-sizing: border-box;
 }
+  /*Fontovi*/
+  @font-face {
+    font-family: 'Logo';
+    src: url('font/Arial\ Black.ttf');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Reklama';
+    src: url('font/DIN\ Condensed\ Bold.ttf');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Impact';
+    src: url('font/Impact.ttf');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'MaliText';
+    src: url('font/Lobster-Regular.ttf');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Maja';
+    src: url('font/Pattaya-Regular.ttf');
+    font-display: swap;
+  }
 body {
  background-color:#343a40; /* #495057;*/
  filter: contrast(92%);
@@ -9,6 +35,60 @@ body {
  margin-left: 0%;
  margin-right: 0%;
 }
+/* POČETNA SEKCIJA */
+.početak-strane {
+  width: max-content;
+  font-size: 2vw;
+  margin-bottom: -4%;
+  margin-left: 3.5%;
+  font-family: 'Reklama', serif;
+  background-color: transparent;
+  text-align: center;
+  padding: 5px 0 0 0;
+  letter-spacing: 2px;
+}
+#ključ-servis {
+  color: #8fbc8f;
+  font-size: 1.3em;
+}
+#otključaj-lako {
+  font-family: 'Maja';
+  font-weight: 300;
+  font-size: 1.3em;
+}
+/* NAVIGACIJA */
+ .navigacija {
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: flex-end;
+    margin-left: -2%;
+  }
+  .navigacija p a {
+    font-size: 1.4vw;
+    color: #D0F0C0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  #naslovna {
+    grid-column: 1 / 2;
+    padding: 5px 25px;
+  }
+  #cenovnik {
+    grid-column: 2 / 3;
+    padding: 5px 25px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+  }
+  #kontakt {
+    grid-column: 3 / 4;
+    padding: 5px 25px;
+  }
+  #naslovna a {
+    color: #C7EA46;
+    text-shadow: 1px 1px 2px black;
+  }
 .blok {
   background-color: white;
   margin-left: auto;
