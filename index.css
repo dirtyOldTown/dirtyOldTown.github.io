@@ -224,44 +224,6 @@ body {
   width: 100%;
   height: 38vw;
 }
-/*INFORMATIVNI TEXT*/
-.informativni-text {
-  color: black;
-  background-color: white;
-  filter: contrast(90%);
-  -webkit-filter: contrast(90%);
-  border-top: 4px solid #DCDCDC;
-}
-.text {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 10px 20px 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.2em;
-  text-align: start;
-}
-.text h3 {
-  font-family: Helvetica, Arial, sans-serif;
-  text-align: center;
-  font-size: 1.3em;
-}
-.text span:first-of-type {
-  display: none;
-}
-.text p {
-  text-align: left;
-  margin-top: -0.7%;
-}
-.ključ-simbol {
-  font-size: 4.5vw;
-  margin-top: 0%;
-  text-align: center;
-  margin-bottom: -2%;
-}
-#text-link {
-  font-weight: 700;
-}
 /* FOOTER */
 footer {
   font-family: 'Marion', serif;
@@ -373,15 +335,6 @@ footer hr:last-of-type {
   #gugl-mapa span:last-of-type {
     font-size: 1.5em;
   }
-  /*INFORMATIVNI TEXT*/
-  .text {
-    width: 85%;
-    font-size: 1.1em;
-  }
-  .ključ-simbol {
-    font-size: 3em;
-    margin-bottom: -3%;
-  }
   /* FOOTER */
   footer {
     width: 50%;
@@ -462,25 +415,6 @@ footer hr:last-of-type {
   /* GUGL MAPA */
   #gugl-mapa h2 {
     padding: 25px 0px;
-  }
-  /*INFORMATIVNI TEXT*/
-  .ključ-simbol {
-    margin-bottom: -3%;
-  }
-  /* FOOTER */
-  footer {
-    width: 85%;
-  }
-  footer h3 {
-    margin-bottom: 4.5%;
-  }
-  #stari-ključ {
-    width: 20%;
-    margin-bottom: 3%;
-  }
-  .podaci-radnja {
-    display: inline-block;
- 
   }
 }
 /* max-width: 600px */
@@ -632,35 +566,6 @@ footer hr:last-of-type {
   #gugl-mapa img {
     grid-row: 3 / 4;
   }
-   /*INFORMATIVNI TEXT*/
-   .informativni-text {
-    width: 93%;
-    margin-left: auto;
-    margin-right: auto;
-    border-top: 0;
-    border-radius: 4px;
-   }
-   .text {
-    width: 87%;
-    font-size: 1.05em;
-  }
-  .text h3 {
-    margin-top: 0;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #d3d3d3;
-  }
-  .text span:last-of-type {
-    display: none;
-  }
-  .text span:first-of-type {
-    display: inline-block;
-  }
-  .ključ-simbol {
-  visibility: hidden;
-  }
-  #text-link {
-    text-align: center;
-  }
   /* FOOTER */
   footer {
     margin-top: 150px;
@@ -718,10 +623,6 @@ footer hr:last-of-type {
   }
   #gugl-mapa iframe {
     height: 90vw;
-  }
-  /*INFORMATIVNI TEXT*/
-  .ključ-simbol {
-    margin-bottom: -7%;
   }
   /* FOOTER */
   footer {
