@@ -548,6 +548,7 @@ footer hr:last-of-type {
     display: none;
   }
   #umnoži-ključ-glavno {
+    margin-top: -1%;
     background-color: white;
   }
   .umnoži-ključ {

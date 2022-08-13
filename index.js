@@ -23,6 +23,21 @@ for (let x = 0; x < navigacija.length; x++) {
     navigacija[x].style.color = "#D0F0C0";
   });
 }
+for (let x = 0; x < navigacija.length; x++) {
+  footer[x].addEventListener("mouseover", () => {
+    footer[x].style.textDecoration = "underline";
+  });
+}
+for (let x = 0; x < navigacija.length; x++) {
+  footer[x].addEventListener("mouseout", () => {
+    footer[x].style.textDecoration = "none";
+  });
+}
+for (let x = 0; x < navigacija.length; x++) {
+  footer[x].addEventListener("mouseup", () => {
+    footer[x].style.textDecoration = "none";
+  });
+}
 // Animacija logoa - ključ servis
 const ključServis = document.getElementById("ključ-servis");
 const dizanjeNavigacije = document.querySelector(".navigacija");
