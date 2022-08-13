@@ -568,6 +568,7 @@ footer hr:last-of-type {
     width: 100%;
     padding:5px 0px;
     background-color:yellowgreen;
+    border-top: 3px solid #29AB87;
    }
   .usluge p {
     font-size: 1.07em;
