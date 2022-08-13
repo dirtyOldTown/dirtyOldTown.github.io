@@ -87,7 +87,7 @@ body {
 }
 .telefon span:first-of-type {
   color: brown;
-  font-size: 1.25em;
+  font-size: 1.1em;
 }
 .telefon a {
   color:#343a40;
@@ -352,6 +352,9 @@ footer hr:last-of-type {
 }
 /* max-width: 767px */
 @media screen and (max-width: 767px) {
+  body {
+    margin-bottom: 0%;
+  }
   /* NAVIGACIJA */
   .početak-strane {
   display: none;
@@ -416,8 +419,20 @@ footer hr:last-of-type {
   #gugl-mapa h2 {
     padding: 25px 0px;
   }
+  /* FOOTER */
   footer {
-    width: 90%;
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+  }
+  footer h3 {
+    margin-top: 0
+  }
+  #stari-ključ {
+    margin-top: 10%;
+  }
+  .podaci-radnja {
+    margin-top: -1%;
   }
 }
 /* max-width: 600px */
@@ -482,9 +497,9 @@ footer hr:last-of-type {
    margin-top: 0;
   }
   .telefon {
-   font-size: 7vw;
+   font-size: 6.7vw;
    margin: 0;
-   padding: 5px 0 0 0;
+   padding: 12px 0 2px 0;
   }
   #umnoži-ključ-glavno {
     background-color: white;
@@ -540,7 +555,6 @@ footer hr:last-of-type {
     margin-right: auto;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
-    margin-bottom: 15%;
     padding-bottom: 0%;
   }
   #gugl-mapa h2 {
@@ -571,8 +585,10 @@ footer hr:last-of-type {
   }
   /* FOOTER */
   footer h3 {
-    margin-top: 2.5%;
-    margin-bottom: 6.5%;
+    margin-top: 1%;
+  }
+  .podaci-radnja {
+    margin-top: 0.5%;
   }
   #stari-ključ {
     width: 22%;
