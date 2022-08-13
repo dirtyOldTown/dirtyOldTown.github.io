@@ -482,10 +482,11 @@ footer hr:last-of-type {
    margin-top: 0;
   }
   .telefon {
-    display: none;
+   font-size: 7vw;
+   margin: 0;
+   padding: 5px 0 0 0;
   }
   #umnoži-ključ-glavno {
-    margin-top: -1%;
     background-color: white;
   }
   .umnoži-ključ {
@@ -506,7 +507,6 @@ footer hr:last-of-type {
     width: 100%;
     padding:5px 0px;
     background-color:yellowgreen;
-    border-top: 3px solid #29AB87;
    }
   .usluge p {
     font-size: 1.07em;
