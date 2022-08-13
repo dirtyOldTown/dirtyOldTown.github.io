@@ -429,7 +429,8 @@ footer hr:last-of-type {
     margin-top: 0
   }
   #stari-ključ {
-    margin-top: 10%;
+    width: 15%;
+    margin-top: 5%;
   }
   .podaci-radnja {
     margin-top: -1%;
@@ -551,8 +552,6 @@ footer hr:last-of-type {
    #gugl-mapa {
     width: 100%;
     margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
     padding-bottom: 0%;
@@ -591,7 +590,7 @@ footer hr:last-of-type {
     margin-top: 0.5%;
   }
   #stari-ključ {
-    width: 22%;
+    width: 20%;
   }
   #telefon2 span:first-of-type {
     font-size: 1.5em;
@@ -602,6 +601,15 @@ footer hr:last-of-type {
    /* NAVIGACIJA */
    .navigacija p a {
     font-size: 3.7vw;
+  }
+  #naslovna {
+    padding: 5px 15px;
+  }
+  #cenovnik {
+    padding: 5px 15px;
+  }
+  #kontakt {
+    padding: 5px 15px;
   }
   .usluge p {
     font-size: 1em;
@@ -655,7 +663,7 @@ footer hr:last-of-type {
     margin-bottom: 6%;
   }
   #stari-ključ {
-    width: 27%;
+    width: 23%;
     margin-bottom: 4%;
   }
   .podaci-radnja {
