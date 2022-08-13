@@ -9,7 +9,7 @@ body {
  margin-left: 0%;
  margin-right: 0%;
 }
-/* POČETNA SEKCIJA */
+/* HEADER */
 .početak-strane {
   width: max-content;
   font-size: 2vw;
@@ -18,7 +18,7 @@ body {
   font-family: 'Reklama', serif;
   background-color: transparent;
   text-align: center;
-  padding: 5px 0 0 0;
+  padding: 0;
   letter-spacing: 2px;
 }
 #ključ-servis {
@@ -31,38 +31,39 @@ body {
   font-size: 1.3em;
 }
 /* NAVIGACIJA */
- .navigacija {
-    width: 95%;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: flex-end;
-    margin-left: -2%;
-  }
-  .navigacija p a {
-    font-size: 1.4vw;
-    color: #D0F0C0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    text-decoration: none;
-  }
-  #naslovna {
-    grid-column: 1 / 2;
-    padding: 5px 25px;
-  }
-  #cenovnik {
-    grid-column: 2 / 3;
-    padding: 5px 25px;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-  }
-  #kontakt {
-    grid-column: 3 / 4;
-    padding: 5px 25px;
-  }
-  #naslovna a {
-    color: #C7EA46;
-    text-shadow: 1px 1px 2px black;
-  }
+.navigacija {
+  width: 95%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: flex-end;
+  margin-left: -2%;
+}
+.navigacija p a {
+  font-size: 1.4vw;
+  color: #D0F0C0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+#naslovna {
+  grid-column: 1 / 2;
+  padding: 5px 25px;
+}
+#cenovnik {
+  grid-column: 2 / 3;
+  padding: 5px 25px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+#kontakt {
+  grid-column: 3 / 4;
+  padding: 5px 25px;
+}
+#naslovna a {
+  color: #C7EA46;
+  text-shadow: 1px 1px 2px black;
+}
+  /* POČETNA SEKCIJA*/
 .blok {
   background-color: white;
   margin-left: auto;
@@ -293,7 +294,7 @@ footer h3 {
 }
 .podaci-radnja {
   display: inline-block;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 #pošta span, #telefon2 span {
   color:whitesmoke;
@@ -487,8 +488,7 @@ footer hr:last-of-type {
   /* NAVIGACIJA */
   .početak-strane {
     width: 100%;
-    margin-left: 0%;
-    margin-top: -7px;
+    margin-left: 0;
     display: block;
     background-color:  #3B444B;
   }
@@ -497,8 +497,8 @@ footer hr:last-of-type {
     overflow: hidden;
     color:  #D0F0C0;
     font-size: 2.5em;
+    margin-top: -8px;
     padding: 18px 10px;
-    margin-top: -6px;
     border: 4px solid grey;
     border-bottom: 4px double grey;
     cursor:pointer;
@@ -661,7 +661,7 @@ footer hr:last-of-type {
   }
   /* FOOTER */
   footer {
-    margin-top: 100px;
+    margin-top: 150px;
   }
   footer h3 {
     margin-top: 2.5%;
@@ -717,10 +717,10 @@ footer hr:last-of-type {
   #gugl-mapa iframe {
     height: 90vw;
   }
-     /*INFORMATIVNI TEXT*/
-    .ključ-simbol {
-      margin-bottom: -7%;
-    }
+  /*INFORMATIVNI TEXT*/
+  .ključ-simbol {
+    margin-bottom: -7%;
+  }
   /* FOOTER */
   footer {
     font-size: 1.1em;
