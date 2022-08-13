@@ -570,9 +570,6 @@ footer hr:last-of-type {
     grid-row: 3 / 4;
   }
   /* FOOTER */
-  footer {
-    margin-top: 150px;
-  }
   footer h3 {
     margin-top: 2.5%;
     margin-bottom: 6.5%;
