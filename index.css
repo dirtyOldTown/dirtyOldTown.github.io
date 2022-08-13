@@ -426,11 +426,11 @@ footer hr:last-of-type {
     border-radius: 0;
   }
   footer h3 {
-    margin-top: 0
+    margin-top: 0;
   }
   #stari-ključ {
     width: 15%;
-    margin-top: 5%;
+    margin-top: 15%;
   }
   .podaci-radnja {
     margin-top: -1%;
@@ -581,6 +581,7 @@ footer hr:last-of-type {
   }
   #gugl-mapa img {
     grid-row: 3 / 4;
+    border-bottom: 2px solid grey;
   }
   /* FOOTER */
   footer h3 {
@@ -591,6 +592,7 @@ footer hr:last-of-type {
   }
   #stari-ključ {
     width: 20%;
+    margin-top: 20%;
   }
   #telefon2 span:first-of-type {
     font-size: 1.5em;
