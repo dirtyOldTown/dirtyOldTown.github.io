@@ -459,7 +459,7 @@ footer hr:last-of-type {
     font-size: 2em;
     border-bottom: 4px double grey;
     margin-top: 0;
-    color: #D0F0C0;
+    color: #D0F0C0
   }
   #otključaj-lako {
     font-weight: 100;
@@ -470,6 +470,7 @@ footer hr:last-of-type {
     cursor:pointer;
     margin-right: 3%;
     margin-left: 3%;
+    color:#D0F0C0
   }
   .navigacija {
     width: 100%;
