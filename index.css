@@ -131,7 +131,7 @@ body {
   font-size: 2.2vw;
   line-height: 4px;
   text-align: end;
-  color:  #5E716A;
+  color:  #4F666A;
 }
 .umnoži-ključ2 {
   margin-top: 12%;
@@ -454,11 +454,11 @@ footer hr:last-of-type {
     align-items: baseline;
     justify-content: flex-start;
     background-color: #343a40;
+    border-bottom: 4px double grey;
     padding: 2px 0;
     overflow: hidden;
     font-size: 1.9em;
     font-weight: 200;
-    border-bottom: 4px double grey;
     margin-top: 0;
     color: #D0F0C0
   }
@@ -528,6 +528,7 @@ footer hr:last-of-type {
     position: relative;
     font-size: 5.5vw;
     left: -5%;
+    color:   #4F666A;
   }
   .umnoži-ključ2 {
     position: relative;
