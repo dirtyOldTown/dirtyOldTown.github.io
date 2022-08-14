@@ -456,7 +456,7 @@ footer hr:last-of-type {
     background-color: #343a40;
     padding: 2px 0;
     overflow: hidden;
-    font-size: 2em;
+    font-size: 1.9em;
     border-bottom: 4px double grey;
     margin-top: 0;
     color: #D0F0C0
@@ -475,7 +475,7 @@ footer hr:last-of-type {
   .navigacija {
     width: 100%;
     height: 0px;
-    padding: 5px 0 0 0;
+    padding: 5px 0;
     justify-content: center;
     border-bottom: 4px double grey;
   }
@@ -502,7 +502,7 @@ footer hr:last-of-type {
   }
   @keyframes dizanje {
     from {height: 0}
-    to {height: 70px}
+    to {height: 65px}
   }
   /* POČETNA SEKCIJA*/
   .blok {
