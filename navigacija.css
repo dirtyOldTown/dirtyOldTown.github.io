@@ -1,4 +1,4 @@
- /* POČETNA SEKCIJA */
+/* POČETNA SEKCIJA */
 .početak-strane {
   width: max-content;
   font-size: 2vw;
@@ -50,6 +50,5 @@
   }
   #naslovna a {
     color: #C7EA46;
-    text-shadow: 1px 1px 2px black;
   }
   
