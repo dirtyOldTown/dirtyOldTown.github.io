@@ -462,14 +462,13 @@ footer hr:last-of-type {
     color: #D0F0C0
   }
   #otključaj-lako {
-    font-weight: 100;
-    font-family: 'Reklama';
+   visibility: hidden;
   }
   #mobilni {
     display: inline-block;
     font-size: 2.2em;
     cursor:pointer;
-    margin-right: 3%;
+    margin-right: 2%;
     margin-left: 3%;
     color:#D0F0C0
   }
