@@ -461,14 +461,14 @@ footer hr:last-of-type {
     margin-top: 0;
   }
   #mobilni {
-    display: inline-block;
+    display: block;
     font-size: 2.2em;
     cursor:pointer;
-    margin-right: 8%;
+    margin-right: 5%;
     padding: 0 4px;
   }
   #otključaj-lako {
-    margin-top: -5px;
+    margin-top: -3px;
   }
   .navigacija {
     width: 100%;
@@ -504,7 +504,7 @@ footer hr:last-of-type {
   }
   /* POČETNA SEKCIJA*/
   .blok {
-    width: 100%;
+    width:100%;
     grid-template-columns: 100%;
   }
   .logo-glavno {
