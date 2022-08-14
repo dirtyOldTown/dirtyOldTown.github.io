@@ -27,6 +27,7 @@ body {
 #ključ-servis {
   color: #8fbc8f;
   font-size: 1.3em;
+  margin-top: 5%;
 }
 #otključaj-lako {
   font-family: 'Maja';
@@ -446,6 +447,7 @@ footer hr:last-of-type {
     width: 100%;
     margin-left: 0;
     display: block;
+    margin-top: -7px;
   }
   #ključ-servis {
     background-color: #343a40;
@@ -462,7 +464,7 @@ footer hr:last-of-type {
     display: inline-block;
     font-size: 2.2em;
     cursor:pointer;
-    margin-right: 10%;
+    margin-right: 8%;
   }
   #otključaj-lako {
     margin-top: -3px;
