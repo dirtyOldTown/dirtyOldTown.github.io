@@ -21,6 +21,9 @@ body {
   padding: 0;
   letter-spacing: 2px;
 }
+#mobilni {
+  display: none;
+}
 #ključ-servis {
   color: #8fbc8f;
   font-size: 1.3em;
@@ -430,7 +433,7 @@ footer hr:last-of-type {
   }
   #stari-ključ {
     width: 15%;
-    margin-top: 15%;
+    margin-top: 10%;
   }
   .podaci-radnja {
     margin-top: -1%;
@@ -443,19 +446,24 @@ footer hr:last-of-type {
     width: 100%;
     margin-left: 0;
     display: block;
-    background-color:  #3B444B;
   }
   #ključ-servis {
+    background-color: #343a40;
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
     position: relative;
     overflow: hidden;
-    color:  #D0F0C0;
-    font-size: 2.5em;
-    margin-top: -8px;
-    padding: 18px 10px;
-    border: 4px solid grey;
+    font-size: 2em;
     border-bottom: 4px double grey;
+    margin-top: -8px;
+  }
+  #mobilni {
+    display: inline-block;
+    font-size: 2.2em;
     cursor:pointer;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin-right: 10%;
   }
   .navigacija {
     width: 100%;
@@ -479,7 +487,7 @@ footer hr:last-of-type {
   .navigacija-animacija {
     height: 0;
     animation-name: dizanje;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-fill-mode: forwards;
   }
   .navigacija-animacija p a {
@@ -498,7 +506,7 @@ footer hr:last-of-type {
    margin-top: 0;
   }
   .telefon {
-   font-size: 6.7vw;
+   font-size: 7vw;
    margin: 0;
    padding: 12px 0 2px 0;
   }
@@ -592,7 +600,7 @@ footer hr:last-of-type {
   }
   #stari-ključ {
     width: 20%;
-    margin-top: 20%;
+    margin-top: 10%;
   }
   #telefon2 span:first-of-type {
     font-size: 1.5em;
@@ -665,7 +673,6 @@ footer hr:last-of-type {
     margin-bottom: 6%;
   }
   #stari-ključ {
-    width: 23%;
     margin-bottom: 4%;
   }
   .podaci-radnja {

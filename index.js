@@ -41,8 +41,9 @@ for (let x = 0; x < navigacija.length; x++) {
 // Animacija logoa - ključ servis
 const ključServis = document.getElementById("ključ-servis");
 const dizanjeNavigacije = document.querySelector(".navigacija");
+const mobilni = document.getElementById("mobilni");
 
-ključServis.addEventListener("click", () => {
+mobilni.addEventListener("click", () => {
   dizanjeNavigacije.classList.toggle("navigacija-animacija");
 });
 
