@@ -457,6 +457,7 @@ footer hr:last-of-type {
     padding: 2px 0;
     overflow: hidden;
     font-size: 1.9em;
+    font-weight: 200;
     border-bottom: 4px double grey;
     margin-top: 0;
     color: #D0F0C0
