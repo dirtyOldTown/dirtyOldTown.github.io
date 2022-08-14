@@ -446,15 +446,15 @@ footer hr:last-of-type {
   .početak-strane {
     display: block;
     width: 100%;
-    margin-left: 0;
     margin-top: -7px;
+    margin-left: 0;
   }
   #ključ-servis {
     display: flex;
     align-items: baseline;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #343a40;
-    padding: 0px 0 10px 0;
+    padding: 5px 0 10px 0;
     overflow: hidden;
     font-size: 2em;
     border-bottom: 4px double grey;
@@ -464,10 +464,11 @@ footer hr:last-of-type {
     font-weight: 100;
   }
   #mobilni {
-    display: block;
+    display: inline-block;
     font-size: 2.2em;
     cursor:pointer;
     margin-right: 3%;
+    margin-left: 3%;
   }
   .navigacija {
     width: 100%;
