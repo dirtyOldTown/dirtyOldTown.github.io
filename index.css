@@ -444,31 +444,30 @@ footer hr:last-of-type {
 @media screen and (max-width: 600px) {
   /* NAVIGACIJA */
   .početak-strane {
+    display: block;
     width: 100%;
     margin-left: 0;
-    display: block;
     margin-top: -7px;
   }
   #ključ-servis {
-    background-color: #343a40;
     display: flex;
-    padding: 10px 0;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
+    background-color: #343a40;
+    padding: 0px 0 10px 0;
     overflow: hidden;
     font-size: 2em;
     border-bottom: 4px double grey;
     margin-top: 0;
   }
+  #otključaj-lako {
+    font-weight: 100;
+  }
   #mobilni {
     display: block;
     font-size: 2.2em;
     cursor:pointer;
-    margin-right: 5%;
-    padding: 0 4px;
-  }
-  #otključaj-lako {
-    margin-top: -3px;
+    margin-right: 3%;
   }
   .navigacija {
     width: 100%;
