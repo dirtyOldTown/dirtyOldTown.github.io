@@ -199,8 +199,8 @@ body {
 }
 #gugl-mapa span:first-of-type {
   font-family: 'Maja';
-  font-weight: 500;
-  font-size: 3.8vw;
+  font-weight: 600;
+  font-size: 4vw;
 }
 #gugl-mapa span:last-of-type {
   font-size: 3.8vw;
@@ -320,7 +320,7 @@ footer hr:last-of-type {
   }
   /* GUGL MAPA */
   #gugl-mapa span:first-of-type {
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
   #gugl-mapa span:last-of-type {
     font-size: 1.5em;
@@ -454,6 +454,7 @@ footer hr:last-of-type {
   #mobilni {
     display: inline-block;
     font-size: 2em;
+    font-weight: 600;
     cursor:pointer;
     margin-right: 2%;
     margin-left: 3%;
