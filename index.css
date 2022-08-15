@@ -92,6 +92,7 @@ body {
 }
 .telefon span:first-of-type {
   font-size: 1.1em;
+  color: brown;
 }
 .telefon a {
   color:#343a40;
@@ -456,7 +457,7 @@ footer hr:last-of-type {
     cursor:pointer;
     margin-right: 2%;
     margin-left: 3%;
-    color:#D0F0C0
+    color:#D0F0C0;
   }
   .navigacija {
     width: 100%;
