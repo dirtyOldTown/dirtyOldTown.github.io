@@ -481,7 +481,7 @@ footer hr:last-of-type {
   .navigacija-animacija {
     height: 0;
     animation-name: dizanje;
-    animation-duration: 1s;
+    animation-duration: 700ms;
     animation-fill-mode: forwards;
     animation-timing-function: linear;
   }
@@ -506,7 +506,7 @@ footer hr:last-of-type {
    padding: 12px 0 2px 0;
   }
   .telefon a {
-    color:  #4B4E53;
+    color: #36454F ;
   }
   #umnoži-ključ-glavno {
     background-color: white;
