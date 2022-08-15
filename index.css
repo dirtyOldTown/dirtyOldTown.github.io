@@ -481,8 +481,9 @@ footer hr:last-of-type {
   .navigacija-animacija {
     height: 0;
     animation-name: dizanje;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
+    animation-timing-function: linear;
   }
   .navigacija-animacija p a {
     pointer-events: visible;
