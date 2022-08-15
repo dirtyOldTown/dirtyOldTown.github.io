@@ -441,7 +441,7 @@ footer hr:last-of-type {
     justify-content: flex-start;
     background-color: #343a40;
     border-bottom: 4px double grey;
-    padding: 2px 0;
+    padding: 4px 0;
     overflow: hidden;
     font-size: 1.9em;
     font-weight: 200;
@@ -515,7 +515,6 @@ footer hr:last-of-type {
     position: relative;
     font-size: 5.5vw;
     left: -5%;
-    color:   #4F666A;
   }
   .umnoži-ključ2 {
     position: relative;
