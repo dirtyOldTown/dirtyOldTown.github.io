@@ -1,6 +1,5 @@
 
 // Text-decoration za elemente navigacije i footer elemenata
-const naslovna = document.querySelector("#naslovna a");
 const cenovnik = document.querySelector("#cenovnik a");
 const kontakt = document.querySelector("#kontakt a");
 const pošta = document.querySelector("#pošta a");
