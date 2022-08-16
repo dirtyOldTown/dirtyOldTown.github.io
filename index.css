@@ -3,8 +3,8 @@
 }
 body {
  background-color:#343a40; /* #495057;*/
- filter: contrast(92%);
  -webkit-filter: contrast(92%);
+ filter: contrast(92%);
  margin-bottom: 5%;
  margin-left: 0%;
  margin-right: 0%;
@@ -157,7 +157,8 @@ body {
   height: 50vw;
   background-image: url('slike/kljuc3W.webp');
   background-size: 105% 100%;
-  filter:contrast(55%)
+  -webkit-filter: contrast(55%);
+  filter: contrast(55%)
 }
 .ključ-3 > .prvi-deo {
   font-size: 2.3vw;
