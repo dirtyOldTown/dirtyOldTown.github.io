@@ -179,7 +179,7 @@ body {
 #gugl-mapa {
   width: 100%;
   display: grid;
-  grid-template-columns: 35% 55%;
+  grid-template-columns: 34% 56%;
   align-items: flex-end;
   justify-content: space-around;
   background-color:   white;
