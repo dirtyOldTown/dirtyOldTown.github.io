@@ -24,7 +24,7 @@
     margin-left: -2%;
     transform: rotateY(0deg);
     animation-name: okretanje;
-    animation-delay: 4s;
+    animation-delay: 2s;
     animation-iteration-count: 2;
     animation-duration: 3s;
   }
