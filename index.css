@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
- background-color:#343a40; /* #495057;*/
+ background-color:#343a40; 
  -webkit-filter: contrast(92%);
  filter: contrast(92%);
  margin-bottom: 5%;
@@ -68,7 +68,7 @@ body {
   color: #C7EA46;
   text-shadow: 1px 1px 2px black;
 }
-  /* POČETNA SEKCIJA*/
+  /* PRVA SEKCIJA */
 .blok {
   background-color: white;
   margin-left: auto;
@@ -270,7 +270,7 @@ footer hr:last-of-type {
 }
 
 /* RESPONSIVE */
-/* max-width: 992px*/
+/* max-width: 992px */
 @media screen and (max-width: 992px) {
   /* NAVIGACIJA */
   .navigacija {
@@ -279,7 +279,7 @@ footer hr:last-of-type {
   .navigacija p a {
     font-size: 0.84em;
   }
-  /* POČETNA SEKCIJA */
+  /* PRVA SEKCIJA */
   .blok {
     grid-template-columns: 26% 19.5% auto;
   }
@@ -292,7 +292,7 @@ footer hr:last-of-type {
   .mislite-o-tome {
     font-size: 3.1vw;
   }
-  /* DRUGA SEKCIJA*/
+  /* DRUGA SEKCIJA */
   .usluge {
     font-size: 1.4em;
   }
@@ -358,7 +358,7 @@ footer hr:last-of-type {
   .navigacija p a {
     font-size: 0.8em;
   }
-  /* POČETNA SEKCIJA*/
+  /* PRVA SEKCIJA */
   .blok {
     grid-template-columns: 40% 56%;
     align-items:center;
@@ -380,7 +380,7 @@ footer hr:last-of-type {
   .mislite-o-tome {
     font-size: 4.4vw;
   }
-  /* DRUGA SEKCIJA*/
+  /* DRUGA SEKCIJA */
   .usluge {
     font-size: 1.4em;
   }
@@ -484,7 +484,7 @@ footer hr:last-of-type {
   #naslovna a {
     color: #D0F0C0;
   }
-  /* navigacija-animacija*/
+  /* navigacija-animacija */
   .navigacija-animacija {
     height: 0;
     animation-name: dizanje;
@@ -499,7 +499,7 @@ footer hr:last-of-type {
     from {height: 0}
     to {height: 65px}
   }
-  /* POČETNA SEKCIJA*/
+  /* PRVA SEKCIJA */
   .blok {
     width:100%;
     grid-template-columns: 100%;
@@ -531,7 +531,7 @@ footer hr:last-of-type {
   .mislite-o-tome {
     font-size: 7.7vw;
   }
-   /* DRUGA SEKCIJA*/
+   /* DRUGA SEKCIJA */
    .usluge {
     width: 100%;
     padding:5px 0px;
