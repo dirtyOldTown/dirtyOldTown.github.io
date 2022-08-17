@@ -257,10 +257,6 @@ footer h3 {
   color:whitesmoke;
   font-weight: 600;
 }
-#pošta span {
-  position: relative;
-  top: 2px
-}
 footer hr:last-of-type {
   margin-top: 2%;
 }
@@ -614,11 +610,8 @@ footer hr:last-of-type {
     width: 20%;
     margin-top: 10%;
   }
-  #telefon2 span:first-of-type {
+  #telefon2 span:first-of-type, #pošta span {
     font-size: 1.5em;
-  }
-  #pošta span {
-    font-size: 1.7em;
   }
 }
 /* max.width: 400px*/
