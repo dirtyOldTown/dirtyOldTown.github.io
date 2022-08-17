@@ -1,5 +1,5 @@
 
-// Text-decoration za elemente navigacije i footer elemenata
+// Promena stila (color, text-decoration) za elemente navigacije i footer elemente
 const cenovnik = document.querySelector("#cenovnik a");
 const kontakt = document.querySelector("#kontakt a");
 const pošta = document.querySelector("#pošta a");
@@ -37,7 +37,7 @@ for (let x = 0; x < navigacija.length; x++) {
     footer[x].style.textDecoration = "none";
   });
 }
-// Animacija logoa - ključ servis
+// Animacija (Pojavljivanje početne navigacije na klik) za mobilni
 const ključServis = document.getElementById("ključ-servis");
 const dizanjeNavigacije = document.querySelector(".navigacija");
 const mobilni = document.getElementById("mobilni");
