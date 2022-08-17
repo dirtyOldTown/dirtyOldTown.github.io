@@ -253,11 +253,13 @@ footer h3 {
   transform: scale(108%);
 }
 #pošta span, #telefon2 span {
+  font-size: 1.3em;
   color:whitesmoke;
   font-weight: 600;
 }
-#telefon2 span:first-of-type {
-  font-size: 1.3em;
+#pošta span {
+  position: relative;
+  top: 2px
 }
 footer hr:last-of-type {
   margin-top: 2%;
@@ -612,7 +614,7 @@ footer hr:last-of-type {
     width: 20%;
     margin-top: 10%;
   }
-  #telefon2 span:first-of-type {
+  #telefon2 span:first-of-type,#pošta span {
     font-size: 1.5em;
   }
 }
@@ -667,10 +669,6 @@ footer hr:last-of-type {
   }
   #gugl-mapa iframe {
     height: 90vw;
-  }
-  /*INFORMATIVNI TEXT*/
-  .ključ-simbol {
-    margin-bottom: -7%;
   }
   /* FOOTER */
   footer {
