@@ -249,6 +249,9 @@ footer h3 {
   display: inline-block;
   margin-top: 2%;
 }
+.podaci-radnja img:hover {
+  transform: scale(108%);
+}
 #pošta span, #telefon2 span {
   color:whitesmoke;
   font-weight: 600;
