@@ -1,26 +1,27 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  <url>
-    <loc>https://dirtyoldtown.github.io</loc>
-    <image:image>
-      <image:loc>https://dirtyoldtown.github.io/slike/kljuc1.jpg</image:loc>
-      <!--ERROR - Object reference not set to an instance of an object.-->
-      <url>
-        <loc>https://dirtyoldtown.github.io/cenovnik.html</loc>
-        <image:image>
-          <image:loc>https://dirtyoldtown.github.io/slike/kljuc-svetlo2.png</image:loc>
-          <!--ERROR - Object reference not set to an instance of an object.-->
-          <url>
-            <loc>https://dirtyoldtown.github.io/index.html</loc>
-            <image:image>
-              <image:loc>https://dirtyoldtown.github.io/slike/LOGO.jpg</image:loc>
-              <!--ERROR - Object reference not set to an instance of an object.-->
-            </image:image>
-            <!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-          </url>
-        </image:image>
-      </url>
-    </image:image>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://dirtyoldtown.github.io/</loc>
+  <lastmod>2022-08-19T14:51:52+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://dirtyoldtown.github.io/cenovnik.html</loc>
+  <lastmod>2022-08-19T14:51:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://dirtyoldtown.github.io/index.html</loc>
+  <lastmod>2022-08-19T14:51:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
