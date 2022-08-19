@@ -21,6 +21,9 @@ body {
   padding: 0;
   letter-spacing: 2px;
 }
+.početak-strane h1 {
+  display: none;
+}
 #mobilni {
   display: none;
 }
