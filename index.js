@@ -45,5 +45,9 @@ const mobilni = document.getElementById("mobilni");
 mobilni.addEventListener("click", () => {
   dizanjeNavigacije.classList.toggle("navigacija-animacija");
 });
+// Sređivanje atributa za liniju - hr
+const linija = document.querySelector("footer hr");
+linija.setAttribute("size", 1);
+linija.setAttribute("color","grey");
 
 
