@@ -1,2 +1,4 @@
 User-agent: * 
 Disallow:
+
+Stemap: https://dirtyoldtown.github.io/sitemap.xml
