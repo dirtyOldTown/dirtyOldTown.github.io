@@ -236,7 +236,7 @@ body {
 .cover p {
   white-space: nowrap;
   font-family: 'Reklama', serif;
-  font-size: 1.7em;
+  font-size: 1.8em;
   letter-spacing: 1px;
   color: white;
   position: absolute;
@@ -363,7 +363,7 @@ footer hr:last-of-type {
     font-size: 1.5em;
   }
   .cover p {
-    font-size: 1.5em;
+    font-size: 1.6em;
   }
   /* FOOTER */
   footer {
@@ -450,7 +450,7 @@ footer hr:last-of-type {
     padding: 25px 0px;
   }
   .cover p {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
   /* FOOTER */
   footer {
@@ -640,7 +640,7 @@ footer hr:last-of-type {
     grid-row: 3 / 4;
   }
   .cover p {
-    font-size: 2em;
+    font-size: 2.2em;
   }
   .slika-radnje img {
     border-bottom: 2px solid grey;
@@ -716,7 +716,7 @@ footer hr:last-of-type {
     height: 90vw;
   }
   .cover p {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   /* FOOTER */
   footer {
