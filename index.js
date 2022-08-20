@@ -51,3 +51,5 @@ linija.setAttribute("size", 1);
 linija.setAttribute("color","grey");
 
 
+
+
