@@ -250,7 +250,7 @@ footer h3 {
 }
 .podaci-radnja {
   display: inline-block;
-  margin-top: -1%;
+  margin-top: -3%;
 }
 .podaci-radnja img:hover {
   transform: scale(108%);
