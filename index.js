@@ -52,4 +52,3 @@ linija.setAttribute("color","grey");
 
 
 
-

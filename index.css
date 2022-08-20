@@ -235,7 +235,9 @@ body {
 }
 .cover p {
   white-space: nowrap;
+  font-family: 'Reklama', serif;
   font-size: 1.7em;
+  letter-spacing: 1px;
   color: white;
   position: absolute;
   overflow: hidden;
