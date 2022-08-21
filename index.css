@@ -247,9 +247,9 @@ body {
   -ms-transform: translate(-50%, -50%);
   margin-top: 0;
 }
-.slika-radnje:hover .cover {
+/*.slika-radnje:hover .cover {
   width: 100%;
-}
+}*/
 /* FOOTER */
 footer {
   font-family: 'Marion', serif;

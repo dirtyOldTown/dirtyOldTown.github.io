@@ -50,5 +50,13 @@ const linija = document.querySelector("footer hr");
 linija.setAttribute("size", 1);
 linija.setAttribute("color","grey");
 
-
+// Prevlačenje obaveštenja preko slike-radnje
+const slikaRadnje = document.querySelector(".slika-radnje");
+const cover = document.querySelector(".cover");
+slikaRadnje.addEventListener("mouseover", () => {
+  cover.style.width = "100%"
+});
+slikaRadnje.addEventListener("mouseout", () => {
+  cover.style.width = "0%";
+})
 
