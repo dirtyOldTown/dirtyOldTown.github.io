@@ -1,7 +1,4 @@
-User-agent: Unnecessarybot
-Disallow: /
-
 User-agent: *
-Allow: /
+Disallow: /admin.html
 
 Stemap: https://dirtyoldtown.github.io/sitemap.xml
