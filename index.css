@@ -283,6 +283,7 @@ footer h3 {
 .podaci-radnja {
   display: inline-block;
   margin-top: -3%;
+
 }
 .podaci-radnja img:hover {
   transform: scale(108%);
@@ -299,6 +300,7 @@ footer hr:last-of-type {
   color: white;
   text-decoration: none;
 }
+
 
 /* RESPONSIVE */
 /* max-width: 992px */
