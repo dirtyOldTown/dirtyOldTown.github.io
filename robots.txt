@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: /admin.html
+Disallow: 
 
 Stemap: https://dirtyoldtown.github.io/sitemap.xml
