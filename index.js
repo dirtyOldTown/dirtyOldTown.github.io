@@ -59,4 +59,6 @@ slikaRadnje.addEventListener("mouseover", () => {
 slikaRadnje.addEventListener("mouseout", () => {
   cover.style.width = "0%";
 })
-
+// Loading lazy
+const mapa = document.querySelector("#mapa-screenshoot picture img");
+mapa.setAttribute("loading", "lazy");
