@@ -1,29 +1,72 @@
-.start-game {
-  cursor: pointer;
-  position: relative;
+body {
+  background-color: silver;
 }
-.game-area {
-  width: 300px;
-  height: 500px;
+audio {
+  display: inline
+}
+.skor {
   background-color: black;
-  position:relative;
+  color: white;
+  padding: 20px 0;
+  width: 400px;
+  top: 59px;
+  left: 0%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  font-family: fantasy;
+  letter-spacing: 1px;
+}
+.start {
+  background-color: brown;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -20px;
+  font-size: 1.2em;
+}
+.start p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: yellow;
+  padding: 20px 30px;
+  cursor:pointer;
+  text-align: center;
+}
+.staza {
+  position: relative;
+  margin-top: -2.5%;
+  background-color: black;
+  width: 400px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
 }
 .hide {
-  display: none
+  display: block;
 }
-.car {
-    background-color: blue;
-    width: 50px;
-    height: 80px;
-    position: absolute;
-    top: 50%;
-    z-index: 1;
-}
-.line {
+.auto {
   position: absolute;
-  top: 0;
-  left: 140px;
+  top: 50%;
+  left: 5%;
+  width: 40px;
+  height: 80px;
+  background-color: blue;
+  z-index: 1;
+}
+.suparnički-auto {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  width: 40px;
+  height: 80px;
+  background-color: red;
+}
+.linije {
+  position: absolute;
+  left: 190px;
   width: 10px;
-  height: 100px;
+  height: 90px;
   background-color: white;
 }
