@@ -16,6 +16,7 @@ audio {
   text-align: center;
   font-family: fantasy;
   letter-spacing: 1px;
+  border-bottom: 0;
 }
 .start {
   background-color: brown;
@@ -69,4 +70,9 @@ audio {
   width: 10px;
   height: 90px;
   background-color: white;
+}
+.komande {
+  display:flex;
+  color: red;
+  justify-content: center;
 }

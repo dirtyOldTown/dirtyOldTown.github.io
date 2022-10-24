@@ -88,12 +88,13 @@ function play() {
 // Funkcija za stanje posle sudara automobila
 function krajIgre() {
   igrač.start = false;
-  skor.innerHTML = "Game Over" + "<p style='color: white; margin-top: -10px; font-family: Arial'>" + "Rezultat: " + igrač.skor + "</p>"
+  skor.innerHTML = "Game Over" + "<p style='margin-bottom: -20px;color: white; margin-top: -10px;font-weight: bold;font-family: times-new-roman'>" + "Skor: " + igrač.skor + "</p>"
   skor.style.color = "red";
 }
 // Funkcija 'start' (Regulisanje uslova i okruženja za početak igrice)
 function start() {
   igrač.start = true;
+  skor.style.borderBottom = "2px solid white"
   staza.classList.remove("hide"); 
   staza.innerHTML = "";
   igrač.skor = 0;
