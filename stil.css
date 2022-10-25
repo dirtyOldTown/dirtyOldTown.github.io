@@ -53,16 +53,16 @@ audio {
   left: 5%;
   width: 40px;
   height: 80px;
-  background-color: blue;
   z-index: 1;
 }
 .suparnički-auto {
   position: absolute;
   top: 50%;
   left: 5%;
+}
+.suparnički-auto img {
   width: 40px;
   height: 80px;
-  background-color: red;
 }
 .linije {
   position: absolute;
@@ -70,9 +70,4 @@ audio {
   width: 10px;
   height: 90px;
   background-color: white;
-}
-.komande {
-  display:flex;
-  color: red;
-  justify-content: center;
 }

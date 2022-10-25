@@ -51,6 +51,8 @@ function sudar(a, b) {
 }
 // Kretanje suparničkih automobila
 function suparničkiAutomobili(auto) {
+  let skupAuta = document.querySelectorAll(".imgSrc");
+  let imgSrc = ["slike/auto1.png", "slike/auto3.png", "slike/auto4.png"];
   let suparnici = document.querySelectorAll(".suparnički-auto");
   suparnici.forEach((item) => {
     if (sudar(auto, item)) {
@@ -99,7 +101,8 @@ function start() {
   staza.innerHTML = "";
   igrač.skor = 0;
   skor.style.color = "white";
-  let auto = document.createElement("div");
+  let auto = document.createElement("img");
+  auto.src = "slike/auto2.png"
   auto.classList.add("auto");
   staza.append(auto);
   igrač.x = auto.offsetLeft;
@@ -112,16 +115,20 @@ function start() {
     linije.style.top = linije.x + "px"
     staza.appendChild(linije);
   }
-  window.requestAnimationFrame(play);
   // Kreiranje suparničkih vozila
   for (let i = 0; i < 4; i++) {
     let suparničkiAuto = document.createElement("div");
     suparničkiAuto.classList.add("suparnički-auto");
+    let img = document.createElement("img");
+    let imgSrc = ["slike/auto-glavni.png", "slike/auto3.png", "slike/auto4.png", "slike/auto3.png"];
+    img.src = imgSrc[i];
+    suparničkiAuto.appendChild(img);
+    staza.appendChild(suparničkiAuto);
     suparničkiAuto.y = (i + 1) * 750 * (-1);
-    staza.appendChild(suparničkiAuto)
     suparničkiAuto.x = Math.floor(Math.random() * 360);
     suparničkiAuto.style.left = suparničkiAuto.x + "px";
     suparničkiAuto.style.top = suparničkiAuto.y + "px"
   }
+  window.requestAnimationFrame(play);
 }
 
