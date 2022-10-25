@@ -12,7 +12,7 @@ const keys = {
   ArrowRight: false
 }
 // Objekt za unos vrednosti za igrača, tj. njegovog automobila:
-const igrač = {brzina: 4}
+const igrač = {brzina: 5}
 // Funkcije za detektovanje tastera:
 function stisniTaster(e) {
   e.preventDefault();
@@ -51,8 +51,6 @@ function sudar(a, b) {
 }
 // Kretanje suparničkih automobila
 function suparničkiAutomobili(auto) {
-  let skupAuta = document.querySelectorAll(".imgSrc");
-  let imgSrc = ["slike/auto1.png", "slike/auto3.png", "slike/auto4.png"];
   let suparnici = document.querySelectorAll(".suparnički-auto");
   suparnici.forEach((item) => {
     if (sudar(auto, item)) {
@@ -69,6 +67,7 @@ function suparničkiAutomobili(auto) {
 }
 // Funkcija 'play' za regulisanje toka same igre:
 function play() {
+  let zvukMotora = document.querySelector("#zvuk1");
   let auto = document.querySelector(".auto");
   let autoRect = auto.getBoundingClientRect(); 
   let igraRect = staza.getBoundingClientRect();
@@ -77,6 +76,7 @@ function play() {
   // Regulisanje kretanja auta u okvirima staze:
   if (igrač.start) {
     window.requestAnimationFrame(play)
+    zvukMotora.play()
     if (keys["ArrowUp"] && autoRect.top > igraRect.top) {igrač.y -= igrač.brzina}
     if (keys["ArrowDown"] && autoRect.bottom < igraRect.bottom) {igrač.y += igrač.brzina}
     if (keys["ArrowLeft"] && autoRect.x > igraRect.x) {igrač.x -= igrač.brzina}
@@ -89,9 +89,14 @@ function play() {
 }
 // Funkcija za stanje posle sudara automobila
 function krajIgre() {
+  let zvukMotora = document.querySelector("audio");
   igrač.start = false;
+  zvukMotora.pause();
   skor.innerHTML = "Game Over" + "<p style='margin-bottom: -20px;color: white; margin-top: -10px;font-weight: bold;font-family: times-new-roman'>" + "Skor: " + igrač.skor + "</p>"
   skor.style.color = "red";
+  let sudar = document.createElement("audio");
+  sudar.setAttribute("autoplay", "autoplay");
+  sudar.innerHTML = `<source src="audio/crash.wav" type="audio/wav" />`
 }
 // Funkcija 'start' (Regulisanje uslova i okruženja za početak igrice)
 function start() {
@@ -120,7 +125,7 @@ function start() {
     let suparničkiAuto = document.createElement("div");
     suparničkiAuto.classList.add("suparnički-auto");
     let img = document.createElement("img");
-    let imgSrc = ["slike/auto-glavni.png", "slike/auto3.png", "slike/auto4.png", "slike/auto3.png"];
+    let imgSrc = ["slike/auto1.png", "slike/auto3.png", "slike/auto4.png", "slike/auto-glavni.png"];
     img.src = imgSrc[i];
     suparničkiAuto.appendChild(img);
     staza.appendChild(suparničkiAuto);
