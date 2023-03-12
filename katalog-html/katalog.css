@@ -26,7 +26,7 @@ body {
   color: #E5E4E2
 }
 .nav-bar-katalog p {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #54626F;
   font-weight: 700;
   letter-spacing: 2px;
@@ -44,7 +44,7 @@ ul li {
   padding: 4px 0;
 }
 ul li a {
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
   color: #54626F;
   text-decoration: none;
