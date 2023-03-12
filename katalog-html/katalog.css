@@ -9,7 +9,7 @@ body {
 .zaglavlje {
   text-align: center;
   background-color: #3E424B; 
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .zaglavlje h1 {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -18,7 +18,7 @@ body {
 }
 #fa-home {
   position: absolute;
-  left: 20px;
+  left: 12px;
   color:silver;
   cursor: pointer;
 }
@@ -182,7 +182,7 @@ footer p {
     font-size: 1.7em;
   }
   .nav-bar-katalog, .oprema-kovceg {
-    padding-left: 0.5%;
+    padding-left: 0;
   }
   .oprema-kovceg {
     width: 55%;
@@ -203,6 +203,9 @@ footer p {
     font-size: 1.5em;
     margin-left: 4%;
 }
+#fa-home {
+  left: 12px;
+}
   .sekcija-katalog {
     flex-direction: column;
     align-items: center;
@@ -214,7 +217,6 @@ footer p {
   }
   .nav-bar-katalog {
     background-color: transparent ; /*#98817B,  #704241*/
-    padding-left: 3.5%;
     margin-top: 0;
   }
   .nav-bar-katalog > p {
@@ -265,7 +267,6 @@ footer p {
 @media screen and (max-width: 400px) {
   .zaglavlje h1 {
     font-size: 1.3em;
-    margin-left: 15%;
   }
   .pdf {
    text-align: center;
