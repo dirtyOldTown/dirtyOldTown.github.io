@@ -2,23 +2,25 @@
 <html lang="sr-RS">
 <head>
   <meta charset="utf-8">
-  <title>Play Game</title>
-  <meta name="author" content="Aleksandar Pejinović">
+  <title>Play</title>
+  <meta name="author" content="Aleksandar">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="index.js" defer></script>
- <link rel="stylesheet" href="stil.css" />
+
 </head>
 <body>
-  <div class="igrica">
-    <div class="start">
-      <p>Start Game</p>
-      <div class="skor"></div>
-    </div>
-    <div class="staza hide"></div>
-  </div>
-  <audio id="zvuk1" autoplay>
-    <source src="audio/sound1.wav" type="audio/wav" />
-  </audio>
-
+<form>
+  <label>Prihod:
+    <input type="number" id="prihod" value="2000"/>
+    <button id="btn-prihod" type="button">Prosledi</button>
+  </label><br><br>
+  <label>Rashod:
+    <input type="number" id="rashod" onchange="(event) => event.target.value"/>
+    <button id="btn-rashod" type="button">Prosledi</button>
+  </label><br><br>
+   <textarea placeholder="Obaveze" rows="5" cols="34"></textarea><br>
+   <button id="btn-obaveze" type="button">Prosledi</button>
+</form>
+<p id="pazar"></p>
   </body>
 </html>
