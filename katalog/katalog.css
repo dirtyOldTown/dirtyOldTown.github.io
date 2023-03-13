@@ -107,8 +107,9 @@ picture img {
   text-align:center;
   background-color: #DBD7D2;/*silver*/
   margin-bottom: 0;
-  padding: 25px 75px;
+  padding: 15px 75px;
   border-bottom: 100px solid #3E424B;
+  position: relative;
 }
 .katalog-ponuda a {
   color: black;
@@ -140,15 +141,21 @@ picture img {
   color:#54626F
 }
 #fa-telefon {
-  font-size: 1.4em;
-  color:#54626F
+  position: absolute;
+  right: 10px;
+  font-size: 1.7em;
+  color:#54626F;
+  bottom: 10px;
+}
+#fa-telefon:hover {
+  opacity: 0.8
 }
 .onama-katalog > p {
-   font-family: Georgia, 'Times New Roman', Times, serif
+   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer {
   background-color:   #3E424B;
-  color:    #DBD7D2; /*#DBD7D2, #E5E4E2*/
+  color:#DBD7D2; /*#DBD7D2, #E5E4E2*/
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -277,6 +284,12 @@ footer p {
     padding: 15px;
     border-top: 15px solid #3E424B
   }
+  .katalog-ponuda {
+    padding:20px 15px
+  }
+  #fa-telefon {
+    bottom: 5px
+  }
   footer {
     margin-top: 0;
   }
@@ -309,5 +322,4 @@ footer p {
   .kontejner-pdf {
     font-size: 4.7vw
   }
-
 }

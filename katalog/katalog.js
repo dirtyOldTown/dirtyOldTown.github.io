@@ -10,7 +10,7 @@ katalog.addEventListener("mousedown", () => {
     open("./katalog.pdf");
   });
   katalog.addEventListener("mouseover", () => {
-    katalog.style.opacity = 0.9;
+    katalog.style.opacity = 0.8;
   });
   katalog.addEventListener("mouseout", () => {
     katalog.style.opacity = 1;
