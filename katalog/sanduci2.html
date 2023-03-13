@@ -23,16 +23,43 @@
         height: auto
     }
     .napomena {
+      font-family:'Impact', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      letter-spacing: 1px;
       background-color: whitesmoke;
+      background-color:   #79443B;
+      color:white;
       font-size: 1.3em;
-      padding: 10px;
-      margin-top: 0
+      padding: 15px;
+      margin-top: -2px;
     }
     @media screen and (max-width: 992px) {
       .slika {
        flex-basis: 85%
+      }
     }
-
+    @media screen and (max-width: 768px) {
+      .napomena {
+      font-size: 1.2em;
+      }
+    }
+    @media screen and (max-width: 600px) {
+        .slika {
+       flex-basis: 90%
+      }
+      .napomena {
+        text-align: center;
+        font-size: 1.1em;
+      }
+    }
+    @media screen and (max-width: 400px) {
+      .slika {
+        flex-basis: 93%;
+        margin-bottom: 5px;
+      }
+      .napomena {
+        text-align: center;
+        font-size: 1em;
+      }
     }
 
 </style>
@@ -117,7 +144,7 @@
     </picture>  
     <picture class="slika">
         <img src="slike/sanduci/S-32.jpg" alt="sanduk1" width="800" height="500">
-        <p class="napomena">standardni sanduk / topola</p> 
+        <p class="napomena">standardni sanduk / bukva</p> 
     </picture>  
     <picture class="slika">
         <img src="slike/sanduci/S-33.jpg" alt="sanduk1" width="800" height="500">
@@ -149,7 +176,7 @@
     </picture>  
     <picture class="slika">
         <img src="slike/sanduci/s-44.jpg" alt="sanduk1" width="800" height="500">
-        <p class="napomena">standardni sanduk / topola</p> 
+        <p class="napomena">standardni sanduk / hrast</p> 
     </picture>          
   </div>
 </body>
