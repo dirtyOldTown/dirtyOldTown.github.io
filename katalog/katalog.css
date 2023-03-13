@@ -14,7 +14,7 @@ body {
 .zaglavlje h1 {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2em;
-  color:  #E5E4E2; /*#DBD7D2, #D3D3D3, #E5E4E2*/
+  color:   #F2F3F5; /* #E8E9EB, #F2F3F5*/
 }
 #fa-home {
   position: absolute;
@@ -102,17 +102,17 @@ picture img {
 }
 .katalog-ponuda {
   font-size: 1.3em;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   border-top: 30px solid #3E424B;
   text-align:center;
-  background-color: #DBD7D2;/*silver*/
+  background-color: #54626F;/*silver, #DBD7D2*/
   margin-bottom: 0;
   padding: 15px 75px;
   border-bottom: 100px solid #3E424B;
   position: relative;
+  color: white;
 }
 .katalog-ponuda a {
-  color: black;
   text-decoration: none;
 }
 .katalog-ponuda a:hover {
@@ -144,7 +144,7 @@ picture img {
   position: absolute;
   right: 10px;
   font-size: 1.7em;
-  color:#54626F;
+  color:#DBD7D2;
   bottom: 10px;
 }
 #fa-telefon:hover {
@@ -285,7 +285,7 @@ footer p {
     border-top: 15px solid #3E424B
   }
   .katalog-ponuda {
-    padding:20px 15px
+    padding:25px 10px
   }
   #fa-telefon {
     bottom: 5px
@@ -310,6 +310,9 @@ footer p {
   .pdf {
    text-align: center;
    font-size: 1.05em;
+  }
+  #fa-telefon {
+    bottom: 5px
   }
   footer h4 {
     padding-top: 10px;
