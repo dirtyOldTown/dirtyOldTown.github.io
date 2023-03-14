@@ -17,7 +17,7 @@ katalog.addEventListener("mousedown", () => {
   });
   const faHome = document.getElementById("fa-home");
   faHome.addEventListener("click", () => {
-    open("/index.html")
+    open("https://nebeskimir.com")
   });
 const katalogLista = document.querySelectorAll("ul li a");
 katalogLista.forEach((lista) => {

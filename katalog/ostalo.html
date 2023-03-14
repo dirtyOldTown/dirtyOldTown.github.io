@@ -52,10 +52,10 @@
         z-index: -1;
     }
     .slika {
-      flex-basis: 46%;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
       border: 2px solid #DCDCDC;
       box-shadow: 0 2px 4px #5C5858;
+      flex-basis: 45%;
     }
     .slika img {
         width: 100%;
@@ -63,7 +63,7 @@
     }
     .napomena {
       font-family:'Impact','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      background-color:#DCDCDC;
+      background-color:  whitesmoke;
       color:#5C5858;
       font-size: 1.3em;
       padding: 15px;
@@ -87,6 +87,13 @@
       h1 {
         display: none;
       }
+      .slika {
+       flex-basis: 60%;
+      }
+      .slika img {
+        width: 100%;
+        height: auto;
+    }
     }
     @media screen and (max-width: 600px) {
       .kolekcija {
@@ -100,9 +107,6 @@
         font-size:1.5em;
         margin-right: 5%;
       }
-      .slika {
-       flex-basis: 90%;
-      }
       .napomena {
         text-align: center;
         font-size: 1.1em;
@@ -110,7 +114,7 @@
     }
     @media screen and (max-width: 400px) {
       .slika {
-        flex-basis: 93%;
+        flex-basis: 73%;
       }
       .napomena {
         text-align: center;
@@ -128,11 +132,11 @@
   </nav>
   <div class="kolekcija">
     <picture class="slika">
-      <img src="slike/ostalo/posteljina-za-sanduk1.jpg" alt="posteljina za sanduk 1" width="810" height="1600">
-      <p class="napomena">posteljina za sanduk II</p> 
+      <img src="slike/ostalo/posteljina-za-sanduk1.jpg" alt="posteljina za sanduk 1" width="300" height="593">
+      <p class="napomena">posteljina za sanduk I</p> 
     </picture>
     <picture class="slika">
-      <img src="slike/ostalo/posteljina-za-sanduk2.jpg" alt="posteljina za sanduk 2" width="840" height="1448">
+      <img src="slike/ostalo/posteljina-za-sanduk2.jpg" alt="posteljina za sanduk 2" width="300" height="517">
       <p class="napomena">posteljina za sanduk II</p> 
     </picture>
   </div>

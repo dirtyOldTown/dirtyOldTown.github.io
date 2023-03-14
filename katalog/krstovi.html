@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="sr-RS">
+<head>
+<meta charset="utf-8">
+<title>Krstovi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+   body {
+      background-color:#928E85;/*#808080, #928E85*/
+      margin: 0
+    }
+    .nav-bar {
+      width: 100%;
+      background-color:#5C5858;
+      display: flex;
+      justify-content: space-between;
+      align-items: last baseline;
+      border-bottom: 4px double #DCDCDC;
+      position: fixed;
+      top: 0;
+      z-index: 1;
+    }
+    h1 {
+      font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 1.8em;
+      color:#E8E9EB;
+      font-style: italic;
+    }
+    .nazad {
+      color:#DCDCDC;
+      font-size: 1.7em;
+      font-family: 'Impact', Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      cursor: pointer;
+      margin-left: 2.5%;
+      letter-spacing: 1px;
+    }
+    .nazad:hover {
+      transform: scale(1.04);
+    }
+    #logo {
+      font-size: 1.7em;
+      color:#DCDCDC;
+      margin-right: 2.5%;
+    }
+    .kolekcija {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-top: 50px;
+      position: relative;
+      top: 100px;
+      z-index: -1;
+    }
+    .slika {
+      flex-basis: 18%;
+      margin-bottom: 30px;
+    }
+    .slika img {
+        width: 100%;
+        height: auto;
+    }
+    @font-face {
+      font-family: 'Impact';
+      src: url('fontovi/Impact.ttf');
+      font-display: swap;
+    }
+    @media screen and (max-width: 992px) {
+      .nazad {
+        font-size: 1.6em;
+      }
+      .slika {
+       flex-basis: 35%
+      }
+    }
+    @media screen and (max-width: 767px) {
+      h1 {
+        display: none;
+      }
+    }
+    @media screen and (max-width: 600px) {
+      .kolekcija {
+        margin-top: 30px;
+      }
+      .nazad {
+        font-size: 1.5em;
+        margin-left: 5%;
+      }
+      #logo {
+        font-size:1.5em;
+        margin-right: 5%;
+      }
+      .slika {
+       flex-basis: 70%;
+      }
+    }
+</style>
+<script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
+<script src="sanduci.js" defer></script>
+</head>
+<body>
+  <nav class="nav-bar">
+    <p class="nazad"><i class="fa-solid fa-backward"></i> KATALOG</p>
+    <h1><i class="fa-solid fa-file"></i> Krstovi</h1>
+    <p id="logo"><span class="logo-a"><i class="fa-sharp fa-solid fa-dove"></i></span><span class="logo-b"> NM</span></p>
+  </nav>
+  <div class="kolekcija">
+    <picture class="slika">
+      <img src="slike/krstovi/krst.jpg" alt="krst" width="278" height="536"> 
+    </picture>
+    <picture class="slika">
+      <img class="slika"src="slike/krstovi/krst-hrast.jpg" alt="krst-hrast" width="278" height="536">
+    </picture>
+    <picture class="slika">
+      <img class="slika" src="slike/krstovi/svetosavski.jpg" alt="svetosavski" width="278" height="536">
+    </picture>
+    <picture class="slika">
+        <img class="slika" src="slike/krstovi/svetosavski-hrast.jpg" alt="svetosavski-hrast" width="278" height="536"> 
+    </picture> 
+  </div>
+</body>
+</html>

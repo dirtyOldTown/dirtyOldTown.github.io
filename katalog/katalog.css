@@ -19,11 +19,11 @@ body {
 #fa-home {
   position: absolute;
   left: 12px;
-  color:silver;
+  color:#54626F;
   cursor: pointer;
 }
 #fa-home:hover {
-  color: #E5E4E2
+  color: silver
 }
 .nav-bar-katalog p {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -90,7 +90,7 @@ picture img {
   border:0
 }
 #pdf {
-   font-size: 1.1em;
+  font-size: 1.1em;
   text-decoration: none;
   color:white;
   font-weight: normal;
