@@ -11,10 +11,10 @@ body {
   background-color: #3E424B; 
   padding: 10px 0;
 }
-.zaglavlje h1 {
+ h1 {
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2em;
-  color:   #F2F3F5; /* #E8E9EB, #F2F3F5*/
+  color:   silver; /* #E8E9EB, #F2F3F5, F2F3F5*/
 }
 #fa-home {
   position: absolute;
