@@ -19,5 +19,11 @@ katalog.addEventListener("mousedown", () => {
   faHome.addEventListener("click", () => {
     open("/index.html")
   });
+const katalogLista = document.querySelectorAll("ul li a");
+katalogLista.forEach((lista) => {
+  lista.onmouseup = () => {
+    lista.style.color = "#54626F"
+  }
+})
 
-  const nazad = document.querySelector(".nazad");
+
