@@ -100,12 +100,12 @@ picture img {
   border:0;
   background-color: #54626F/* #636c77*/
 }
-.katalog-ponuda {
+/*.katalog-ponuda {
   font-size: 1.3em;
   font-family: 'Times New Roman', Times, serif;
   border-top: 30px solid #3E424B;
   text-align:center;
-  background-color: #54626F;/*silver, #DBD7D2*/
+  background-color: #54626F;
   margin-bottom: 0;
   padding: 15px 75px;
   border-bottom: 100px solid #3E424B;
@@ -117,7 +117,7 @@ picture img {
 }
 .katalog-ponuda a:hover {
   color: brown;
-}
+} */
 .onama-katalog {
   font-size: 1.3em;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -140,7 +140,7 @@ picture img {
   top: 10px;
   color:#54626F
 }
-#fa-telefon {
+/*#fa-telefon {
   position: absolute;
   right: 10px;
   font-size: 1.7em;
@@ -149,7 +149,7 @@ picture img {
 }
 #fa-telefon:hover {
   opacity: 0.8
-}
+} */
 .onama-katalog > p {
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -198,7 +198,7 @@ footer p {
   .nav-bar-katalog, .oprema-kovceg {
     padding-left: 3.5%;
   }
-  .onama-katalog, .katalog-ponuda {
+  .onama-katalog {
     font-size: 1.2em;
     padding: 15px 50px;
   }
@@ -219,7 +219,7 @@ footer p {
    ul li {
     padding: 3px 0;
   }
-  .onama-katalog, .katalog-ponuda {
+  .onama-katalog {
     font-size: 1.2em;
     padding: 15px 30px;
   }
@@ -279,17 +279,17 @@ footer p {
   .katalog-ponuda {
     font-size: 1.1em;
   }
-  .onama-katalog, .katalog-ponuda {
+  .onama-katalog {
     font-size: 1.1em;
     padding: 15px;
     border-top: 15px solid #3E424B
   }
-  .katalog-ponuda {
+  /* .katalog-ponuda {
     padding:25px 10px
   }
   #fa-telefon {
     bottom: 5px
-  }
+  } */
   footer {
     margin-top: 0;
   }
@@ -311,9 +311,9 @@ footer p {
    text-align: center;
    font-size: 1.05em;
   }
-  #fa-telefon {
+  /* #fa-telefon {
     bottom: 5px
-  }
+  } */
   footer h4 {
     padding-top: 10px;
   }
