@@ -18,4 +18,6 @@ katalog.addEventListener("mousedown", () => {
   const faHome = document.getElementById("fa-home");
   faHome.addEventListener("click", () => {
     open("/index.html")
-  })
+  });
+
+  const nazad = document.querySelector(".nazad");
