@@ -18,7 +18,7 @@ body {
 }
 #fa-home {
   position: absolute;
-  left: 12px;
+  left: 20px;
   color:silver;
   cursor: pointer;
 }
@@ -165,9 +165,9 @@ footer p {
 }
 
 @media screen and (max-width: 992px) {
-  .logo-katalog {
+  /*.logo-katalog {
     display: none
-  }
+  } */
   .sekcija-katalog {
     flex-direction: row-reverse;
   }
@@ -224,7 +224,7 @@ footer p {
     margin-left: 4%;
   }
   #fa-home {
-  left: 12px;
+  left: 20px;
   }
   .sekcija-katalog {
     flex-direction: column;
@@ -297,9 +297,6 @@ footer p {
    text-align: center;
    font-size: 1.05em;
   }
-  /* #fa-telefon {
-    bottom: 5px
-  } */
   footer h4 {
     padding-top: 10px;
   }
