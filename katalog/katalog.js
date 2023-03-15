@@ -17,7 +17,7 @@ katalog.addEventListener("mousedown", () => {
   });
   const faHome = document.getElementById("fa-home");
   faHome.addEventListener("click", () => {
-   history.back()
+   open("../index.html", "_self")
   });
 const katalogLista = document.querySelectorAll("ul li a");
 katalogLista.forEach((lista) => {
