@@ -2,7 +2,7 @@ body {
   margin: 0;
   background: url("slike/pozadina.jpg");
   background-size:cover;
-  border: 15px solid  #3E424B;/*#344148, #3B444B, #36454F, #3E424B*/
+  border: 20px solid  #3E424B;/*#344148, #3B444B, #36454F, #3E424B*/
   border-width: 0 15px;
    /*#704241, #9F8170*/
 }
@@ -23,7 +23,7 @@ body {
   cursor: pointer;
 }
 #fa-home:hover {
-  color: silver
+  color: #54626F
 }
 .nav-bar-katalog p {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
