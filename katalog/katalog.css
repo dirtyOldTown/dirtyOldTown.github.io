@@ -25,16 +25,15 @@ body {
 #fa-home:hover {
   color: #A9A9A9
 }
-.logo-katalog {
+/*.logo-katalog {
   flex-basis: 28%;
-  align-self: center;
 }
 .logo-katalog img {
    width: 100%;
    height: auto;
    border-radius: 10px;
    border: 1px solid #3E424B;
-}
+} */
 .nav-bar-katalog p {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #54626F;
@@ -110,24 +109,6 @@ picture img {
   border:0;
   background-color: #54626F/* #636c77*/
 }
-/*.katalog-ponuda {
-  font-size: 1.3em;
-  font-family: 'Times New Roman', Times, serif;
-  border-top: 30px solid #3E424B;
-  text-align:center;
-  background-color: #54626F;
-  margin-bottom: 0;
-  padding: 15px 75px;
-  border-bottom: 100px solid #3E424B;
-  position: relative;
-  color: white;
-}
-.katalog-ponuda a {
-  text-decoration: none;
-}
-.katalog-ponuda a:hover {
-  color: brown;
-} */
 .onama-katalog {
   font-size: 1.3em;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -151,16 +132,6 @@ picture img {
   top: 10px;
   color:#54626F
 }
-/*#fa-telefon {
-  position: absolute;
-  right: 10px;
-  font-size: 1.7em;
-  color:#DBD7D2;
-  bottom: 10px;
-}
-#fa-telefon:hover {
-  opacity: 0.8
-} */
 .onama-katalog > p {
    font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -242,12 +213,12 @@ footer p {
   body {
     background-position: 15% 0%;
   }
-  .logo-katalog {
+  /*.logo-katalog {
     display: block;
     max-width: 90%;
     margin-left: -2px;
     margin-top: -10px;
-  }
+  } */
   .zaglavlje h1 {
     font-size: 1.5em;
     margin-left: 4%;
@@ -267,6 +238,7 @@ footer p {
   .nav-bar-katalog {
     background-color: transparent ; /*#98817B,  #704241*/
     margin-top: 20px;
+    margin-left: 8px;
   }
   .nav-bar-katalog > p {
     border-bottom: 1px solid grey;
@@ -275,7 +247,6 @@ footer p {
   ul {
     margin-bottom: 0;
     padding-left: 0;
-    margin-left: 5px;
   }
   ul li {
    margin-bottom: 5px;
@@ -305,12 +276,6 @@ footer p {
     padding: 15px;
     border-top: 15px solid #3E424B
   }
-  /* .katalog-ponuda {
-    padding:25px 10px
-  }
-  #fa-telefon {
-    bottom: 5px
-  } */
   footer {
     margin-top: 0;
   }
