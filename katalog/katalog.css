@@ -25,6 +25,16 @@ body {
 #fa-home:hover {
   color: #A9A9A9
 }
+.logo-katalog {
+  flex-basis: 28%;
+  align-self: center;
+}
+.logo-katalog img {
+   width: 100%;
+   height: auto;
+   border-radius: 10px;
+   border: 2px solid #3E424B
+}
 .nav-bar-katalog p {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #54626F;
@@ -184,6 +194,9 @@ footer p {
 }
 
 @media screen and (max-width: 992px) {
+  .logo-katalog {
+    display: none
+  }
   .sekcija-katalog {
     flex-direction: row-reverse;
   }
@@ -228,6 +241,10 @@ footer p {
 @media screen and (max-width: 600px) {
   body {
     background-position: 15% 0%;
+  }
+  .logo-katalog {
+    display: block;
+    max-width: 90%;
   }
   .zaglavlje h1 {
     font-size: 1.5em;
