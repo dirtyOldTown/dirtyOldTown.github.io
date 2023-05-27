@@ -5,22 +5,36 @@
   <title>Play</title>
   <meta name="author" content="Aleksandar">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="index.js" defer></script>
+  <script  src="index.js" defer></script>
+  <style>
+    body {
+      background-color: transparent;
+    }
+    #kontejner {
+      width: max-content
+    }
+    .hide {
+      display: none;
+    }
+   .stil {
+    width: 300px;
+    height: auto;
+    position: fixed;
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    font-size: 1.1em;
+   }
 
+  </style>
 </head>
 <body>
-<form>
-  <label>Prihod:
-    <input type="number" id="prihod" value="2000"/>
-    <button id="btn-prihod" type="button">Prosledi</button>
-  </label><br><br>
-  <label>Rashod:
-    <input type="number" id="rashod" onchange="(event) => event.target.value"/>
-    <button id="btn-rashod" type="button">Prosledi</button>
-  </label><br><br>
-   <textarea placeholder="Obaveze" rows="5" cols="34"></textarea><br>
-   <button id="btn-obaveze" type="button">Prosledi</button>
-</form>
-<p id="pazar"></p>
-  </body>
+  <div id="kontejner">
+  <h2>Click the button below</h2>
+  <button type="button" id="show">Click to show the form</button>
+  </div>
+</body> 
+
+
 </html>
