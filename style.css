@@ -1,9 +1,14 @@
+  body {
+    background:#343434;
+  }
   #container {
     background-color:#504A4B;
     padding: 12px;
     width: 248px;
     border-radius: 2%;
     font-family: monospace;
+    margin-left: auto;
+    margin-right: auto;
   }
   #calculator, td, input {
     border: 1px solid lgrey;
@@ -34,13 +39,13 @@
   }
   .handler.ac {
     background-color:#D0312D;
-    color:white
-    
+    color:white;
+    font-size:1em;
   }
   .handler.ce {
     background-color:chocolate;
-    color:white
-    
+    color:white;
+    font-size: 1em;
   }
   #equal > input {
     background-color: #0F52BA;
@@ -49,10 +54,15 @@
   .operator.extra {
     background-color: #343434;
     color: white;
+    font-size: 1em;
   }
   .operator.pi {
-    background-color:#E5AA70;
+    background-color: #343434;
+    color: white;
+    font-size: 1em;
   }
   .operator.e {
-    background-color:#E5AA70;
+    background-color: #343434;
+    color: white;
+    font-size: 1em;
   }
