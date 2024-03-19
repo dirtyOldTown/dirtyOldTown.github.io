@@ -1,5 +1,58 @@
-table, th, td {
-  border: 1px solid grey;
-  border-collapse: collapse;
-  padding: 7px;
-}
+  #container {
+    background-color:#504A4B;
+    padding: 12px;
+    width: 248px;
+    border-radius: 2%;
+    font-family: monospace;
+  }
+  #calculator, td, input {
+    border: 1px solid lgrey;
+    border-collapse: collapse;
+    font-size: 22px;
+  }
+  td > input {
+    padding: 10px;
+    width: 60px;
+    font-size: 1.2em;
+    box-shadow: 1px 0 0 grey;
+  }
+  #monitor {
+    padding: 15px 7px;
+    text-align: right;
+    font-size: 1.3em;
+    background-color:ghostwhite;
+    border-radius: 4px;
+    width: 230px;
+    box-shadow: 1px 0 0 grey;
+    margin-bottom: 3px;
+  }
+  .number {
+    background-color: #B0E0E6;
+  }
+  .operator {
+    background-color: #8DA399;
+  }
+  .handler.ac {
+    background-color:#D0312D;
+    color:white
+    
+  }
+  .handler.ce {
+    background-color:chocolate;
+    color:white
+    
+  }
+  #equal > input {
+    background-color: #0F52BA;
+    color:white
+  }
+  .operator.extra {
+    background-color: #343434;
+    color: white;
+  }
+  .operator.pi {
+    background-color:#E5AA70;
+  }
+  .operator.e {
+    background-color:#E5AA70;
+  }
