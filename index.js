@@ -11,7 +11,7 @@ function calc(event) {
   preventInput(target, monitor);
   // handle calculation
   equal.onclick = function() {
-    monitor.value = eval(monitor.value);
+      monitor.value = eval(monitor.value);
   }
   // Clearing all inputs from the monitor
   deleteAllInputs.onclick = function() {

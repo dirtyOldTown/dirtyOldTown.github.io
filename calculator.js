@@ -9,7 +9,6 @@ function preventInput(target, monitor) {
    }
    if (monitor.value === 'undefined') {
       monitor.value = "";
-      alert("First enter a mathematical expression!")
    }
    if (target.value == root.value && monitor.value == 0) {
       monitor.value = "";
