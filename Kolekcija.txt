@@ -1,7 +1,0 @@
-1.Formiranje posebne klase za kolekciju diskova;
-2.Formiranje podklase za žanrove;
-3.Ispitivanje popunjenost podataka u žanrovskim klasama(Update function);
-4.Omogućavanje search opcije za regexp;
-5.function za ubacivanje pesama;
-6.Formiranje tabele i ubacivane podataka;
-7.Regulisanje pojavljivanja podataka (button....)
