@@ -11,7 +11,7 @@ function calc(event) {
   preventInput(target, monitor);
   // handle calculation
   equal.onclick = function() {
-  monitor.value = eval(monitor.value);
+    monitor.value = eval(monitor.value);
   }
   // Clearing all inputs from the monitor
   deleteAllInputs.onclick = function() {
@@ -24,7 +24,11 @@ function calc(event) {
   // Handle square root
   let root = document.querySelector(".operator.root");
   root.onclick = function() {
-    monitor.value = Math.sqrt(monitor.value);
+    if (!isNaN(monitor.value)  || Math.sign(monitor.value) == "-") {
+      monitor.value = Math.sqrt(monitor.value);
+    } else {
+      alert("The square root must be calculated from a real number.");
+    }
   }
 }
 
@@ -33,11 +37,13 @@ let pi = document.querySelector(".operator.pi");
 pi.onclick = function() {
   monitor.value += Math.PI.toFixed(5);
 }
-// Handle number e
-let e = document.querySelector(".operator.e");
-e.onclick = function() {
-  monitor.value += Math.E.toFixed(5);
-}
+
+  // Handle number e
+  let e = document.querySelector(".operator.e");
+  e.onclick = function() {
+    monitor.value += Math.E.toFixed(5);
+  }
+
 
 calculator.addEventListener("click", calc);
 
