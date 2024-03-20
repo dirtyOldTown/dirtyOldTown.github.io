@@ -27,7 +27,7 @@ function calc(event) {
     if (!isNaN(monitor.value)) {
       monitor.value = Math.sqrt(monitor.value);
     } else {
-      alert("The square root must be calculated from a real number.");
+    alert(`- The square root must be calculated from a real number!\n- First click the equals key and then search for the value of the square root of the given number!`);
     }
   }
 }
@@ -46,5 +46,3 @@ pi.onclick = function() {
 
 
 calculator.addEventListener("click", calc);
-
-
