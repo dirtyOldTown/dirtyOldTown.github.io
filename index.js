@@ -37,11 +37,21 @@ let pi = document.querySelector(".operator.pi");
 pi.onclick = function() {
   monitor.value += Math.PI.toFixed(5);
 }
+pi.onmousedown = function() {
+  if (monitor.value.length > 0 && isFinite(monitor.value.at(-1))) {
+    monitor.value += "*"
+  }
+}
 
   // Handle number e
   let e = document.querySelector(".operator.e");
   e.onclick = function() {
     monitor.value += Math.E.toFixed(5);
+  }
+  e.onmousedown = function() {
+    if (monitor.value.length > 0 && isFinite(monitor.value.at(-1))) {
+      monitor.value += "*"
+    }
   }
 
 

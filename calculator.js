@@ -6,7 +6,7 @@ function preventInput(target, monitor) {
   target.value != root.value && target.value != pi.value &&
   target.value != e.value) {
       monitor.value += target.value;
-   }
+   } 
 }
 
 export { preventInput }
