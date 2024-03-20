@@ -1,4 +1,4 @@
-import { preventInput } from "./project.js";
+import { preventInput } from "./calculator.js";
 
 let calculator = document.getElementById("calculator");
 let monitor = document.getElementById("monitor");
@@ -24,7 +24,7 @@ function calc(event) {
   // Handle square root
   let root = document.querySelector(".operator.root");
   root.onclick = function() {
-    if (!isNaN(monitor.value)  || Math.sign(monitor.value) == "-") {
+    if (!isNaN(monitor.value)) {
       monitor.value = Math.sqrt(monitor.value);
     } else {
       alert("The square root must be calculated from a real number.");
