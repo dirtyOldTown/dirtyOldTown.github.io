@@ -1,4 +1,4 @@
-import { preventInput } from "./calculator.js";
+import { preventInputs } from "./calculator.js";
 
 let calculator = document.getElementById("calculator");
 let monitor = document.getElementById("monitor");
@@ -8,7 +8,7 @@ let deleteCurrentInput = document.getElementById("ce");
 function calc(event) {
   let target = event.target.closest("input");
   // Preventing the display of the specific input on the monitor
-  preventInput(target, monitor);
+  preventInputs(target, monitor);
   // handle calculation
   equal.onclick = function() {
       monitor.value = eval(monitor.value);
