@@ -1,16 +1,6 @@
   body {
     background:#343434;
   }
-  #title {
-    background-color: #8DA399;
-    font-family:fantasy;
-    padding: 10px;
-    text-align: center;
-    margin-top: 0;
-    color:#343434;
-    margin-bottom: 50px;
-    border-radius: 7px;
-  }
   #container {
     background-color:#504A4B;
     padding: 12px;
