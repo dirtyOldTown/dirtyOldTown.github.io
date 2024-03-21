@@ -9,6 +9,7 @@ function soundEffect(target) {
   } else {
       audio.src = "./sound/zapsplat_office_calculator_button_press_single_001_11983.mp3";
   }
+
   audio.play()
 }
 
