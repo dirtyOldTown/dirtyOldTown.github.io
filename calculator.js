@@ -8,10 +8,13 @@ let deleteAllInputs = document.getElementById("ac");
 let deleteCurrentInput = document.getElementById("ce");
 function calc(event) {
   let target = event.target.closest("input");
+
   // Preventing the display of the specific input on the monitor
   preventInput(target, monitor);
+
   // Handle sound
   soundEffect(target);
+
   // handle calculation
   equal.onclick = function() {
       monitor.value = eval(monitor.value);
@@ -29,9 +32,7 @@ function calc(event) {
   root.onclick = function() {
     if (!isNaN(monitor.value)) {
       monitor.value = Math.sqrt(monitor.value);
-    } else {
-    alert(`- The square root must be calculated from a real number!\n- First click the equals key and then search for the value of the square root of the given number!`);
-    }
+    } 
   }
   root.onmousedown = function() {
     if (monitor.value.startsWith("-")) {
@@ -51,8 +52,7 @@ pi.onmousedown = function() {
     monitor.value += "*"
   }
 }
-
-  // Handle number e
+// Handle number e
   let e = document.querySelector(".operator.e");
   e.onclick = function() {
     monitor.value += Math.E.toFixed(5);
