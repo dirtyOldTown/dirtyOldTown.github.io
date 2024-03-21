@@ -4,8 +4,9 @@
   }
   #title {
     text-align: center;
-    background-color: #8DA399;
-    color:#343434;
+    background-color: #0F52BA;
+    border-bottom: 4px solid #8DA399;
+    color:whitesmoke;
     padding: 15px;
     margin-top: 0;
     margin-bottom: 40px;
