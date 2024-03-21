@@ -1,4 +1,5 @@
 import { preventInput } from "./preventInputs.js";
+import { soundEffect } from "./sound.js";
 
 let calculator = document.getElementById("calculator");
 let monitor = document.getElementById("monitor");
@@ -9,6 +10,8 @@ function calc(event) {
   let target = event.target.closest("input");
   // Preventing the display of the specific input on the monitor
   preventInput(target, monitor);
+  // Handle sound
+  soundEffect(target);
   // handle calculation
   equal.onclick = function() {
       monitor.value = eval(monitor.value);
