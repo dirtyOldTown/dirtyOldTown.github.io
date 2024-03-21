@@ -1,2 +1,2 @@
-# simple calculator
+# flexible calculator
  
