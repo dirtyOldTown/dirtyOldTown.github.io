@@ -1,5 +1,5 @@
 # Flexible Calculator
-## Generalized
+## General
 In this first release, this is just a simple calculator:
 The idea is that this calculator in every new edition
 gets a new *mod* to work with.
