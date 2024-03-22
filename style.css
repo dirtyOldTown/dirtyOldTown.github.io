@@ -33,6 +33,7 @@
   }
   #monitor {
     padding: 15px 7px;
+    font-weight: 700;
     text-align: right;
     font-size: 1.3em;
     background-color:lightcyan;
