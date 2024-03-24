@@ -6,7 +6,6 @@
 
 ## Reporting a Bug
 
-The `standard` team and community take all security bugs in `standard` seriously.
 Thank you for improving the security of `standard`. We appreciate your efforts and
 responsible disclosure and will make every effort to acknowledge your
 contributions.
