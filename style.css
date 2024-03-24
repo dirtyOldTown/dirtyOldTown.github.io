@@ -21,7 +21,6 @@
     margin-right: auto;
   }
   #calculator, td, input {
-    border: 1px solid lgrey;
     border-collapse: collapse;
     font-size: 22px;
   }

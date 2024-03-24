@@ -38,7 +38,6 @@ function calc(event) {
       alert("There is no square root of a negative number!");
     }
   }
-
   // Handle percent operator
   let percent = document.getElementById("percent");
   percent.onclick = function() {
@@ -58,13 +57,19 @@ pi.onmousedown = function() {
     monitor.value += "*"
   }
 }
-
 // Handle number e
   let e = document.querySelector(".operator.e");
   e.onclick = function() {
     monitor.value += Math.E.toFixed(5);
   }
   e.onmousedown = function() {
+    if (monitor.value.length > 0 && isFinite(monitor.value.at(-1))) {
+      monitor.value += "*"
+    }
+  }
+  // Handle left bracket
+  let leftBracket = document.querySelector(".operator.left-bracket");
+  leftBracket.onmousedown = function() {
     if (monitor.value.length > 0 && isFinite(monitor.value.at(-1))) {
       monitor.value += "*"
     }
