@@ -8,13 +8,10 @@ let deleteAllInputs = document.getElementById("ac");
 let deleteCurrentInput = document.getElementById("ce");
 function calc(event) {
   let target = event.target.closest("input");
-
   // Preventing the display of the specific input on the monitor
   preventInput(target, monitor);
-
   // Handle sound
   soundEffect(target);
-
   // handle calculation
   equal.onclick = function() {
       monitor.value = eval(monitor.value);
@@ -34,10 +31,19 @@ function calc(event) {
       monitor.value = Math.sqrt(monitor.value);
     } 
   }
+  
   root.onmousedown = function() {
     if (monitor.value.startsWith("-")) {
       monitor.value = "";
       alert("There is no square root of a negative number!");
+    }
+  }
+
+  // Handle percent operator
+  let percent = document.getElementById("percent");
+  percent.onclick = function() {
+    if (isFinite(monitor.value)) {
+     monitor.value = monitor.value / 100;
     }
   }
 }
@@ -52,6 +58,7 @@ pi.onmousedown = function() {
     monitor.value += "*"
   }
 }
+
 // Handle number e
   let e = document.querySelector(".operator.e");
   e.onclick = function() {
