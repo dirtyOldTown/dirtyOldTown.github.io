@@ -10,11 +10,11 @@ function calc(event) {
   let target = event.target.closest("input");
   // Preventing the display of the specific input on the monitor
   preventInput(target, monitor);
-  // Handle sound
+  // Handle sound 
   soundEffect(target);
   // handle calculation
   equal.onclick = function() {
-      monitor.value = eval(monitor.value);
+    monitor.value = eval(monitor.value);
   }
   // Clearing all inputs from the monitor
   deleteAllInputs.onclick = function() {
@@ -73,6 +73,6 @@ pi.onmousedown = function() {
     if (monitor.value.length > 0 && isFinite(monitor.value.at(-1))) {
       monitor.value += "*"
     }
-  }
+}
 
 calculator.addEventListener("click", calc);

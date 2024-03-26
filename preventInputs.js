@@ -32,14 +32,17 @@ function handleNan(target, monitor) {
    if (monitor.value.length == 1 && isNaN(target.value)) {
       monitor.value += "";
    } else {
-      let display = monitor.value.substring(0, monitor.value.length - 1);
-      monitor.value = display + target.value;
-   }
+      if (!(target.value == "(" || target.value == ")")) {
+         let display = monitor.value.substring(0, monitor.value.length - 1);
+         monitor.value = display + target.value;
+      } else {
+         monitor.value += target.value;
+      }
   }
   if (target.value == "(" || target.value == ")") {
-   monitor.value += target.value;
+    monitor.value += target.value;
   }
 }
-
+}
 export { preventInput }
 
