@@ -1,6 +1,6 @@
 # Security Policies and Procedures
 
-  * [Reporting a Bug](#reporting-a-bug)
+  * [Reporting a Bug](#reporting-a-bu)
   * [Disclosure Policy](#disclosure-policy)
   * [Comments on this Policy](#comments-on-this-policy)
 
