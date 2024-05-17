@@ -1,4 +1,5 @@
 
+
 /*
 #f0d7a7 (svetlo), #eee1ba (svetlo)
 #c37960 (srednje) 
@@ -8,8 +9,8 @@
   background-color: #80473d;
   width: 100%;
   padding: 40px;
-  padding-bottom: 0;
 }
+
 .first-section {
   display: flex;
   justify-content: space-evenly;
@@ -41,16 +42,12 @@
   opacity: 1;
 }
 .tree {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   background-color: #c37960;
   padding: 15px 17px;
   padding-bottom: 35px;
   align-self: flex-end;
   border-radius: 5px;
-  color: white;
+  color: #ffffff;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -58,17 +55,16 @@
   border: 0;
   border-radius: 4px;
   padding: 15px;
-  background-color: #80473d;
+  background-color: #894e3f ;
   color:#ffffff;
   font-size: 1.2em;
   font-family: 'Merienda';
-  color: orange;
+  color:#ffffff;
   cursor: pointer;
 }
 .tree p {
   margin-top: 0;
   font-size: 1em;
-  font-weight: 300;
   font-family: 'Merienda'
 }
 .tree h5 {
@@ -81,9 +77,3 @@
 .content.social {
   text-decoration: underline;
 }
-
-.last-section {
-  width: 100%;
-  height: 50px;
-}
-
