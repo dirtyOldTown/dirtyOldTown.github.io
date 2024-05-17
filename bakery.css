@@ -6,25 +6,23 @@
 */
 #bakery-footer {
   background-color: #80473d;
-  width: 100%;
-  padding: 40px;
 }
-
 .first-section {
   display: flex;
-  justify-content: space-evenly;
+  padding: 70px 20px;
+  justify-content: space-around;
   color: #eee1ba;
-}
-.first h5, .second h5 {
-    font-family: 'Merienda';
-    font-size: 1.23em;
-    margin-bottom: 0;
-    color:#eee1ba;
 }
 .first-section .content {
   font-family: 'Poppins';
 }
-.first p {
+.links h5, .address h5, .contact h5 {
+  font-family: 'Merienda';
+  font-size: 1.3em;
+  margin-bottom: 20px;
+  color:#eee1ba;
+}
+.links p {
   margin-bottom: -5px;
 }
 .content a {
@@ -40,39 +38,81 @@
   color: #f0d7a7;
   opacity: 1;
 }
-.tree {
+.ordering {
   background-color: #9c604c;
   padding: 15px 17px;
   padding-bottom: 35px;
-  align-self: flex-end;
   border-radius: 5px;
   color: #ffffff;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.tree button {
+.ordering button {
   border: 0;
   border-radius: 4px;
   padding: 15px;
-  background-color:#80473d;
-  color:#ffffff;
-  font-size: 1.2em;
-  font-family: 'Merienda';
-  color:#ffffff;
+  background-color:#733f36;
+  color: #FFC82A;
+  font-weight: 600;
+  font-size: 1.1em;
+  font-family: 'Poppins';
   cursor: pointer;
 }
-.tree p {
+.ordering p {
   margin-top: 0;
   font-size: 1em;
   font-family: 'Merienda'
 }
-.tree h5 {
+.ordering h5 {
   color: #ffffff;
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin-bottom: 10px;
   margin-top: 10px;
   font-family: 'Poppins';
 }
-.content.social {
-  text-decoration: underline;
+.last-section {
+  display: flex;
+  padding: 15px;
+  font-size: 1em;
+  color:#bcaca9;
+  align-items: center;
+  justify-content: center;
+  background-color:#59312a;
+  border: 1px groove #9c604c;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 900px) {
+  .first-section {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #links, .address, .ordering {
+   margin-bottom: 80px;
+   flex-basis: 37%;
+  }
+  .ordering {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .first-section {
+   flex-direction: column;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 0;
+  }
+  #links, .address, .contact {
+    margin-bottom: 0;
+    width: 100%;
+    border-bottom: 2px groove #9c604c;
+  }
+  #links {
+    padding-bottom: 20px;
+  }
+  .ordering {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    align-self: center;
+  }
 }
