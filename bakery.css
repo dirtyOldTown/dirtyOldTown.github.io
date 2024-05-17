@@ -20,7 +20,7 @@
   font-family: 'Merienda';
   font-size: 1.25em;
   margin-bottom: 20px;
-  color:#eee1ba;
+  color:#d6caa7;
 }
 .links p {
   margin-bottom: -5px;
@@ -39,7 +39,7 @@
   opacity: 1;
 }
 .ordering {
-  background-color: #894e3f ;
+  background-color: #894e3f;
   padding: 15px 17px;
   padding-bottom: 35px;
   border-radius: 5px;
@@ -63,7 +63,7 @@
   border: 1px solid #2c1815
 }
 .ordering .order a {
-  color: #FFC82A;
+  color: #FAD6A5 /*#FFC82A*/;
   font-weight: 600;
   font-size: 1.1em;
   font-family: 'Poppins';
@@ -81,7 +81,7 @@
   display: flex;
   padding: 15px;
   font-size: 1em;
-  color:#cdc1bf;
+  color:#c39f93;
   align-items: center;
   justify-content: center;
   background-color:#59312a;
