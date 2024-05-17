@@ -5,7 +5,7 @@
 #894e3f (tamno), #9c634f (tamno)
 */
 #bakery-footer {
-  background-color: #80473d;
+  background-color: #59312a;
 }
 .first-section {
   display: flex;
@@ -18,7 +18,7 @@
 }
 .links h5, .address h5, .contact h5 {
   font-family: 'Merienda';
-  font-size: 1.3em;
+  font-size: 1.25em;
   margin-bottom: 20px;
   color:#eee1ba;
 }
@@ -39,29 +39,13 @@
   opacity: 1;
 }
 .ordering {
-  background-color: #9c604c;
+  background-color: #894e3f ;
   padding: 15px 17px;
   padding-bottom: 35px;
   border-radius: 5px;
   color: #ffffff;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.ordering button {
-  border: 0;
-  border-radius: 4px;
-  padding: 15px;
-  background-color:#733f36;
-  color: #FFC82A;
-  font-weight: 600;
-  font-size: 1.1em;
-  font-family: 'Poppins';
-  cursor: pointer;
-}
-.ordering p {
-  margin-top: 0;
-  font-size: 1em;
-  font-family: 'Merienda'
 }
 .ordering h5 {
   color: #ffffff;
@@ -70,11 +54,34 @@
   margin-top: 10px;
   font-family: 'Poppins';
 }
+.ordering .order {
+  border: 0;
+  border-radius: 7px;
+  padding: 15px;
+  background-color:#59312a;
+  cursor: pointer;
+  border: 1px solid #2c1815
+}
+.ordering .order a {
+  color: #FFC82A;
+  font-weight: 600;
+  font-size: 1.1em;
+  font-family: 'Poppins';
+  text-decoration: none;
+}
+.ordering .order a:hover {
+  opacity: 0.8;
+}
+.ordering p {
+  margin-top: 0;
+  font-size: 1em;
+  font-family: 'Merienda'
+}
 .last-section {
   display: flex;
   padding: 15px;
   font-size: 1em;
-  color:#bcaca9;
+  color:#cdc1bf;
   align-items: center;
   justify-content: center;
   background-color:#59312a;
@@ -89,20 +96,20 @@
   }
   #links, .address, .ordering {
    margin-bottom: 80px;
-   flex-basis: 37%;
+   flex-basis: 33%;
   }
   .ordering {
     margin-bottom: 20px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 769px) {
   .first-section {
    flex-direction: column;
    text-align: center;
    padding-top: 30px;
    padding-bottom: 0;
   }
-  #links, .address, .contact {
+  #links, .address {
     margin-bottom: 0;
     width: 100%;
     border-bottom: 2px groove #9c604c;
