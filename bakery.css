@@ -1,5 +1,4 @@
 
-
 /*
 #f0d7a7 (svetlo), #eee1ba (svetlo)
 #c37960 (srednje) 
@@ -42,7 +41,7 @@
   opacity: 1;
 }
 .tree {
-  background-color: #c37960;
+  background-color: #9c604c;
   padding: 15px 17px;
   padding-bottom: 35px;
   align-self: flex-end;
@@ -55,7 +54,7 @@
   border: 0;
   border-radius: 4px;
   padding: 15px;
-  background-color: #894e3f ;
+  background-color:#80473d;
   color:#ffffff;
   font-size: 1.2em;
   font-family: 'Merienda';
@@ -68,7 +67,7 @@
   font-family: 'Merienda'
 }
 .tree h5 {
-  color:#80473d;
+  color: #ffffff;
   font-size: 1.5em;
   margin-bottom: 10px;
   margin-top: 10px;
