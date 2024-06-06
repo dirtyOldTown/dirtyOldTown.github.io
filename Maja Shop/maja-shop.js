@@ -3,7 +3,7 @@ const closeList = document.querySelector(".mobile.close");
 const navList = document.querySelector("#nav ul");
 
 bars.onclick = function() {
-  navList.style.width = "50%";
+  navList.style.width = "70%";
   setTimeout(() => {
     closeList.style.display = "inline-block";
   }, 400);
@@ -11,7 +11,4 @@ bars.onclick = function() {
 closeList.onclick = function() {
   this.style.display = "none";
   navList.style.width = 0;
-  setTimeout(() => {
-    location.reload()
-  }, 400);
 }
