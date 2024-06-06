@@ -10,5 +10,5 @@ bars.onclick = function() {
 }
 closeList.onclick = function() {
   this.style.display = "none";
-  navList.style.width = 0;
+  navList.style.width = "";
 }
