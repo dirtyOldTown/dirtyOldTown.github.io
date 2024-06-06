@@ -139,8 +139,7 @@ body {
     top: 10px;
     font-size: 35px;
     font-weight: 600;
-    display: inline-block;
-    opacity: 0;
+    display: none;
     color:#2D3241;
     transition: 0.8s ease-in;
   }

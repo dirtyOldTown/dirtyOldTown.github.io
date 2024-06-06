@@ -4,10 +4,10 @@ const navList = document.querySelector("#nav ul");
 
 bars.onclick = function() {
   navList.style.width = "50%";
-  closeList.style.opacity = 1;
+  closeList.style.display = "inline-block";
 }
 closeList.onclick = function() {
-  this.style.opacity = 0;
+  this.style.display = "none";
   navList.style.width = 0;
   setTimeout(() => {
     location.reload()
