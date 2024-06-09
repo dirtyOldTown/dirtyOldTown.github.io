@@ -12,3 +12,4 @@ closeList.onclick = function() {
   this.style.display = "none";
   navList.style.width = "";
 }
+

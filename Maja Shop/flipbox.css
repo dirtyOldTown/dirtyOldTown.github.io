@@ -1,0 +1,44 @@
+
+.flip-box {
+  background-color: transparent;
+  width: 280px;
+  height: 170px;
+  perspective: 1000px;
+  margin-right: 50px;
+}
+.flip-box-inner {
+  position: relative;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+  margin-right: 30px;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  font-size: 1.2em;
+}
+.flip-box-inner img {
+  width: 280px;
+  height: 170px;
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-back {
+  background-color:firebrick;
+  color: white;
+  transform: rotateY(180deg);
+}
+.flip-box-back h2 {
+ font-family: 'Oswald';
+}
+.flip-box-front {
+  background-color: #ddd;
+  color: black;
+}
