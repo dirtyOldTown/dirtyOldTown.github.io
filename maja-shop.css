@@ -213,7 +213,7 @@ body {
    height: auto;
    padding: 50px 0;
    padding-bottom: 0;
-   margin-bottom: 40px;
+   margin-bottom: 20px;
   }
   .front-page-content {
     text-align: center;
@@ -235,11 +235,14 @@ body {
     font-size: 2em;
   }
 }
+
 /* Presentation */
+
 #presentation {
   display: flex;
   flex-direction: column;
-  font-family: 'Barlow Condensed', serif;;
+  font-family: 'Barlow Condensed', serif;
+  position: relative;
 }
 #presentation .presentation-row {
   display: flex;
@@ -254,6 +257,11 @@ body {
 .column1 h3 {
   text-decoration: wavy;
   color:#6C2F53;
+}
+.presentation-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .presentation-nav ul {
   list-style-type: disc;
@@ -276,6 +284,15 @@ body {
 .presentation-nav ul li a:hover {
   color:#6C2F53;
   text-decoration: underline;
+}
+#presentation .show button {
+  padding: 15px;
+  border: none;
+  background-color: #6C2F53;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
 }
 .column2 {
   flex-basis: 78%;
@@ -308,6 +325,18 @@ body {
 .presentation-image img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
+.up {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+  font-size: 2.5em;
+  color:rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.up:hover {
+  color:rgba(0, 0, 0, 0.9);
+}
 
 @media screen and (max-width: 992px) {
   .column1 {
@@ -322,12 +351,24 @@ body {
     padding: 0 30px;
     margin-bottom: 0;
   }
+  .presentation-items {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #presentation .show {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
   .column1 {
     width: 100%;
     padding: 0;
   }
+  .column2 h2 {
+   text-align: center;
+ }
   .presentation-nav ul {
     list-style-type: none;
+    text-align: center;
     margin: 0;
     padding: 0;
   }
@@ -336,7 +377,7 @@ body {
     width: 100%;
     height: 3px;
     display: block;
-    margin-top: 30px;
+    margin-top: 20px;
     background-color: #6C2F53;
   }
   .column2 {
@@ -345,10 +386,6 @@ body {
   }
   .presentation-row.row2, .presentation-row.row3 {
     flex-direction: column-reverse;
-  }
-  .presentation-items {
-    flex-direction: row;
-    justify-content: space-around;
   }
   .presentation-image.image2 {
     margin-top: 0;

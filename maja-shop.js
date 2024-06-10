@@ -13,3 +13,46 @@ closeList.onclick = function() {
   navList.style.width = "";
 }
 
+const links = document.querySelectorAll("#presentation li a");
+
+for (let link of links) {
+  link.addEventListener("click", (event) => {
+    let hashval = event.target.getAttribute("href");
+    let target = document.querySelector(hashval);
+    target.scrollIntoView({
+      behavior: "smooth",
+      block: "start"
+    });
+    history.pushState(null, null, hashval);
+    event.preventDefault();
+    backToList(target);
+    console.log(window.scrollY)
+  });
+}
+function backToList(target) {
+  let list = document.getElementById("presentation");
+  let elem = document.createElement("span");
+  let targetRect = target.getBoundingClientRect();
+  elem.classList.add("up");
+  elem.innerHTML = `<i class="fa-solid fa-circle-chevron-up"></i>`;
+  elem.style.opacity = 1;
+  elem.style.top = targetRect.bottom + scrollY + "px"
+  setTimeout(() => {
+    document.body.append(elem);
+  }, 700);
+  elem.addEventListener("click", (e) => {
+    list.scrollIntoView({
+      behavior: 'smooth'
+    });
+    history.pushState(null, null, document.querySelector("listRect"));
+    e.preventDefault();
+    setTimeout(() => {
+      elem.remove()
+    }, 500)
+  });
+  window.addEventListener("scroll", () => {
+    if (window.scrollY < 870)
+   elem.remove();
+  });
+}
+
