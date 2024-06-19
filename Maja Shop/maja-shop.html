@@ -4,251 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/maja-shop.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
-    <link rel="stylesheet" href="maja-shop.css">
-    <link rel="stylesheet" href="flipbox.css">
-    <script src="maja-shop.js" defer></script>
+    <script src="./script/maja-shop.js" defer></script>
     <style>
-      body {
-  margin: 0;
-}
-* {
-  box-sizing: border-box;
-}
-
-/* Header */
-#header-root {
-  position: sticky;
-}
-#info {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 80px;
-  background-color: #2D3241;
-  color: #D5D6D9;
-  font-family: 'Barlow Condensed', serif;
-  font-size: 1.1em;
-}
-.info-text, .info-tel {
-  color: #D5D6D9;
-}
-.info-text .icon {
-  margin-right: 10px;
-}
-.info-tel a {
-  text-decoration: none;
-  color: white;
-  transition: 0.3s;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-}
-.info-tel a:hover {
-  color:#FFD600;
-}
-.info-tel span.text {
-  margin-right: 12px;
-}
-#nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 80px;
-  font-family: 'Montserrat', serif;
-  background-color: #fdfcf6;
-  font-size: 1em;
-}
-#nav ul {
-  margin: 0;
-  padding: 0;
-}
-#nav ul li {
-  display: inline-block;
-  margin-right: 20px;
-  position: relative;
-}
-#nav ul li:last-of-type {
-  margin-right: 0;
-}
-#nav li a {
-  text-decoration: none;
-  color: #333;
-  font-size: 1em;
-  font-weight: 600;
-}
-#nav li a:hover, #nav a.active {
-  color: #6C2F53;
-}
-#nav li a:not(.icon)::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: -4px;
-  height: 2px;
-  width: 0;
-  background-color: #6C2F53;
-  transition: 0.3s ease;
-}
-#nav li a.active::after, #nav li a:not(.icon):hover::after {
-  width: 100%;
-}
-#nav .icon {
-  font-size: 1.2em;
-  color: #333;
-  transition: 0.3s;
-}
-#nav .icon:hover {
-  color: #6C2F53;
-}
-.mobile.bars, .mobile.close {
-  display: none;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 992px) {
-  #info {
-    padding: 0 20px;
-  }
-  .info-text {
-    text-align: center;
-  }
-  #nav {
-    padding: 30px 20px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #info {
-    flex-direction: column;
-    align-items: center;
-  }
-  .info-text {
-   border-bottom: 1px dotted #585a66;
-  }
-  #nav {
-    padding: 10px 20px;
-  }
-  #nav ul {
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 0%;
-    height: 100%;
-    background-color: white;
-    padding-top: 20px;
-    transition: 0.4s;
-  }
-  #nav ul li {
-    display: block;
-    margin-bottom: 20px;
-    margin-left: 30px;
-  }
-  #nav li a:not(.icon)::after {
-    display: none;
-  }
-  .mobile.bars {
-    display: inline-block;
-    font-size: 1.5em;
-    color:#2D3241;
-  }
-  .mobile.close {
-    position: absolute;
-    right: 20px;
-    top: 5px;
-    font-size: 40px;
-    font-weight: 600;
-    display: none;
-    color:#2D3241;
-    transition: 0.8s ease-in;
-  }
-  .mobile.close:hover {
-    color:black;
-  }
-}
-
-/* Front Page */
-#front-page {
-  width: 100%;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content:space-between;
-  font-family: 'Barlow Condensed', serif;
-  background-color: #6C2F53;
-  color: #ffffff;
-  margin-bottom: 100px;
-}
-.front-page-content {
-  margin-right: 150px
-}
-.front-page-image {
-  width: 40%;
-  margin-left: 40px;
-}
-.front-page-image img {
-  width: 100%;
-}
-#front-page h1 {
-  font-size: 2.7em;
-  margin-top: 10px;
-  text-shadow: 1px 1px 1px #000;
-}
-#front-page h4 {
-  font-size: 1.2em;
-  color: #E1D5DC;
-  font-weight: 700;
-  font-family: 'Barlow Semi Condensed', serif;
-}
-#front-page button {
-  border: 0;
-  padding: 10px 20px;
-  border-radius: 12px;
-  font-size: 1em;
-  font-weight: bolder;
-  background-color: #FFD600;
-  color:#000000;
-  cursor: pointer;
-}
-#front-page button:hover {
-  opacity: 1;
-}
-@media screen and (max-width: 992px) {
-  .front-page-content {
-    margin-right: 80px
-  }
-}
-@media screen and (max-width: 768px) {
-  #front-page {
-   flex-direction: column-reverse;
-   justify-content: center;
-   align-items: center;
-   height: auto;
-   padding: 50px 0;
-   padding-bottom: 0;
-   margin-bottom: 40px;
-  }
-  .front-page-content {
-    text-align: center;
-    margin: 0;
-    padding: 0 20px;
-  }
-  .front-page-image {
-    width: 60%;
-    height: auto;
-    margin-left: 0;
-  }
-    
-  #front-page button {
-    opacity: 1;
-  }
-}
-@media screen and (max-width: 480px) {
-  #front-page h1 {
-    font-size: 2em;
-  }
-}
     </style>
 </head>
 <body>
@@ -270,12 +33,12 @@
       </div>
       <nav class="nav">
         <ul>
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#" class="active">Početna</a></li>
+          <li><a href="#">O Nama</a></li>
+          <li><a href="#">Prodavnica</a></li>
           <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#" title="shop" class="icon"><i class="fa fa-shopping-bag icon"></i></a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#" title="Torba za kupovinu" class="icon"><i class="fa fa-shopping-bag icon"></i></a></li>
         </ul>
         <span class="mobile bars"><i class="fa fas fa-bars"></i></span>
       </nav>
@@ -286,9 +49,10 @@
    <!-- Front Page -->
 
   <main id="front-page">
-    <div class="front-page-image">
-      <img src="images/diamond-1817291_1280.png" alt="">
+   <!-- <div class="front-page-image">
+      <img src="./images/logo.jpg" alt="">
     </div>
+    -->
     <div class="front-page-content">
     <h4>MAJA-SHOP-PRESENT </h4>
     <h1>NARUKVICE<br>
@@ -304,12 +68,15 @@
     <section class="presentation-row row1">
       <aside class="presentation-nav column1">
         <h3>MAJA-SHOP PRESENT</h3>
-        <ul>
+        <ul class="scroll-into-view">
           <li><a href="#bracelets">Izrada narukvica</a></li>
           <li><a href="#necklaces">Izrada ogrlica</a></li>
-          <li><a href="#">Budući projekti</a></li>
           <li><a href="#featured-products">Popularni proizvodi</a></li>
+          <li><a href="#future-projects">Budući projekti</a></li>
         </ul>
+        <div class="show">
+          <button>Show me</button>
+        </div>
       </aside>
       <div class="column2" id="intro">
         <h2>NAŠA PRIČA</h2>
@@ -330,13 +97,18 @@
     <section class="presentation-row row2" id="bracelets">
       <aside class="presentation-items column1">
         <div class="presentation-image image1">
-          <a target="_blank" href="./images/2148768595.jpg" title="image1">
-            <img src="./images/2148768595.jpg" alt="" width="150">
+          <a target="_blank" href="./images/test.jpg" title="image1">
+            <img src="./images/test.jpg" alt="" width="150" loading="lazy">
           </a>
         </div>
         <div class="presentation-image image2">
-          <a target="_blank" href="./images/2148768595.jpg" title="image2">
-            <img src="./images/2148768595.jpg" alt="" width="150">
+          <a target="_blank" href="./images/test.jpg" title="image2">
+            <img src="./images/test.jpg" alt="" width="150" loading="lazy">
+          </a>
+        </div>
+        <div class="presentation-image image2 hide-image">
+          <a target="_blank" href="./images/test.jpg" title="image2">
+            <img src="./images/test.jpg" alt="" width="150" loading="lazy">
           </a>
         </div>
       </aside>
@@ -350,18 +122,27 @@
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
         when an unknown printer took a galley of type and scrambled it to make a type 
         specimen book.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type 
+          specimen book.</p>
       </div>
     </section>
     <section class="presentation-row row3" id="necklaces">
       <aside class="presentation-items column1">
         <div class="presentation-image image1">
-          <a target="_blank" href="./images/2148768595.jpg" title="image1">
-            <img src="./images/2148768595.jpg" alt="" width="150">
+          <a target="_blank" href="./images/test.jpg" title="image1">
+            <img src="./images/test.jpg" alt="" width="150" loading="lazy">
           </a>
         </div>
         <div class="presentation-image image2">
-          <a target="_blank" href="./images/2148768595.jpg" title="image2">
-            <img src="./images/2148768595.jpg" alt="" width="150">
+          <a target="_blank" href="./images/test.jpg" title="image2" loading="lazy">
+            <img src="./images/test.jpg" alt="" width="150">
+          </a>
+        </div>
+        <div class="presentation-image image2 hide-image" >
+          <a target="_blank" href="./images/test.jpg" title="image2" loading="lazy">
+            <img src="./images/test.jpg" alt="" width="150">
           </a>
         </div>
       </aside>
@@ -375,10 +156,22 @@
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
         when an unknown printer took a galley of type and scrambled it to make a type 
         specimen book.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type 
+          specimen book.</p>
       </div>
     </section>
   </section>
 
+ <!-- Break Section-->
+
+ <article id="alt-shop">
+  <div class="logo"></div>
+  <p>Naše proizvode možete naručiti<br>
+      i na sajtu:<a href="#"> &nbsp;www.shit-shop.com</a>
+  </p>
+</article>
   <!-- Featured Products -->
 
   <section id="featured-products">
@@ -386,7 +179,7 @@
     <section id="products">
       <article class="product">
         <div class="product-image row">
-           <img src="./images/mail-1296065_640.png" alt="">
+           <img src="./images/mail-1296065_640.png" alt="" loading="lazy">
         </div>
         <p class="row product-type">narukvica</p>
         <h3 class="row product-title">Naziv Shop Proizvoda</h3>
@@ -404,7 +197,7 @@
       </article>
       <article class="product">
         <div class="product-image row">
-           <img src="./images/mail-1296065_640.png" alt="">
+           <img src="./images/mail-1296065_640.png" alt="" loading="lazy">
         </div>
         <p class="row product-type">narukvica</p>
         <h3 class="row product-title">Naziv Shop Proizvoda</h3>
@@ -422,7 +215,7 @@
       </article>
       <article class="product">
         <div class="product-image row">
-           <img src="./images/mail-1296065_640.png" alt="">
+           <img src="./images/mail-1296065_640.png" alt="" loading="lazy">
         </div>
         <p class="row product-type">narukvica</p>
         <h3 class="row product-title">Naziv Shop Proizvoda</h3>
@@ -440,7 +233,7 @@
       </article>
       <article class="product">
         <div class="product-image row">
-           <img src="./images/mail-1296065_640.png" alt="">
+           <img src="./images/mail-1296065_640.png" alt="" loading="lazy">
         </div>
         <p class="row product-type">narukvica</p>
         <h3 class="row product-title">Naziv Shop Proizvoda</h3>
@@ -458,5 +251,27 @@
       </article>
   </section>
 </section>
+
+<!-- Future projects-->
+<section id="future-projects">
+  <div class="title-bottom">
+    <img src="" alt="" class="logo-bottom">
+    <h4>BUDUĆI PROJEKTI</h4>
+  </div>
+  <hr>
+  <div class="projects">
+    <ul>
+      <li>- <strong>Lorem Ipsum</strong> has been the industry's standard dummy text ever since the 1500s</li>
+      <li>- <strong>Lorem Ipsum</strong> has been the industry's standard dummy text ever since the 1500s</li>
+      <li>- <strong>Lorem Ipsum</strong> has been the industry's standard dummy text ever since the 1500s</li>
+      <li>- <strong>Lorem Ipsum</strong> has been the industry's standard dummy text ever since the 1500s</li>
+    </ul>
+    <img src="" alt="">
+  </div>
+</section>
+
+<footer>
+ 
+</footer>
 </body>
 </html>
