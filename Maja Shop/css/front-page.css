@@ -51,9 +51,6 @@
      flex-direction: column-reverse;
      justify-content: center;
      align-items: center;
-     height: auto;
-     padding: 50px 0;
-     padding-bottom: 0;
      margin-bottom: 20px;
     }
     .front-page-content {
