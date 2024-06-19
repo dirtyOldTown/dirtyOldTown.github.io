@@ -37,7 +37,7 @@ function backToList(target) {
   elem.classList.add("up");
   elem.innerHTML = `<i class="fa-solid fa-circle-chevron-up"></i>`;
   elem.style.opacity = 1;
-  elem.style.top = targetRect.bottom + scrollY + "px"
+  elem.style.top = targetRect.top + 20 + scrollY + "px"
   setTimeout(() => {
     document.body.append(elem);
   }, 700);
