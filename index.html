@@ -8,8 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
-    <link rel="stylesheet" href="maja-shop.css">
-    <script src="maja-shop.js" defer></script>
+    <link rel="stylesheet" href="./css/maja-shop.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <script src="./script/maja-shop.js" defer></script>
     <style>
     </style>
 </head>
@@ -32,12 +33,12 @@
       </div>
       <nav class="nav">
         <ul>
-          <li><a href="#" class="active">Home</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#" class="active">Početna</a></li>
+          <li><a href="#">O Nama</a></li>
+          <li><a href="#">Prodavnica</a></li>
           <li><a href="#">Blog</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#" title="shop" class="icon"><i class="fa fa-shopping-bag icon"></i></a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="#" title="Torba za kupovinu" class="icon"><i class="fa fa-shopping-bag icon"></i></a></li>
         </ul>
         <span class="mobile bars"><i class="fa fas fa-bars"></i></span>
       </nav>
@@ -48,9 +49,10 @@
    <!-- Front Page -->
 
   <main id="front-page">
-    <div class="front-page-image">
-      <img src="images/diamond-1817291_1280.png" alt="">
+   <!-- <div class="front-page-image">
+      <img src="./images/logo.jpg" alt="">
     </div>
+    -->
     <div class="front-page-content">
     <h4>MAJA-SHOP-PRESENT </h4>
     <h1>NARUKVICE<br>
@@ -66,11 +68,11 @@
     <section class="presentation-row row1">
       <aside class="presentation-nav column1">
         <h3>MAJA-SHOP PRESENT</h3>
-        <ul>
+        <ul class="scroll-into-view">
           <li><a href="#bracelets">Izrada narukvica</a></li>
           <li><a href="#necklaces">Izrada ogrlica</a></li>
-          <li><a href="#">Budući projekti</a></li>
           <li><a href="#featured-products">Popularni proizvodi</a></li>
+          <li><a href="#future-projects">Budući projekti</a></li>
         </ul>
         <div class="show">
           <button>Show me</button>
@@ -104,6 +106,11 @@
             <img src="./images/test.jpg" alt="" width="150" loading="lazy">
           </a>
         </div>
+        <div class="presentation-image image2 hide-image">
+          <a target="_blank" href="./images/test.jpg" title="image2">
+            <img src="./images/test.jpg" alt="" width="150" loading="lazy">
+          </a>
+        </div>
       </aside>
       <div class="column2 no-border">
         <h2>IZRADA NARUKVICA</h2>
@@ -115,6 +122,10 @@
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
         when an unknown printer took a galley of type and scrambled it to make a type 
         specimen book.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type 
+          specimen book.</p>
       </div>
     </section>
     <section class="presentation-row row3" id="necklaces">
@@ -125,6 +136,11 @@
           </a>
         </div>
         <div class="presentation-image image2">
+          <a target="_blank" href="./images/test.jpg" title="image2" loading="lazy">
+            <img src="./images/test.jpg" alt="" width="150">
+          </a>
+        </div>
+        <div class="presentation-image image2 hide-image" >
           <a target="_blank" href="./images/test.jpg" title="image2" loading="lazy">
             <img src="./images/test.jpg" alt="" width="150">
           </a>
@@ -140,10 +156,22 @@
         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
         when an unknown printer took a galley of type and scrambled it to make a type 
         specimen book.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          when an unknown printer took a galley of type and scrambled it to make a type 
+          specimen book.</p>
       </div>
     </section>
   </section>
 
+ <!-- Break Section-->
+
+ <article id="alt-shop">
+  <div class="logo"></div>
+  <p>Naše proizvode možete naručiti<br>
+      i na sajtu:<a href="#"> &nbsp;www.shit-shop.com</a>
+  </p>
+</article>
   <!-- Featured Products -->
 
   <section id="featured-products">
@@ -223,5 +251,27 @@
       </article>
   </section>
 </section>
+
+<!-- Future projects-->
+<section id="future-projects">
+  <div class="title-bottom">
+    <img src="" alt="" class="logo-bottom">
+    <h4>BUDUĆI PROJEKTI</h4>
+  </div>
+  <hr>
+  <div class="projects">
+    <ul>
+      <li>- <strong>Lorem Ipsum</strong> has been the industry's standard dummy text ever since the 1500s</li>
+      <li>- <strong>Lorem Ipsum</strong> has been the industry's standard dummy text ever since the 1500s</li>
+      <li>- <strong>Lorem Ipsum</strong> has been the industry's standard dummy text ever since the 1500s</li>
+      <li>- <strong>Lorem Ipsum</strong> has been the industry's standard dummy text ever since the 1500s</li>
+    </ul>
+    <img src="" alt="">
+  </div>
+</section>
+
+<footer>
+ 
+</footer>
 </body>
 </html>

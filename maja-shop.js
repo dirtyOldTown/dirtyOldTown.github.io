@@ -13,7 +13,7 @@ closeList.onclick = function() {
   navList.style.width = "";
 }
 
-const links = document.querySelectorAll("#presentation li a");
+const links = document.querySelectorAll(".scroll-into-view li a");
 
 for (let link of links) {
   link.addEventListener("click", (event) => {
@@ -25,10 +25,10 @@ for (let link of links) {
     });
     history.pushState(null, null, hashval);
     event.preventDefault();
-    backToList(target);
     console.log(window.scrollY)
   });
 }
+
 function backToList(target) {
   let list = document.getElementById("presentation");
   let elem = document.createElement("span");
@@ -55,4 +55,8 @@ function backToList(target) {
    elem.remove();
   });
 }
+
+
+
+
 
