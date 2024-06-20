@@ -4,9 +4,7 @@ const navList = document.querySelector("#nav ul");
 
 bars.onclick = function() {
   navList.style.width = "70%";
-  setTimeout(() => {
-    closeList.style.display = "inline-block";
-  }, 400);
+  closeList.style.display = "inline-block";
 }
 closeList.onclick = function() {
   this.style.display = "none";
