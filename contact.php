@@ -7,8 +7,8 @@
 </head>
 <body>
 Welcome <?php echo $_GET["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; 
-mail("boloks70.gmail.com","Poruka od korisnika", "",  $_POST["email"] );
+Your email address is: <?php echo $_GET["email"]; 
+mail("boloks70.gmail.com","Poruka od korisnika", "",  $_GET["email"] );
 ?>
 </body>
 </html>
