@@ -1,17 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
+  <script src="main.js" defer></script>
+  <style>
+    @font-face {
+      font-family: "Inter-Regular";
+      src: url("fonts/Inter/Inter-Regular.woff2") format("woff2"),
+           url("fonts/Inter/Inter-Regular.woff") format("woff");
+      font-display: swap;
+      font-style: normal;
+      font-weight: normal;
+    }
+    @font-face {
+      font-family: "Inter-Bold";
+      src: url("fonts/Inter/Inter18pt-Bold.woff2") format("woff2"),
+           url("fonts/Inter/Inter18pt-Bold.woff") format("woff");
+      font-display: swap;
+      font-style: normal;
+      font-weight: bold;
+    }
+    @font-face {
+      font-family: "Inter-ExtraLight";
+      src: url("fonts/Inter/Inter28pt-ExtraLight.woff2") format("woff2"),
+           url("fonts/Inter/Inter28pt-ExtraLight.woff") format("woff");
+      font-display: swap;
+      font-style: normal;
+      font-weight: 200;
+    }
+    @font-face {
+      font-family: "Poppins-Regular";
+      src: url("fonts/Poppins/Poppins-Regular.woff2") format("woff2"),
+           url("fonts/Poppins/Poppins-Regular.woff") format("woff");
+      font-display: swap;
+      font-style: normal;
+      font-weight: normal;
+    }
+    @font-face {
+      font-family: "Poppins-Bold";
+      src: url("fonts/Poppins/Poppins-Bold.woff2") format("woff2"),
+           url("fonts/Poppins/Poppins-Bold.woff") format("woff");
+      font-display: swap;
+      font-style: normal;
+      font-weight: bold;
+    }
+    @font-face {
+    font-family: 'Poppins-Light';
+    src: url('fonts/Poppins/Poppins-Light.woff2') format('woff2'),
+        url('fonts/Poppins/Poppins-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+</style>
 </head>
 <body>
-  <h1>DIRTY OLD TOWN</h1>
-  <html>
-<body>
-
-
-</body>
-</html>
+<header>
+  <i class="fa-brands fa-github fa-7x"></i>
+</header>
+<section id="hero-section">
+  <h1>Welcome to <span class="git-username"> dirtyOldTown</span><br> 
+    Github Page ! </h1>
+  <div class="hero-section-buttons">
+    <div class="reposiries-button hero-butt">My repositories</div>
+    <div class="web-pages-button hero-butt">My projects</div>
+  </div>
+</section>
+<section id="portfolio">
+  <div class="left-side">
+    <h2>Portfolio</h2>
+    <p>
+      My name is Aleksandar and I am antroplogist from Belgrade. 
+      I've been doing programming, web design, creating websites and the like for about 3 years. 
+      At first, I saw it as a hobby, which later turned into a passion.
+    </p>
+    <p>
+      In my projects, I mostly rely on: HTML, JavaScript, CSS, MySQL Database, Mango, PHP...
+    </p>
+    <p>
+      In addition to the repository, some of the sites I've done for friends 
+      and clients will be displayed here.
+    </p>
+  </div>
+  <div class="right-side">
+    <img src="./images/27-marta.jpg" alt="Picture of old Belgrade">
+    <p class="belgrade-picture-caption"><strong>Dirty Old Town</strong> is Belgrade</p>
+  </div>
+</section>
+<article id="repositories">
+  <div class="title">
+    <div><i class="fa-brands fa-github fa-7x icon-color"></i></div>
+    <h3>My Repositories</h3>
+  </div>
+  <div  class="repositories article">
+    <p><a href="https://github.com/dirtyOldTown/album-collection">Album Collection </a>
+      <span class="repositorium-description">A simple interface for keeping track of your albums.</span>
+    </p>
+    <p><a href="https://github.com/dirtyOldTown/book">Artist Portfolio </a>
+      <span class="repositorium-description">Display of artwork , book presentation , for a friend.</span>
+    </p>
+    <p><a href="https://github.com/dirtyOldTown/Canvas-Watch">Canvas Watch </a>
+      <span class="repositorium-description">Wall clock. Made in canvas. Extended version coming soon.</span>
+    </p>
+    <p><a href="https://github.com/dirtyOldTown/album-collection">This Repository </a>
+      <span class="repositorium-description">Main github page. A simple presentation of my work.</span>
+    </p>
+  </div>
+</article>
+<aside class="icons-carousel">
+  <div class="carousel-container">
+    <img src="icons/html2.png" alt="html-icon">
+    <img src="icons/css-3(1).png" alt="css-icon">
+    <img src="icons/java-script(1).png" alt="javascript-icon">
+    <img src="icons/mysql(1).png" alt="mysql-icon">
+    <img src="icons/php(1).png" alt="php-icon">
+  </div>
+</aside>
+<article id="projects">
+  <div class="title">
+    <div><img src="icons/internet(1).png" alt="internet-icon"></div>
+    <h3>My Projects</h3>
+  </div>
+  <div  class="projects article">
+    <p><a href="https://otkljucajlako.rs">Locksmith Shop </a>
+      <span class="project-description">Site for a small locksmith shop in Belgrade, for a friend.</span>
+    </p>
+    <p><a href="https://mimaarbidauthor.com">Artist Portfolio </a>
+      <span class="project-description">A website for the presentation of artistic creativity and book presentation.</span>
+    </p>
+    <p><a href="https://nebeskimir.com">Undertaker Company </a>
+      <span class="project-description">Site for a company dealing with the international transportation of the deceased.</span>
+    </p>
+  </div>
+</article>
+<footer>
+  <div class="footer-container">
+  <form action="http://formspree.io/boloks70@gmail.com">
+    <h5>Be in Touch</h5>
+    <div class="form-container">
+   <!-- <label for="email">Email</label><br> -->
+    <input type="email" name="email" id="email" required placeholder="Your email"><br><br>
+    <!-- <label for="message">Message</label><br> -->
+    <textarea name="message" id="message" cols="30" rows="7" placeholder="Your message"></textarea><br><br>
+    <input type="submit" value="Send" id="submit-btn">
+  </div>
+  </form>
+  <img src="images/computer_14379462.png" alt="monitor" width="256" height="256">
+  <div class="right-side">
+    <div class="links-container">
+      <div class="repos-container">
+        <h5>Repositories</h5>
+        <ul class="repos links">
+          <li><a href="https://github.com/dirtyOldTown/album-collection">Album Collection</a></li>
+          <li><a href="https://github.com/dirtyOldTown/book">Artist Portfolio</a></li>
+          <li><a href="https://github.com/dirtyOldTown/Canvas-Watch">Canvas Watch</a></li>
+        </ul>
+      </div>
+      <div class="sites-container">
+        <h5>Sites</h5>
+        <ul class="sites links">
+          <li><a href="https://otkljucajlako.rs">Locksmith Shop</a></li>
+          <li><a href="https://nebeskimir.com">Undertaker Company</a></li>
+          <li><a href="https://mimaarbidauthor.com">Artist Portfolio</a></li>
+        </ul>
+      </div>
+  </div>
+  <div class="back-to-top">
+    <i class="fa-solid fa-arrow-up-wide-short fa-3x fa-color"></i>
+  </div>
+  <div class="cooperation-open">
+     <p>Open for cooperation <br>
+      and services!</p>
+  </div>
+</div>
+</div>
+<div id="end-block">&copy;&nbsp;2025&nbsp;dirtyOldTown.github.io</div>
+</footer>
 </body>
 </html>

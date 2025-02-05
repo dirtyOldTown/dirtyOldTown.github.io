@@ -1,0 +1,300 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 9.6rem;
+  background:  linear-gradient(to right, #4D4C89, 30%, #8685EF);
+  border: 0.8rem solid #1E1E1E;
+  border-bottom: 0;
+}
+
+/* HERO SECTION*/
+#hero-section {
+  background-color: #1E1E1E;
+  color: #F2ECFF;
+  padding: 96px 0;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+#hero-section h1 {
+  font-family: "Inter-ExtraLight";
+  font-weight: 300;
+  font-size: 5.4rem;
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 80px;
+}
+#hero-section .git-username {
+  font-family: "Inter-Regular";
+  font-weight: 800;
+  color:#8685EF;
+  margin-left: 0.8rem;
+}
+.hero-section-buttons {
+  display: flex;
+  font-family: "Poppins-Bold";
+  justify-content: center;
+  margin-top: 80px;
+}
+.hero-butt {
+  padding: 16px 32px;
+  font-size: 1.8rem;
+  color:#1E1E1E;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.hero-butt:hover {
+  opacity: 0.85;
+}
+.hero-butt.reposiries-button {
+  background: linear-gradient(to right, #4D4C89, 10%, #8685EF);
+}
+.hero-butt.web-pages-button {
+  background-color: #F2ECFF;
+  background: linear-gradient(to right, #918E99, 10%, #F2ECFF);
+  margin-left: 4.8rem;
+}
+
+/* PORTFOLIO */
+#portfolio {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+  margin-top: 1.6rem;
+  background-color: #F2ECFF;
+  font-family: "Poppins-Regular";
+}
+#portfolio .left-side {
+  margin-left: 6.4rem;
+  width: 640px;
+}
+#portfolio h2 {
+  font-size: 4.5rem;
+  font-family: "Inter-Bold";
+  color: #1E1E1E;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#portfolio p {
+  font-size: 1.8rem;
+}
+
+#portfolio .right-side {
+  margin-right: 6.4rem;
+  text-align: right;
+}
+.right-side img {
+  max-width: 450px;
+  height: auto;
+  border: 3px solid silver;
+  border-radius: 7px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+#portfolio .right-side p {
+  font-style: italic;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+/* REPOSITORIES, PROJECTS */ 
+#repositories, #projects {
+  font-family: "Poppins-Regular";
+  font-weight: 500;
+  padding:64px 0;
+  padding-bottom:80px;
+  background-color: #1E1E1E;
+  filter: brightness(95%);
+}
+#repositories .title, #projects .title {
+  display: flex;
+  align-items: last baseline;
+  margin-left: 6.4rem;
+  margin-right: 6.4rem;
+}
+#projects .title {
+  align-items: flex-end;
+}
+.title .icon-color {
+  color:#8685EF
+}
+#repositories h3, #projects h3 {
+  color:#8685EF;
+  font-family: "Inter-Bold";
+  font-size: 3.7rem;
+  margin-left: 2.4rem;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+#projects h3 {
+  color:#00A1F5;
+}
+.repositories, .projects {
+  margin-top: 6.4rem;
+  margin-left:16rem;
+}
+.repositories p, .projects p {
+  font-family: "Inter-Regular";
+  font-size: 1.9rem;
+  color:#F2ECFF;
+}
+#repositories a, #projects a {
+  font-family: "Poppins-Regular";
+  font-weight: 500;
+  font-size: 2.2rem;
+  color:#fab565;
+  text-decoration: none;
+  filter: brightness(85%);
+
+}
+#projects a {
+  color: #f9f871/*#eee8a9*/;
+}
+#repositories a:hover, #projects a:hover {
+  filter: brightness(100%)
+}
+#repositories .repositorium-description, #projects .project-description {
+  font-family: "Poppins-Light";
+  filter: brightness(90%);
+  font-weight: 200;
+  margin-left: 2.4rem;
+}
+#projects img {
+  filter: brightness(90%);
+  width: 64px;
+  height: auto;
+}
+
+/* PROGRAMS-CAROUSEL */
+.icons-carousel {
+  background-color: #F2ECFF;
+}
+.carousel-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 6.4rem;
+  margin-right: 6.4rem;
+  padding: 80px 0;
+}
+
+/* FOOTER */
+footer {
+  background-color: #F2ECFF;
+  font-family: "Inter-Regular";
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 6.4rem;
+  margin-right: 6.4rem;
+  padding: 80px 0;
+}
+.form-container {
+  border: 1px solid silver;
+  padding: 10px;
+}
+footer h5 {
+  font-family: "Inter-Regular";
+  font-size: 1.5rem;
+  color:#1E1E1E;
+}
+footer h5:first-of-type {
+  margin-bottom: 1rem;
+}
+#email, #message {
+  border: 1px solid silver;
+  font-family: "Inter-Regular";
+  font-size: 1.4rem;
+  background-color: #F2ECFF;
+}
+#email, #message, #submit-btn {
+  width: 100%;
+  padding: 1rem 0;
+  padding-left: 1rem;
+}
+#submit-btn {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Inter-Regular";
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #1e1e1e;
+  filter: brightness(60%);
+}
+.footer-container img {
+  align-self: last baseline;
+  margin-bottom: -10px;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.repos-container, .sites-container {
+  display: inline-block;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 32px;
+  font-family: "Inter-Regular";
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+footer .links a {
+  text-decoration: none;
+  color:#1E1E1E;
+}
+footer .links a:hover {
+ font-weight: 600;
+ color:#4D4C89;
+}
+footer .repos-container {
+ margin-right: 2.4rem;
+}
+.fa-color {
+  color:#4D4C89;
+  cursor: pointer;
+  margin-right: 2.4rem;
+}
+.fa-color:hover {
+  color:#1E1E1E;
+}
+.cooperation-open {
+  margin-right: 2.4rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Inter-Regular";
+  color:#1E1E1E;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: -10px;
+}
+#end-block {
+  display: flex;
+  font-family: Inter-Regular;
+  font-size: 1.3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  background-color: #1E1E1E;
+  color:#D9D9D9;
+  filter:brightness(85%)
+}
