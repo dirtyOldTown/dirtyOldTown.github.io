@@ -73,6 +73,7 @@ header {
   justify-content: space-between;
   padding: 80px 0;
   margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
   background-color: #F2ECFF;
   font-family: "Poppins-Regular";
   align-items: center;
@@ -97,7 +98,7 @@ header {
   position: relative;
   margin-right: 6.4rem;
   text-align: right;
-  max-width: 450px
+  width: 450px
 }
 .right-side img {
   width: 450px;
@@ -109,8 +110,8 @@ header {
 }
 #portfolio .belgrade-picture-caption {
   position: absolute;
-  top: 324px;
-  right: 8px;
+  top: 32.4rem;
+  text-align: center;
   font-style: italic;
   margin-top: 1rem;
   font-size: 1.5rem;
@@ -150,6 +151,7 @@ header {
 }
 .repositories, .projects {
   margin-top: 6.4rem;
+  margin-right: 6.4rem;
   margin-left:16rem;
 }
 .repositories p, .projects p {
@@ -311,4 +313,31 @@ footer .repos-container {
   background-color: #1E1E1E;
   color:#D9D9D9;
   filter:brightness(85%)
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 992px) {
+  #portfolio {
+    flex-direction: column;
+  }
+  #portfolio .left-side {
+    margin-left: 0;
+    margin-right: 0;
+    width: 80%;
+  }
+  #portfolio .right-side {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 80%;
+    margin-top: 1.8rem;
+    margin-bottom: 2.4rem;
+  }
+  #footer-image-container {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  
 }
