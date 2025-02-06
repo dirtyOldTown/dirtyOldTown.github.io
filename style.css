@@ -321,6 +321,8 @@ footer .repos-container {
 }
 
 @media screen and (max-width: 600px){
+
+  /* PORTFOLIO */
   #portfolio {
     padding: 40px 0;
   }
@@ -329,5 +331,46 @@ footer .repos-container {
   }
   #portfolio p {
     font-size: 1.6rem;
+  }
+  #portfolio .right-side {
+    width: 300px;
+  }
+  .right-side img {
+    max-width: 300px;
+  }
+
+  /* REPOSITORIES, PROJECTS */
+  #repositories, #projects {
+    padding:64px 0;
+    padding-bottom:80px;
+  }
+  .repositories, .projects {
+    margin-left:3.2rem;
+    margin-right: 3.2rem;
+  }
+  #repositories .title, #projects .title {
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  #repositories h3, #projects h3 {
+    font-size: 3.1rem;
+    align-self: center;
+  }
+  .icon-internet-container {
+    align-self: center;
+  }
+  .repositories p, .projects p {
+    font-size: 1.6rem;
+  }
+  #repositories a, #projects a {
+    font-size: 2rem;
+  }
+  #projects .title {
+    align-items: flex-end;
+  }
+  #repositories h3, #projects h3 {
+    margin-left:0;
   }
 }
