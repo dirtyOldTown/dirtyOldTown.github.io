@@ -4,7 +4,6 @@
   justify-content: space-between;
   padding: 80px 0;
   margin-top: 1.6rem;
-  margin-bottom: 1.6rem;
   background-color: #F2ECFF;
   font-family: "Poppins-Regular";
   align-items: center;
@@ -56,6 +55,7 @@
   padding-bottom:80px;
   background-color: #1E1E1E;
   filter: brightness(95%);
+  margin-bottom: 0;
 }
 #repositories .title, #projects .title {
   display: flex;
@@ -341,7 +341,7 @@ footer .repos-container {
 
   /* REPOSITORIES, PROJECTS */
   #repositories, #projects {
-    padding:64px 0;
+    padding:80px 0;
     padding-bottom:80px;
   }
   .repositories, .projects {
@@ -357,6 +357,7 @@ footer .repos-container {
   #repositories h3, #projects h3 {
     font-size: 3.1rem;
     align-self: center;
+    margin-top: 2rem;
   }
   .icon-internet-container {
     align-self: center;
