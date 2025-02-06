@@ -1,0 +1,68 @@
+html {
+    font-size: 62.5%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  
+  /* HEADER */
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9.6rem;
+    background:  linear-gradient(to right, #4D4C89, 30%, #8685EF);
+    border: 0.8rem solid #1E1E1E;
+    border-bottom: 0;
+  }
+  
+  /* HERO SECTION*/
+  #hero-section {
+    background-color: #1E1E1E;
+    color: #F2ECFF;
+    padding: 96px 0;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+  }
+  #hero-section h1 {
+    font-family: "Inter-ExtraLight";
+    font-weight: 300;
+    font-size: 5.4rem;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 80px;
+  }
+  #hero-section .git-username {
+    font-family: "Inter-Regular";
+    font-weight: 800;
+    color:#8685EF;
+    margin-left: 0.8rem;
+  }
+  .hero-section-buttons {
+    display: flex;
+    font-family: "Poppins-Bold";
+    justify-content: center;
+    margin-top: 80px;
+  }
+  .hero-butt {
+    padding: 16px 32px;
+    font-size: 1.8rem;
+    color:#1E1E1E;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .hero-butt:hover {
+    opacity: 0.85;
+  }
+  .hero-butt.reposiries-button {
+    background: linear-gradient(to right, #4D4C89, 10%, #8685EF);
+  }
+  .hero-butt.web-pages-button {
+    background-color: #F2ECFF;
+    background: linear-gradient(to right, #918E99, 10%, #F2ECFF);
+    margin-left: 4.8rem;
+  }
