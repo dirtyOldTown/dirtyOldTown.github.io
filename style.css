@@ -156,7 +156,7 @@ header {
 }
 .repositories p, .projects p {
   font-family: "Inter-Regular";
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   color:#F2ECFF;
   margin-bottom: 0;
 }
@@ -166,7 +166,7 @@ header {
   font-size: 2.2rem;
   color:#fab565;
   text-decoration: none;
-  filter: brightness(85%);
+  filter: brightness(90%);
 
 }
 #projects a {
@@ -187,7 +187,7 @@ header {
   height: auto;
 }
 
-/* PROGRAMS-CAROUSEL */
+/* ICONS-CAROUSEL */
 .icons-carousel {
   background-color: #F2ECFF;
 }
@@ -317,6 +317,8 @@ footer .repos-container {
 
 /* RESPONSIVE */
 @media screen and (max-width: 992px) {
+
+  /* PORTFOLIO */ 
   #portfolio {
     flex-direction: column;
   }
@@ -338,6 +340,62 @@ footer .repos-container {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+
+  /* HERO SECTION */ 
+  #hero-section h1 {
+    font-size: 4.5rem;
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+  }
+  .hero-butt {
+    padding: 13px 26px;
+    font-size: 1.8rem;
+  }
+
+  /* REPOSITORIES, PROJECTS */ 
+  #repositories .title, #projects .title {
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+  }
+  .repositories, .projects {
+    margin-left:6.4rem;
+  }
+
+  /* ICONS_CAROUSEL */
+  .carousel-container {
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+    flex-wrap: wrap;
+    padding: 60px 0;
+  }
+  .icon-container {
+    max-width: 256px;
+    margin: 2rem;
+  }
+
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    margin-left: 6.4rem;
+    margin-right: 6.4rem;
+  }
+  .right-side {
+    margin-top: 4.2rem;
+  }
+  .fa-color {
+    color:#4D4C89;
+    cursor: pointer;
+    margin-top: 6.4rem;
+  }
+  .cooperation-open p {
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 3.2rem
+  }
+}
+
+@media screen and (max-width: 600px){
   
 }
