@@ -325,6 +325,7 @@ footer .repos-container {
   /* PORTFOLIO */
   #portfolio {
     padding: 40px 0;
+    padding-bottom: 80px;
   }
   #portfolio h2 {
     font-size: 3.7rem;
@@ -337,6 +338,9 @@ footer .repos-container {
   }
   .right-side img {
     max-width: 300px;
+  }
+  #portfolio .belgrade-picture-caption {
+    top: 22rem;
   }
 
   /* REPOSITORIES, PROJECTS */
