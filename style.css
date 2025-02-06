@@ -133,7 +133,7 @@
 /* FOOTER */
 footer {
   background-color: #F2ECFF;
-  font-family: "Inter-Regular";
+  font-family: "Inter-Regular", "Helvetica";
 }
 .footer-container {
   display: flex;
@@ -168,7 +168,7 @@ footer h5:first-of-type {
 #submit-btn {
   font-size: 1.5rem;
   font-weight: 600;
-  font-family: "Inter-Regular";
+  font-family: "Inter-Regular", "Helvetica";
   cursor: pointer;
 }
 ::placeholder {
@@ -201,7 +201,7 @@ footer ul {
   margin: 0;
   padding: 0;
   line-height: 32px;
-  font-family: "Inter-Regular";
+  font-family: "Inter-Regular", "Helvetica";
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -228,7 +228,7 @@ footer .repos-container {
   margin-right: 2.4rem;
   font-size: 1.5rem;
   font-weight: 600;
-  font-family: "Inter-Regular";
+  font-family: "Inter-Regular", "Helvetica";
   color:#1E1E1E;
   text-align: center;
   font-style: italic;
