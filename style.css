@@ -331,5 +331,13 @@ footer .repos-container {
 }
 
 @media screen and (max-width: 600px){
-  
+  #portfolio {
+    padding: 40px 0;
+  }
+  #portfolio h2 {
+    font-size: 3.7rem;
+  }
+  #portfolio p {
+    font-size: 1.6rem;
+  }
 }
