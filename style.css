@@ -324,8 +324,7 @@ footer .repos-container {
 
   /* PORTFOLIO */
   #portfolio {
-    padding: 40px 0;
-    padding-bottom: 80px;
+    padding: 64px 0;
   }
   #portfolio h2 {
     font-size: 3.7rem;
@@ -345,8 +344,7 @@ footer .repos-container {
 
   /* REPOSITORIES, PROJECTS */
   #repositories, #projects {
-    padding: 40px 0;
-    padding-bottom: 80px;
+    padding: 64px 0;
   }
   .repositories, .projects {
     margin-left:3.2rem;
@@ -377,5 +375,14 @@ footer .repos-container {
   }
   #repositories h3, #projects h3 {
     margin-left:0;
+  }
+  /* ICONS CAROUSEL */
+  .carousel-container {
+    padding: 64px 0;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    padding: 64px 0;
   }
 }
