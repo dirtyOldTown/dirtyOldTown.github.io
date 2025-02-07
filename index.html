@@ -70,7 +70,7 @@
   /* HEADER */
   header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 9.6rem;
     background:  linear-gradient(to right, #4D4C89, 30%, #8685EF);
@@ -122,8 +122,7 @@
     background: linear-gradient(to right, #4D4C89, 10%, #8685EF);
   }
   .hero-butt.web-pages-button {
-    background-color: #F2ECFF;
-    background: linear-gradient(to right, #918E99, 10%, #F2ECFF);
+    background:  linear-gradient(to right, #918E99, 10%, #F2ECFF);
     margin-left: 4.8rem;
   }
 
@@ -167,14 +166,14 @@
 </head>
 <body>
 <header id="header">
-  <i class="fa-brands fa-github fa-7x"></i>
+  <i class="fa-brands fa-github fa-7x fa-git"></i>
 </header>
 <section id="hero-section">
-  <h1>Welcome to <span class="git-username"> dirtyOldTown</span><br> 
+  <h1><span data-lang-english="welcome">Welcome to </span> <span class="git-username"> dirtyOldTown</span><br> 
     Github Page ! </h1>
   <div class="hero-section-buttons">
-    <a class="repositories-button hero-butt" href="#repositories">My repositories</a>
-    <a class="web-pages-button hero-butt" href="#projects">My projects</a>
+    <a class="repositories-button hero-butt" href="#repositories"><span data-lang-english="my-repos-button">My Repositories</span></a>
+    <a class="web-pages-button hero-butt" href="#projects" data-lang-english="my-project-button">My projects</a>
   </div>
 </section>
 <section id="portfolio">
