@@ -113,6 +113,7 @@
     color:#1E1E1E;
     border-radius: 100px;
     cursor: pointer;
+    text-decoration: none;
   }
   .hero-butt:hover {
     opacity: 0.85;
@@ -125,13 +126,7 @@
     background: linear-gradient(to right, #918E99, 10%, #F2ECFF);
     margin-left: 4.8rem;
   }
-  .hero-butt a {
-    text-decoration: none;
-    color:#1E1E1E;
-    z-index: 1000;
-  }
 
-  
 @media screen and (max-width: 767px) {
 
   /* HERO SECTION */ 
@@ -178,8 +173,8 @@
   <h1>Welcome to <span class="git-username"> dirtyOldTown</span><br> 
     Github Page ! </h1>
   <div class="hero-section-buttons">
-    <div class="repositories-button hero-butt"><a href="#repositories">My repositories</a></div>
-    <div class="web-pages-button hero-butt"><a href="#projects">My projects</a></div>
+    <a class="repositories-button hero-butt" href="#repositories">My repositories</a>
+    <a class="web-pages-button hero-butt" href="#projects">My projects</a>
   </div>
 </section>
 <section id="portfolio">
