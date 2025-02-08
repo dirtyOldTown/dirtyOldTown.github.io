@@ -7,7 +7,7 @@ let srpski = {
       Bavim se programiranjem, veb dizajnom, izradom sajtova i slično oko 3 godine. 
       U početku sam to doživljavao kao hobi, koji je kasnije prerastao u strast.`,
     "portfolio-text 2": "U svojim projektima najviše se oslanjam na: HTML, JavaScript, CSS, MiSKL Database, Mango, PHP...",
-    "portfolio-text 3": `Pored repositorijuma, ovde će biti prikazani i neki od sajtova koje sam uradio za prijatelje 
+    "portfolio-text 3": `Pored repozitorijuma, ovde su prikazani i neki od sajtova koje sam uradio za prijatelje 
       ili klijente.`,
     "portfolio-is-belgrade": "je Beograd",
     "repositories-h3": "Moji Repozitorijumi",
@@ -16,7 +16,7 @@ let srpski = {
     "repositories-artist-portfolio": "Umetnički Opus",
     "repositories-text 2": "Prikaz umetničkog stvaralaštva i prezentacija knjige, za prijateljicu.",
     "repositories-canvas-watch": "Zidni Sat",
-    "repositories-text 3": "Zidni sat urađenu kanvasu. Nova verzija dostupna uskoro.",
+    "repositories-text 3": "Zidni sat urađen u kanvasu. Nova verzija dostupna uskoro.",
     "repositories-this-repository": "Ovaj Repozitorijum",
     "repositories-text 4": "Moja glavna github stranica. Jednostavan prikaz mog rada.",
     "projects-h3": "Moji Projekti",
