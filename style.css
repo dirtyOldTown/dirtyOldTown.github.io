@@ -1,3 +1,36 @@
+/* HERO SECTION */
+#header .toggle-button-container {
+  font-family: "Poppins-Regular";
+  font-weight: 600;
+  color:#1e1e1e;
+  position:absolute;
+  right: 3.2rem;
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+#toggle-language {
+  cursor: pointer;
+  opacity: 1;
+}
+#toggle-language:hover {
+  opacity: 0.7;
+}
+.toggle {
+  transform: rotate(180deg);
+}
+#header .toggle-button-container p {
+  font-size: 1.7rem;
+}
+.lang-srpski {
+  margin-right: 1rem;
+  opacity: 0.8;
+}
+.lang-english {
+  margin-left: 1rem
+}
+
+
 /* PORTFOLIO */
 #portfolio {
   display: flex;
@@ -384,5 +417,8 @@ footer .repos-container {
   /* FOOTER */
   .footer-container {
     padding: 64px 0;
+  }
+  #contact-form {
+    width: 90%;
   }
 }

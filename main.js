@@ -1,38 +1,18 @@
-let anchorLinks = document.querySelectorAll("a[href^='#']");
+import { srpski, english } from "./config/dictionaries.js";
+import { toggleLanguage } from "./middleware/changeLanguage.js";
+import { scrollIntoView } from "./controllers/scrollIntoViewController.js";
+import { anchorLinks, toggleLanguageBtn, dataLanguage } from "./config/variables.js";
 
-for (let item of anchorLinks) {
-  item.addEventListener("click", (e) => {
-    e.preventDefault();
-    let hashval = item.getAttribute("href");
-    let target = document.querySelector(hashval);
-    target.scrollIntoView({
-      behavior: "smooth",
-      block: "center"
-    });
-    history.pushState(null, null, hashval);
-  });
-}
+// Scroll into view controller
+scrollIntoView(anchorLinks);
 
-let heroSection = document.getElementById("hero-section");
+// Toggle language
 
-let srpski = {
-  "welcome": "Dobro došli na",
-  "my-repos-button": "Moji repositorijumi",
-  "my-project-button": "Moji projekti"
-};
-let data = document.querySelectorAll("[data-lang-english]");
+let toggleButton = document.getElementById("toggle-language");
+toggleButton.addEventListener("click", () => {
+  toggleLanguage(dataLanguage, srpski, english);
+toggleButton.classList.toggle("toggle")
+});
 
-function changeLanguage() {
-  for (let item of data) {
-    let name = item.getAttribute("data-lang-english");
-    if (item.dataset.langEnglish == name) {
-     let match = item.textContent.match(/[A-Za-z ]*\b/);
-     for (let key in srpski) {
-      if (key == name) {
-        item.textContent = srpski[name]
-      }
-     }
-    }
-  }
-}
-changeLanguage()
+
+//TEST

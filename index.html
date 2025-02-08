@@ -6,7 +6,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
-  <script src="main.js" defer></script>  
+  <script type="module" src="main.js" defer></script>  
   <style>
     @font-face {
       font-family: "Inter-Regular";
@@ -128,6 +128,14 @@
 
 @media screen and (max-width: 767px) {
 
+  /* HEADER */
+  #header {
+    justify-content: space-between;
+  }
+  #header .fa-git {
+    margin-left: 3.2rem;
+  }
+
   /* HERO SECTION */ 
   #hero-section h1 {
     font-size: 4.5rem;
@@ -162,55 +170,82 @@
     font-size: 1.6rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  
+  /* HEADER */
+  #header .toggle-button-container {
+  right: 1rem;
+}
+#header .toggle-button-container p {
+  font-size: 1.5rem;
+}
+  #header .fa-git {
+    margin-left: 1rem;
+  }
+}
 </style>
 </head>
 <body>
 <header id="header">
-  <i class="fa-brands fa-github fa-7x fa-git"></i>
+  <i class="fa-brands fa-github fa-6x fa-git"></i>
+  <div class="toggle-button-container">
+    <p class="lang-srpski">srpski</p>
+    <img src="/icons/on40.png" alt="toggle button" width="40" height="40" id="toggle-language">
+    <p class="lang-english">english</p>
+  </div>
 </header>
 <section id="hero-section">
-  <h1><span data-lang-english="welcome">Welcome to </span> <span class="git-username"> dirtyOldTown</span><br> 
-    Github Page ! </h1>
+  <h1><span data-item="welcome" data-lang="en">Welcome to </span><span class="git-username"> dirtyOldTown</span><br> 
+  <span data-lang="en" data-item="hero-section-stranica">Github Page !</span></h1>
   <div class="hero-section-buttons">
-    <a class="repositories-button hero-butt" href="#repositories"><span data-lang-english="my-repos-button">My Repositories</span></a>
-    <a class="web-pages-button hero-butt" href="#projects" data-lang-english="my-project-button">My projects</a>
+    <a class="repositories-button hero-butt" href="#repositories"><span data-item="my-repos-button" data-lang="en">My repositories</span></a>
+    <a class="web-pages-button hero-butt" href="#projects" data-item="my-project-button" data-lang="en">My projects</a>
   </div>
 </section>
 <section id="portfolio">
   <div class="left-side">
     <h2>Portfolio</h2>
-    <p>
+    <p data-lang="en" data-item="portfolio-text 1">
       My name is Aleksandar and I am antroplogist from Belgrade. 
       I've been doing programming, web design, creating websites and the like for about 3 years. 
       At first, I saw it as a hobby, which later turned into a passion.
     </p>
-    <p>
+    <p data-lang="en" data-item="portfolio-text 2">
       In my projects, I mostly rely on: HTML, JavaScript, CSS, MySQL Database, Mango, PHP...
     </p>
-    <p>
+    <p data-lang="en" data-item="portfolio-text 3">
       In addition to the repository, some of the sites I've done for friends 
       and clients will be displayed here.
     </p>
   </div>
   <div class="right-side">
     <img src="./images/27-marta.jpg" alt="Picture of old Belgrade" loading="lazy" width="451" height="318">
-    <p class="belgrade-picture-caption"><strong>Dirty Old Town</strong> is Belgrade</p>
+    <p class="belgrade-picture-caption"><strong>Dirty Old Town</strong>
+      <span data-lang="en" data-item="portfolio-is-belgrade"> is Belgrade</span></p>
   </div>
 </section>
 <article id="repositories">
   <div class="title">
     <div><i class="fa-brands fa-github fa-7x icon-color"></i></div>
-    <h3>My Repositories</h3>
+    <h3 data-lang="en" data-item="repositories-h3">My Repositories</h3>
   </div>
   <div  class="repositories article">
-    <p><a href="https://github.com/dirtyOldTown/album-collection">Album Collection </a></p>
-    <p class="repositorium-description">A simple interface for keeping track of your albums.</p>
-    <p><a href="https://github.com/dirtyOldTown/book">Artist Portfolio </a></p>
-    <p class="repositorium-description">Display of artwork , book presentation , for a friend.</p>
-    <p><a href="https://github.com/dirtyOldTown/Canvas-Watch">Canvas Watch </a></p>
-    <p class="repositorium-description">Wall clock. Made in canvas. Extended version coming soon.</p>
-    <p><a href="https://github.com/dirtyOldTown/dirtyOldTown.github.io">This Repository </a></p>
-    <p class="repositorium-description">Main github page. A simple presentation of my work.</p>
+    <p><a data-lang="en" data-item="repositories-album-collection" 
+      href="https://github.com/dirtyOldTown/album-collection">Album Collection</a></p>
+    <p class="repositorium-description" data-lang="en" data-item="repositories-text 1">A simple interface for keeping track of your albums.</p>
+    <p><a data-lang="en" data-item="repositories-artist-portfolio"
+      href="https://github.com/dirtyOldTown/book">Artist Portfolio </a></p>
+    <p data-lang="en" data-item="repositories-text 2" 
+    class="repositorium-description">Display of artwork , book presentation , for a friend.</p>
+    <p><a data-lang="en" data-item="repositories-canvas-watch" 
+      href="https://github.com/dirtyOldTown/Canvas-Watch">Wall Clock</a></p>
+    <p data-lang="en" data-item="repositories-text 3"
+    class="repositorium-description">Wall clock. Made in canvas. Extended version coming soon.</p>
+    <p><a data-lang="en" data-item="repositories-this-repository" 
+      href="https://github.com/dirtyOldTown/dirtyOldTown.github.io">This Repository </a></p>
+    <p data-lang="en" data-item="repositories-text 4"
+    class="repositorium-description">Main github page. A simple presentation of my work.</p>
   </div>
 </article>
 <aside class="icons-carousel">
@@ -235,21 +270,24 @@
 <article id="projects">
   <div class="title">
     <div class="icon-internet-container"><img src="icons/internet(1).png" alt="internet-icon" width="96" height="96"></div>
-    <h3>My Projects</h3>
+    <h3 data-lang="en" data-item="projects-h3">My Projects</h3>
   </div>
   <div  class="projects article">
-    <p><a href="https://otkljucajlako.rs">Locksmith Shop </a></p>
-    <p class="project-description">Site for a small locksmith shop in Belgrade, for a friend.</p>
-    <p><a href="https://mimaarbidauthor.com">Artist Portfolio </a></p>
-    <p class="project-description">A website for the presentation of artistic creativity and book presentation.</p>
-    <p><a href="https://nebeskimir.com">Undertaker Company </a></p>
-    <p class="project-description">Site for a company dealing with the international transportation of the deceased.</p>
+    <p><a href="https://otkljucajlako.rs" data-lang="en" data-item="projects-locksmith-shop">Locksmith Shop </a></p>
+    <p class="project-description" data-lang="en" data-item="projects-text 1">
+      Site for a small locksmith shop in Belgrade, for a friend.</p>
+    <p><a href="https://mimaarbidauthor.com" data-lang="en" data-item="projects-artist-portfolio">Artist Portfolio - Mima Arbid</a></p>
+    <p class="project-description"  data-lang="en" data-item="projects-text 2">
+      A website for the presentation of artistic creativity and book presentation.</p>
+    <p><a href="https://nebeskimir.com" data-lang="en" data-item="projects-undertaker-company">Undertaker Company</a></p>
+    <p class="project-description" data-lang="en" data-item="projects-text 3">
+      Site for a company dealing with the international transportation of the deceased.</p>
   </div>
 </article>
 <footer>
   <div class="footer-container">
   <form action="https://formspree.io/f/xqaelkdv" method="POST" id="contact-form">
-    <h5 class="be-in-touch"><i>Be in Touch</i></h5>
+    <h5 class="be-in-touch"><i data-lang="en" data-item="footer-be-in-touch">Be in Touch</i></h5>
     <div class="form-container">
    <!-- <label for="email">Email</label><br> -->
     <input type="email" name="email" id="email" required placeholder="Your email"><br><br>
@@ -264,19 +302,22 @@
   <div class="right-side">
     <div class="links-container">
       <div class="repos-container">
-        <h5>Repositories</h5>
+        <h5 data-lang="en" data-item="repositories-h5">Repositories</h5>
         <ul class="repos links">
-          <li><a href="https://github.com/dirtyOldTown/album-collection">Album Collection</a></li>
-          <li><a href="https://github.com/dirtyOldTown/book">Artist Portfolio</a></li>
-          <li><a href="https://github.com/dirtyOldTown/Canvas-Watch">Canvas Watch</a></li>
+          <li><a href="https://github.com/dirtyOldTown/album-collection"
+            data-lang="en" data-item="repositories-album-collection">Album Collection</a></li>
+          <li><a href="https://github.com/dirtyOldTown/book" 
+            data-lang="en" data-item="repositories-artist-portfolio">Artist Portfolio</a></li>
+          <li><a href="https://github.com/dirtyOldTown/Canvas-Watch"
+            data-lang="en" data-item="repositories-canvas-watch">Canvas Watch</a></li>
         </ul>
       </div>
       <div class="sites-container">
-        <h5>Sites</h5>
+        <h5 data-lang="en" data-item="sites-h5">Sites</h5>
         <ul class="sites links">
-          <li><a href="https://otkljucajlako.rs">Locksmith Shop</a></li>
-          <li><a href="https://nebeskimir.com">Undertaker Company</a></li>
-          <li><a href="https://mimaarbidauthor.com">Artist Portfolio</a></li>
+          <li><a href="https://otkljucajlako.rs" data-lang="en" data-item="projects-locksmith-shop">Locksmith Shop</a></li>
+          <li><a href="https://nebeskimir.com" data-lang="en" data-item="projects-undertaker-company">Undertaker Company</a></li>
+          <li><a href="https://mimaarbidauthor.com" data-lang="en" data-item="projects-artist-portfolio">Artist Portfolio</a></li>
         </ul>
       </div>
   </div>
@@ -284,8 +325,8 @@
     <a href="#header"><i class="fa-solid fa-arrow-up-wide-short fa-3x fa-color"></i></a>
   </div>
   <div class="cooperation-open">
-     <p>Open for cooperation <br>
-      and services!</p>
+     <p><span data-lang="en" data-item="footer-cooperation-open">Open for cooperation</span><br>
+      <span data-lang="en" data-item="footer-and-services">and services!</span></p>
   </div>
 </div>
 </div>
