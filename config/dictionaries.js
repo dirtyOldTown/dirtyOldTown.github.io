@@ -4,7 +4,7 @@ let srpski = {
     "my-repos-button": "Moji repozitorijumi",
     "my-project-button": "Moji projekti",
     "portfolio-text 1": `Zovem se Aleksandar i antropolog sam po zanimanju.
-      Živim u Beogradu. Bavim se programiranjem, veb dizajnom, izradom sajtova i slično oko 3 godine. 
+      Živim u Beogradu. Bavim se programiranjem, web dizajnom, izradom sajtova i slično oko 3 godine. 
       U početku sam to doživljavao kao hobi, koji je kasnije prerastao u strast.`,
     "portfolio-text 2": "U svojim projektima najviše se oslanjam na: HTML, JavaScript, CSS, MySQL Database, Mango, PHP...",
     "portfolio-text 3": `Pored repozitorijuma, ovde su prikazani i neki od sajtova koje sam uradio za prijatelje 
@@ -35,7 +35,7 @@ let srpski = {
   let english = {
     "welcome": "Welcome to",
     "hero-section-stranica": "Github Page&nbsp;!",
-    "my-repos-button": "My repositiries",
+    "my-repos-button": "My repositories",
     "my-project-button": "My projects",
     "portfolio-text 1": `My name is Aleksandar and I am antroplogist from Belgrade. 
     I've been doing programming, web design, creating websites and the like for about 3 years. 
