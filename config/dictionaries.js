@@ -3,10 +3,10 @@ let srpski = {
     "hero-section-stranica": "Github Stranicu&nbsp;!",
     "my-repos-button": "Moji repozitorijumi",
     "my-project-button": "Moji projekti",
-    "portfolio-text 1": `Zovem se Aleksandar i antropolog sam iz Beograda. 
-      Bavim se programiranjem, veb dizajnom, izradom sajtova i slično oko 3 godine. 
+    "portfolio-text 1": `Zovem se Aleksandar i antropolog sam po zanimanju.
+      Živim u Beogradu. Bavim se programiranjem, veb dizajnom, izradom sajtova i slično oko 3 godine. 
       U početku sam to doživljavao kao hobi, koji je kasnije prerastao u strast.`,
-    "portfolio-text 2": "U svojim projektima najviše se oslanjam na: HTML, JavaScript, CSS, MiSKL Database, Mango, PHP...",
+    "portfolio-text 2": "U svojim projektima najviše se oslanjam na: HTML, JavaScript, CSS, MySQL Database, Mango, PHP...",
     "portfolio-text 3": `Pored repozitorijuma, ovde su prikazani i neki od sajtova koje sam uradio za prijatelje 
       ili klijente.`,
     "portfolio-is-belgrade": "je Beograd",
