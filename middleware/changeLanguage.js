@@ -11,7 +11,7 @@ function toggleLanguage(data, srpski, english) {
       email.setAttribute("placeholder", "Tvoja imejl adresa");
       message.setAttribute("placeholder", "Tvoja poruka");
       submitBtn.value = "Pošalji";
-      langEnglish.style.opacity = "0.7";
+      langEnglish.style.opacity = "0.75";
       langSrpski.style.opacity = "1";
       item.dataset.lang = "sr";
     } else {
@@ -20,7 +20,7 @@ function toggleLanguage(data, srpski, english) {
         message.setAttribute("placeholder", "Your messsage");
         submitBtn.value = "Send";
         langEnglish.style.opacity = "1";
-        langSrpski.style.opacity = "0.7";
+        langSrpski.style.opacity = "0.75";
         item.dataset.lang = "en";
     }
   }
