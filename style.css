@@ -13,7 +13,7 @@
   cursor: pointer;
   opacity: 1;
 }
-#toggle-language:hover {
+#toggle-language:active {
   opacity: 0.7;
 }
 .toggle {
@@ -24,7 +24,7 @@
 }
 .lang-srpski {
   margin-right: 1rem;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .lang-english {
   margin-left: 1rem
