@@ -6,6 +6,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <script type="module" src="main.js" defer></script>  
   <style>
     @font-face {
@@ -180,6 +181,7 @@
   }
 }
 </style>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 </head>
 <body>
 <header id="header">
@@ -191,8 +193,10 @@
   </div>
 </header>
 <section id="hero-section">
-  <h1><span data-item="welcome" data-lang="en">Welcome to </span><span class="git-username"> dirtyOldTown</span><br> 
-  <span data-lang="en" data-item="hero-section-stranica">Github Page !</span></h1>
+  <h1>
+    <span data-item="welcome" data-lang="en">Welcome to </span><span class="git-username"> dirtyOldTown</span><br> 
+    <span data-lang="en" data-item="hero-section-stranica">Github Page !</span>
+  </h1>
   <div class="hero-section-buttons">
     <a class="repositories-button hero-butt" href="#repositories"><span data-item="my-repos-button" data-lang="en">My repositories</span></a>
     <a class="web-pages-button hero-butt" href="#projects" data-item="my-project-button" data-lang="en">My projects</a>
@@ -327,5 +331,8 @@
 </div>
 <div id="end-block">&copy;&nbsp;2025&nbsp;dirtyOldTown.github.io</div>
 </footer>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
