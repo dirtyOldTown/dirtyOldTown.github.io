@@ -209,7 +209,7 @@ footer h4:first-of-type {
   font-weight: 600;
   font-family: "Inter-Regular", "Helvetica";
   cursor: pointer;
-  background-color: #00A1F5;
+  background-color: #4D4C89;
   color: var(--primary-white);
 }
 ::placeholder {
