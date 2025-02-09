@@ -11,19 +11,22 @@ function toggleLanguage(data, srpski, english) {
       email.setAttribute("placeholder", "Tvoja imejl adresa");
       message.setAttribute("placeholder", "Tvoja poruka");
       submitBtn.value = "Pošalji";
-      langEnglish.style.opacity = "0.7";
-      langSrpski.style.opacity = "1";
       item.dataset.lang = "sr";
+      setLanguageStyle(langEnglish, langSrpski);
     } else {
         item.innerHTML = english[text];
         email.setAttribute("placeholder", "Your email");
         message.setAttribute("placeholder", "Your messsage");
         submitBtn.value = "Send";
-        langEnglish.style.opacity = "1";
-        langSrpski.style.opacity = "0.7";
+        setLanguageStyle(langSrpski, langEnglish);
         item.dataset.lang = "en";
     }
   }
+}
+
+function setLanguageStyle(previousLang, currentLang) {
+  previousLang.style.opacity = 0.7;
+  currentLang.style.opacity = 1;
 }
 
 export { toggleLanguage }
