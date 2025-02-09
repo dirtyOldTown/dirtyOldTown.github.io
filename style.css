@@ -2,6 +2,7 @@
 :root {
   --primary-black: #1E1E1E;
   --primary-white: #F2ECFF;
+  --primary-brand: #8685EF;
 }
 
 /* HEADER */
@@ -110,7 +111,7 @@
 }
 #repositories h3, #projects h3 {
   color:#8685EF;
-  font-family: "Inter-Bold";
+  font-family: "Inter-Regular";
   font-size: 3.7rem;
   margin-left: 2.4rem;
   margin-bottom: 0;
