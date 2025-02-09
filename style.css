@@ -116,9 +116,6 @@
   margin-bottom: 0;
   margin-top: 0;
 }
-#projects h3 {
-  color:#00A1F5;
-}
 .repositories, .projects {
   margin-top: 6.4rem;
   margin-right: 6.4rem;
@@ -138,9 +135,6 @@
   text-decoration: none;
   filter: brightness(85%);
 
-}
-#projects a {
-  color: #9ef58a/*#eee8a9*/;
 }
 #repositories a:hover, #projects a:hover {
   filter: brightness(100%)
