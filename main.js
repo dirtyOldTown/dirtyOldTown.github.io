@@ -7,12 +7,9 @@ import { anchorLinks, toggleLanguageBtn, dataLanguage } from "./config/variables
 scrollIntoView(anchorLinks);
 
 // Toggle language
-
-let toggleButton = document.getElementById("toggle-language");
-toggleButton.addEventListener("click", () => {
+toggleLanguageBtn.addEventListener("click", function() {
   toggleLanguage(dataLanguage, srpski, english);
-toggleButton.classList.toggle("toggle")
+  this.classList.toggle("toggle");
 });
 
 
-//TEST
