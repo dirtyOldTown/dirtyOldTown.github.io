@@ -71,7 +71,7 @@
   width: 450px
 }
 .right-side img {
-  width: 450px;
+  max-width: 100%;
   height: auto;
   border: 3px solid silver;
   border-radius: 7px;

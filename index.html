@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
   <link rel="preload" as="font" type="font/woff2" href="fonts/Inter/Inter-Regular.woff2" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="fonts/Inter/Inter28pt-ExtraLight.woff2" crossorigin>
+  <link rel="preload" as="style" href="style.css">
   <script src="https://kit.fontawesome.com/68977216dc.js" crossorigin="anonymous" async></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <link rel="stylesheet" href="style.css">
   <script type="module" src="main.js" defer></script>  
   <style>
     @font-face {
@@ -115,6 +116,10 @@
     border-radius: 100px;
     cursor: pointer;
     text-decoration: none;
+    /*
+    border: 1px solid var(--primary-black);
+    outline: 2px solid var(--primary-white);
+    */
   }
   .hero-butt:hover {
     opacity: 0.85;
@@ -235,7 +240,7 @@
     <div><i class="fa-brands fa-github fa-7x icon-color"></i></div>
     <h3 data-lang="en" data-item="repositories-h3">My Repositories</h3>
   </div>
-  <div class="repositories article" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300">
+  <div class="repositories article" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="100">
     <p><a data-lang="en" data-item="repositories-album-collection" 
       href="https://github.com/dirtyOldTown/album-collection">Album Collection</a></p>
     <p class="repositorium-description" data-lang="en" data-item="repositories-text 1">A simple interface for keeping track of your albums.</p>
@@ -278,7 +283,7 @@
     <div class="icon-internet-container"><i class="fa-solid fa-globe fa-7x icon-color"></i></div>
     <h3 data-lang="en" data-item="projects-h3">My Projects</h3>
   </div>
-  <div  class="projects article" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300">
+  <div  class="projects article" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="100">
     <p><a href="https://otkljucajlako.rs" data-lang="en" data-item="projects-locksmith-shop">Locksmith Shop </a></p>
     <p class="project-description" data-lang="en" data-item="projects-text 1">
       Site for a small locksmith shop in Belgrade, for a friend.</p>
