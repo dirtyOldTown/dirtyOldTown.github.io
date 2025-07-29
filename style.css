@@ -15,7 +15,7 @@
   border: 0.1rem solid var(--primary-blue);
   font-family: 'Oswald-SemiBold';
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  margin-top: 6.4rem;
+  margin-top: 0;
   text-decoration: none;
   font-weight: bold;
 }
@@ -323,7 +323,9 @@ footer .repos-container {
 
 @media screen and (max-width: 767px) {
 
-  
+  .phone-call {
+    margin-top: 4.8rem;
+  }
   /* REPOSITORIES, PROJECTS */ 
   #repositories .title, #projects .title {
     margin-left: 3.2rem;
