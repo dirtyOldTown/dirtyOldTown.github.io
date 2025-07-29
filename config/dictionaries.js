@@ -29,8 +29,7 @@ let srpski = {
      "footer-be-in-touch": "Kontaktirajte me",
      "repositories-h5": "Repozitorijumi",
      "sites-h5": "Sajtovi",
-     "footer-cooperation-open": "Otvoren sam za saradnju",
-     "footer-and-services": "i usluge!"
+     "phone-call": "Pozovi Me"
   };
   let english = {
     "welcome": "Welcome to",
@@ -63,8 +62,7 @@ let srpski = {
       "footer-be-in-touch": "Be in Touch",
       "repositories-h5": "Repositories",
       "sites-h5": "Sites",
-      "footer-cooperation-open": "Open for cooperation",
-      "footer-and-services": "and services!"
+      "phone-call": "Call Me"
   };
 
   export { srpski, english }
